@@ -30,7 +30,7 @@
 
     6 ) General Rules for Content Pages Fixed Image
 
-    7 ) Profile Page
+    7 ) aboutus Page
 
         - ( a ) Story of Glory
         - ( b ) What Can I Do
@@ -42,9 +42,9 @@
         - ( b ) Experience Section
         - ( c ) Skills Section
 
-    9 ) Portfolio Page
+    9 ) gallery Page
 
-        - ( a ) Portfolio Section
+        - ( a ) gallery Section
         - ( b )  Testimonial Section
 
     10 ) Contact Page
@@ -241,6 +241,7 @@ body {
 
 /* ( b ) Introduction Section */
 
+
 .introduction {
     float: left;
     padding: 0;
@@ -261,9 +262,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.48);
+    background: rgba(0, 0, 0, 0.22);
 }
 
+/*
 .intro-content {
     font-family: 'Playfair Display', serif;
     position: relative;
@@ -271,11 +273,62 @@ body {
     top: 35%;
     display: table;
     margin: 0 auto;
-    /*-webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);*/
+}
+*/
+
+.intro-content-I {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0%;
+    left: 0%;
+}
+
+.intro-content-HEART {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0%;
+    right: 0%;
+}
+
+.intro-content-HR {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    right: 0%;
+    margin-top: -3px;
+}
+
+.intro-content-I .logo-I {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 0;
+    width: 200px;
+    height: 200px;
+}
+.intro-content-HEART .logo-HEART {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin-bottom: -5px;
+    margin-left: -44px;
+    width: 200px;
+    height: 184px;
+    z-index: 999;
+}
+.intro-content-HR .logo-HR {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 0%;
+    width: 400px;
+    height: 200px;
+    
 }
 
 .intro-content h1 {
@@ -288,27 +341,9 @@ body {
     font-weight: 700;
 }
 
-.intro-content span {
-    color: #6f5499;
-    font-size: 135px;
-    font-weight: 700;
-    line-height: 0px;
-    letter-spacing: 1px;
-}
-
-.intro-content span.number {
-    font-size: 15em;
-}
-
-.intro-content .slogan-text {
-    font-weight: 400;
-    font-size: 25px;
-    padding-left: 21px;
-}
-
 .social-media {
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -388,12 +423,12 @@ body {
     border: 1px solid #ffffff;
     color: #ffffff;
     display: block;
-    font-size: 25px;
+    font-size: 30px;
     height: 60px;
     line-height: 60px;
     margin: auto auto 10px;
     text-align: center;
-    /*box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.2);*/
+/*    box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.2);*/
     width: 60px;
     -webkir-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -450,9 +485,9 @@ body {
     min-height: calc(100vh - 68px);
 }
 
-.profile-page,
-.service-page,
-.portfolio-page,
+.aboutus-page,
+.birthday-page,
+.gallery-page,
 .contact-page {
     position: absolute;
     top: 0;
@@ -481,13 +516,14 @@ body {
     -moz-transform-origin: left;
     -ms-transform-origin: left;
     -o-transform-origin: left;
-    bottom: 40%;
+    top: 10%;
 }
 
 .main-heading h1 {
     color: #fff;
     font-size: 50px;
     position: relative;
+    display: inline-block;
     text-transform: capitalize;
     text-align: left;
 }
@@ -510,12 +546,12 @@ body {
 }
 
                     /*------------------
-                       7 ) Profile Page
+                       7 ) aboutus Page
                       ------------------*/
 
 /* ( a ) Story of Glory */
 
-.profile-page .image-container {
+.aboutus-page .image-container {
     background: url(../img/about_us_featured.png);
     background-size: cover;
     background-position: bottom;
@@ -628,13 +664,13 @@ body {
 
 
                     /*--------------------
-                       9 ) Portfolio Page
+                       9 ) gallery Page
                       --------------------*/
 
-/* ( a ) Portfolio Section */
+/* ( a ) gallery Section */
 
-.portfolio-page .image-container {
-    background: url(../img/portfolio_featured.png);
+.gallery-page .image-container {
+    background: url(../img/gallery_featured.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -675,7 +711,7 @@ body {
     padding: 20px;
 }
 
-/*----- Hover Effect Portfolio Image --------*/
+/*----- Hover Effect gallery Image --------*/
 
 .project {
     width: 100%;
@@ -774,7 +810,7 @@ body {
     opacity: 1;
 }
 
-/*----- Hover Effect Portfolio Image [ END ] --------*/
+/*----- Hover Effect gallery Image [ END ] --------*/
 
 .pop-up-box {
     display: none;
@@ -826,16 +862,16 @@ body {
 
 
                     /*====================================
-                                Service Page
+                                Birthday Page
                     =======================================*/
 
-.service-page .image-container {
-    background: url(../img/service_featured.png);
+.birthday-page .image-container {
+    background: url(../img/birthday_featured.png);
     background-size: cover;
     background-position: bottom;
 }
 
-/*---------  service-flip------------------*/
+/*---------  birthday-flip------------------*/
 
 .flipper i
 {
@@ -1170,20 +1206,20 @@ input#cfsubmit:hover {
     padding: 20px 0px 10px 0px;
 }
 
-.profile-page .footer {
-    background-color: #01213B;
+.aboutus-page .footer {
+    background-color: #64340D;
 }
 
-.portfolio-page .footer {
-    background-color: #004824;
+.gallery-page .footer {
+    background-color: #144725;
 }
 
-.service-page .footer {
-    background-color: #761616;
+.birthday-page .footer {
+    background-color: #581616;
 }
 
 .contact-page .footer {
-    background-color: #935B25;
+    background-color: #01213B;
 }
 
 .footer .copyright {
@@ -1224,39 +1260,39 @@ input#cfsubmit:hover {
     }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-    .intro-content h1 {
-        padding-left: 30px;
-    }
-
-    .intro-content span {
-        font-size: 100px;
-    }
-
-    .intro-content span.number {
-        font-size: 12em;
-    }
-
-    .intro-content .slogan-text {
-        padding-left: 21px;
-        margin-top: 22px;
-    }
-
-    .main-heading h1 {
-        font-size: 35px;
-    }
-}
-
 @media (max-width: 767px) {
     .introduction {
         text-align: center;
         z-index: 9999;
         background-color: #fff;
     }
-
-    .intro-content {
-        top: 15%;
+    .intro-content-I, .intro-content-HEART {
+        height: 40%;
     }
+    .intro-content-HR {
+        height: 60%;
+        top: 40%;
+    }
+    
+    .intro-content-I .logo-I {
+    width: 120px;
+    height: 120px;
+    }
+    .intro-content-HEART .logo-HEART {
+    margin: 0px 0px 0px -27px;
+    width: 120px;
+    height: 108px;
+    z-index: 999;
+    }
+    
+.intro-content-HR .logo-HR {
+    top: 0%;
+    width: 260px;
+    height: 120px;
+    
+}
+    
+/*
 
     .intro-content h1 {
         margin-bottom: 12px;
@@ -1266,6 +1302,7 @@ input#cfsubmit:hover {
     .intro-content span {
         font-size: 75px;
     }
+*/
 
     .intro-content span.number {
         font-size: 9em;

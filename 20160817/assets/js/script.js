@@ -5,7 +5,7 @@
 
 $(window).load(function () {
     $('#preloader').delay(350).fadeOut('slow', function () {
-        $('.profile-page, .portfolio-page, .service-page, .contact-page').hide();
+        $('.aboutus-page, .gallery-page, .birthday-page, .contact-page').hide();
     });
 });
 
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
         }
 
-        // Homepage Profile Image Responsive
+        // Homepage aboutus Image Responsive
 
         var introWidth = $('.introduction').width(),
             introHeight = $('.introduction').height(),
@@ -103,32 +103,63 @@ $(document).ready(function () {
 
 
 
-
-
-    var mapCanvas = document.getElementById('map-canvas');
-    var mapOptions = {
-        center: new google.maps.LatLng(24.909439, 91.833800),
-        zoom: 16,
-        scrollwheel: false,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
-    var map = new google.maps.Map(mapCanvas, mapOptions)
-
-    var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(24.909439, 91.833800),
-            title:"Boots4 Office"
+   var mapOptions = {
+        zoom: 12,
+        center: {lat: 40.674, lng: -73.946},  // Brooklyn.
+        mapTypeId: 'customMapType'
+      };
+  
+  var customMapType = new google.maps.StyledMapType([
+  {
+    "stylers": [
+      { "saturation": -22 },
+      { "gamma": 1.22 },
+      { "visibility": "on" },
+      { "hue": "#ff9100" },
+      { "lightness": -5 }
+    ]
+  }
+], {
+      name: 'Custom Style'
+  });  
+  
+          
+      var map = new google.maps.Map(document.getElementById('map-canvas'), {
+          center: {lat: 32, lng: 110.644},
+          zoom: 5,
+          mapTypeControlOptions: {
+            mapTypeIds: []
+          },
+          mapTypeId: 'custom_style'
         });
+      
+      map.mapTypes.set('custom_style', customMapType);
+      //map.setMapTypeId('custom_style');
 
-        // To add the marker to the map, call setMap();
-        marker.setMap(map);
+    // var mapCanvas = document.getElementById('map-canvas');
+    // var mapOptions = {
+    //     center: new google.maps.LatLng(24.909439, 91.833800),
+    //     zoom: 16,
+    //     scrollwheel: false,
+    //     mapTypeId: google.maps.MapTypeId.ROADMAP
+    // }
+    // var map = new google.maps.Map(mapCanvas, mapOptions)
 
-    //google.maps.event.addDomListener(window, 'load', initialize);
+    // var marker = new google.maps.Marker({
+    //         position: new google.maps.LatLng(24.909439, 91.833800),
+    //         title:"Boots4 Office"
+    //     });
+
+    //     // To add the marker to the map, call setMap();
+    //     marker.setMap(map);
+
+    // //google.maps.event.addDomListener(window, 'load', initialize);
 
 
     // Show Reletive Page Onclick
 
-    $('.menu div.profile-btn').on('click', function () {
-        $('.profile-page').fadeIn(1200);
+    $('.menu div.aboutus-btn').on('click', function () {
+        $('.aboutus-page').fadeIn(1200);
         setTimeout(function(){
             $('.count').each(function () {
                 $(this).prop('Counter',0).animate({
@@ -151,8 +182,8 @@ $(document).ready(function () {
         }, 100);
     });
 
-    $('.menu div.service-btn').on('click', function () {
-        $('.service-page').fadeIn(1200);
+    $('.menu div.birthday-btn').on('click', function () {
+        $('.birthday-page').fadeIn(1200);
     });
 
     $('.menu div.contact-btn').on('click', function () {
@@ -172,7 +203,7 @@ $(document).ready(function () {
         $('.introduction, .menu').animate({
             left: 0
         }, 1000, 'easeOutQuart');
-        $('.profile-page, .portfolio-page, .service-page, .contact-page').fadeOut(800);
+        $('.aboutus-page, .gallery-page, .birthday-page, .contact-page').fadeOut(800);
     });
 
     /*  ----------------------------------------
@@ -204,7 +235,7 @@ $(document).ready(function () {
 
 
     /*  -------------------------------
-         PopUp ( for portfolio page )
+         PopUp ( for gallery page )
         -------------------------------  */
 
     $(function () {
