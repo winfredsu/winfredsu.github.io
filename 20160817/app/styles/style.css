@@ -404,8 +404,8 @@ body {
 .logo-HR, .logo-HR-back {
     width: 100%;
     height: 100%;
-    -webkit-transition: margin 0.7s ease-in-out;
-    transition: margin 0.7s ease-in-out;
+    -webkit-transition: margin 0.4s ease-in-out;
+    transition: margin 0.4s ease-in-out;
 /*
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
@@ -423,8 +423,6 @@ body {
 */
     margin-top: 50%;
 }
-
-
 
 .intro-content h1 {
     color: #4b4b4b;
@@ -560,7 +558,7 @@ body {
                       ------------------*/
 
 .close-btn {
-    background: url(../img/close.png);
+    background: url(../images/close.png);
     z-index: 1000;
     cursor: pointer;
     width: 40px;
@@ -569,7 +567,22 @@ body {
     right: 3%;
     top: 30px;
     background-size: cover;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;    
 }
+
+
+    
+.close-btn:hover {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+    
 
                     /*-------------------------------------------------
                        6 ) General Rules for Content Pages Fixed Image
@@ -579,7 +592,7 @@ body {
 }
 
 .full-height {
-    min-height: calc(100vh - 68px);
+    min-height: calc(100vh - 62px);
 }
 
 .aboutus-page,
@@ -652,7 +665,7 @@ body {
 /* ( a ) Story of Glory */
 
 .aboutus-page .image-container {
-    background: url(../img/about_us_featured.png);
+    background: url(../images/bg/about_us_featured.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -670,25 +683,110 @@ body {
 .facts {
     /*background: url(../img/about_us_video.png);*/
     /*background-attachment: fixed;*/
-    margin-bottom: 20px;
+    //margin-bottom: 10px;
 }
 
 .facts-overlay {
-    padding: 40px;
+    padding: 30px 40px;
     background-color: rgb(35, 46, 52);
+    //display: flex;
+    //flex-direction: column;
 }
 
-.facts i {
+.facts-icon {
+    position: relative;
+    text-align: center;
+    height: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    //order: 1;
+}
+
+.facts-icon i {
     color: #ffffff;
-    margin-bottom: 20px;
+    //display: block;
 }
 
-.facts p {
+.facts-icon p {
+    //display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+.facts-space {
+    //position: absolute;
+    //bottom: -12px;
+    content: "";
+    height: 2px;
+    background-color: #ffffff;
+    margin: 0px;
+    //display: none;
+    width: 96%;
+    left: 2%;
+}
+
+.facts-content {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    //order: 3;
+    position: relative;
+}
+
+
+.facts-icon>p::before {
+    position: absolute;
+    top: 6px;
+    content: "";
+    height: 2px;
+    background-color: #ffffff;
+    //display: none;
+    width: 96%;
+    left: 2%;
+}
+
+
+.facts-content p {
     color: #fff;
+    margin-bottom: -3px;
+    font-size: 20px;
 }
 
-.facts p.count {
-    font-size: 29px;
+.facts-overlay:hover .facts-content {
+    //order: 1;
+}
+.facts-overlay:hover .facts-icon {
+    //order: 3;
+}
+/*
+.facts-overlay:hover .facts-icon i {
+    display: none;
+}
+.facts-overlay:hover .facts-icon p {
+    display: block;
+}*/
+
+/*
+.facts-overlay:hover .facts-content::before {
+    display: block;
+}
+*/
+
+
+
+.facts .count {
+    font-size: 32px;
+}
+
+.facts .dhms {
+    //font-size: 20px;
 }
 
 .team-member-box {
@@ -719,26 +817,68 @@ body {
 
 .video {
     box-shadow: 2px 5px 9px #dfdfdf;
+    margin-bottom: 40px;
 }
 
+/*
 .video iframe {
     width: 560px; 
     height: 315px;
 }
+*/
 
-.about-us-desc p:first-child {
+.profile-content h4 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.profile-content .profile-icon {
+    font-size: 19px;
+    text-align: right;
+    margin-right: -5px;
+}
+
+.profile-content .profile-text {
     font-size: 17px;
 }
 
-.about-us-desc p:last-child {
-    -webkit-column-count: 2;/* Chrome, Safari, Opera */
-    -moz-column-count: 2;/* Firefox */
-    column-count: 2; 
-    -webkit-column-gap: 30px;/* Chrome, Safari, Opera */ 
-    -moz-column-gap: 30px;/* Firefox */ 
-    column-gap: 30px;
-    font-size: 14px;
+.profile-content span {
+    color: sienna;
+    cursor: pointer;
 }
+
+.profile-img {
+    padding: 0px 0px;
+    border-style: double;
+    border-width: thick;
+    border-color: whitesmoke;
+    box-shadow: 5px 8px 9px #dfdfdf; 
+    overflow: hidden;
+    float: right;
+}
+
+.profile-img img {
+    -webkit-transition: -webkit-transform 1s linear;
+    -moz-transition: -moz-transform 1s linear;
+    -ms-transition: -ms-transform 1s linear;
+    -o-transition: -o-transform 1s linear;
+    transition: transform 1s linear;   
+    min-width: 190px;
+    max-height: 210px;
+}
+
+.profile-img:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.about-us-content {
+    font-size: 17px;
+}
+
 
 /* First, define the common wrapper elements 
    Padding-top is for the fixed height header of the embedded content */
@@ -966,7 +1106,7 @@ body {
                     =======================================*/
 
 .birthday-page .image-container {
-    background: url(../img/birthday_featured.png);
+    background: url(../images/bg/birthday_featured.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -1246,8 +1386,9 @@ body {
 
 #map-canvas {
     width: 100%;
-    height: 720px;
+    height: 720px; //720px
 }
+
                     /*-------------
                        11 ) Footer 
                       -------------*/
@@ -1257,7 +1398,7 @@ body {
 }
 
 .aboutus-page .footer {
-    background-color: #64340D;
+    background-color: saddlebrown;
 }
 
 .gallery-page .footer {
@@ -1265,7 +1406,7 @@ body {
 }
 
 .birthday-page .footer {
-    background-color: #581616;
+    background-color: #822121;
 }
 
 .footprint-page .footer {
@@ -1310,6 +1451,13 @@ body {
     }
 }
 
+@media (max-width: 991px) and (min-width: 768px) {
+    .legend-outer {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
 @media (max-width: 767px) {
     .menu, .introduction {
         width: 100%;
@@ -1332,6 +1480,7 @@ body {
     width: 120px;
     height: 120px;
     }
+    
     .intro-content-HEART .logo-HEART {
     margin: 0px 0px 0px -27px;
     width: 120px;
@@ -1347,19 +1496,13 @@ body {
     
     #map-canvas {
         height: 480px;
+        margin: 0px;
     }
     
-/*
-
-    .intro-content h1 {
-        margin-bottom: 12px;
-        padding-left: 0px;
+    .legend-outer {
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
-
-    .intro-content span {
-        font-size: 75px;
-    }
-*/
 
     .intro-content span.number {
         font-size: 9em;
@@ -1374,9 +1517,48 @@ body {
     }
 
     .close-btn {
-        background: url(../img/close_sm.png);
+        background: url(../images/close_sm.png);      
     }
 
+    
+    .profile-img {
+        padding: 0px 0px;
+        border-style: double;
+        border-width: thick;
+        border-color: whitesmoke;
+        box-shadow: 5px 8px 9px #dfdfdf; 
+        margin-bottom: 20px;
+        overflow: hidden;
+        float: none;
+    }
+    
+    .profile-img img {
+        min-width: inherit;
+        max-height: inherit;
+    }
+    
+/*
+    img {
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+        transition: transform .8s ease-in-out;
+    }
+    img:hover {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+*/
+
+    .footer .copyright {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer .author {
+        float: none;
+        text-align: center;
+    }
+}
     .footer .copyright {
         float: none;
         text-align: center;

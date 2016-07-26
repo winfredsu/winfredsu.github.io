@@ -32,14 +32,6 @@ function homepageResponsive() {
 
 }
 
-function addMarker(location, map, marker_icon) {
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map,
-        icon: marker_icon
-    });
-}
-
 function setBounce(marker) {
     marker.setAnimation(google.maps.Animation.BOUNCE);
     window.setTimeout(function(){
@@ -47,16 +39,56 @@ function setBounce(marker) {
     }, 2100);
 }  
 
+function setMouseEnterBounce(markers) {
+    for(var i = markers.length;i--;) {
+        setBounce(markers[i].marker);
+    }
+}
+
+function setMarker(map, markers, marker_icon, zIndex = 1) {
+    for(var i = markers.length;i--;){
+        markers[i].marker = new google.maps.Marker({
+            position: markers[i].location,
+            map: map,
+            icon: marker_icon,
+            zIndex: zIndex
+        });         
+    }
+}
+
+function setInfoWindow(map, markers) {
+    for(var i = markers.length;i--;){
+        markers[i].infoWindow = new google.maps.InfoWindow({content: markers[i].content});
+        markers[i].marker.addListener('mouseover',function(num) { 
+           return function() {
+                markers[num].infoWindow.open(map,markers[num].marker); 
+           }     
+        }(i));
+        
+        markers[i].marker.addListener('mouseout',function(num) { 
+           return function() {
+                markers[num].infoWindow.close(map,markers[num].marker); 
+           }     
+        }(i));
+        
+        markers[i].infoWindow.addListener('domready', function(num) {
+            return function () {
+//                $(".gm-style-iw").next("div").remove();
+                var content = document.querySelector('.gm-style-iw');
+                content.parentNode.removeChild(content.nextElementSibling);
+                content.style.setProperty('width', 'auto', 'important');
+                content.style.setProperty('right', content.style.left, 'important');
+                content.style.setProperty('text-align', 'center', 'important');
+            }
+        }(i));
+        
+    }    
+}
+
 function mapInit() {
     /*  ---------------------
          Google Map Config.
         ---------------------  */
-  
-    var mapOptions = {
-        zoom: 12,
-        center: {lat: 40.674, lng: -73.946},  // Brooklyn.
-        mapTypeId: 'customMapType'
-        };
   
     var customMapType = new google.maps.StyledMapType(
         [
@@ -261,7 +293,7 @@ function mapInit() {
     });  
   
           
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    map = new google.maps.Map(document.getElementById('map-canvas'), {
         center: {lat: 25.829383, lng: 114.892103},
         zoom: 4,
         mapTypeControlOptions: {
@@ -272,116 +304,166 @@ function mapInit() {
     
     map.mapTypes.set('custom_style', customMapType);
         
-    var beenTo = [
+    var markerBeenTo = [
       {
-          name: 'Beijing', location: {lat:39.985225, lng:116.337264}  
+          name: 'Beijing', location: {lat:39.985225, lng:116.337264},
+          content:
+          '<div class="iw-container">'+
+          '<h5 class="iw-title">Beijing <small><i> Jan. 2016</i></small></h5>'+
+          '<img src="images/map/InfoWindow/beijing.jpg"></div>'
       },{
-          name: 'Tianjin', location: {lat:39.147064, lng:117.170272}    
+          name: 'Tianjin', location: {lat:39.147064, lng:117.170272},
+          content:
+          '<div class="iw-container">'+
+          '<h5 class="iw-title">Tianjin <small><i> May. 2016</i></small></h5>'+
+          '<img src="images/map/InfoWindow/tianjin.jpg"></div>'
       },{
-          name: 'Nanjing', location: {lat:32.062632, lng:118.779278}
+          name: 'Nanjing', location: {lat:32.062632, lng:118.779278},
+          content:
+          '<div class="iw-container">'+
+          '<h5 class="iw-title">Nanjing <small><i> Jun. 2016</i></small></h5>'+
+          '<img src="images/map/InfoWindow/nanjing.jpg"></div>'
       },{
-          name: 'Shijiazhuang', location: {lat:38.023027, lng:114.541734}
+          name: 'Shijiazhuang', location: {lat:38.023027, lng:114.541734},
+          content:
+          '<div class="iw-container">'+
+          '<h5 class="iw-title">Shijiazhuang <small><i> Apr. 2016</i></small></h5>'+
+          '<img src="images/map/InfoWindow/shijiazhuang.jpg"></div>'
       },{
-          name: 'Shanghai', location: {lat:31.199207, lng:121.430888}
+          name: 'Shanghai', location: {lat:31.199207, lng:121.430888},
+          content:
+          '<div class="iw-container">'+
+          '<h5 class="iw-title">Shanghai <small><i> Feb. 2016</i></small></h5>'+
+          '<img src="images/map/InfoWindow/shanghai.jpg"></div>'
       },{
-          name: 'Hsinchu', location: {lat:24.796501, lng: 120.996923}
+          name: 'Hsinchu', location: {lat:24.796501, lng: 120.996923},
+          content:
+          '<div class="iw-container">'+
+          '<h5 class="iw-title">Hsinchu <small><i> Sep. 2013</i></small></h5>'+
+          '<img src="images/map/InfoWindow/hsinchu.jpg"></div>'
       }
     ];
     
-    var destination = [
+    var markerDestination = [
         {
-            name: 'xian', location: {lat:34.259466, lng: 108.946990}
+            name: 'Xi\'an', location: {lat:34.259466, lng: 108.946990},
+            content: 
+            '<div class="iw-container">'+
+            '<h5 class="iw-title">Xi\'an <small><i> Sep. 2016</i></small></h5>'+
+            '<img src="images/map/InfoWindow/xian.jpg"></div>'
         },{
-            name: 'Mauritius', location: {lat:-20.239628, lng: 57.466207}
+            name: 'Mauritius', location: {lat:-20.239628, lng: 57.466207},
+            content: 
+            '<div class="iw-container">'+
+            '<h5 class="iw-title">Mauritius <small><i> Graduation Trip</i></small></h5>'+
+            '<img src="images/map/InfoWindow/mauritius.jpg"></div>'
+        },{
+            name: 'Harbin', location: {lat:45.774270, lng: 126.668986},
+            content:
+            '<div class="iw-container">'+
+            '<h5 class="iw-title">Harbin <small><i> Hairong\'s Home</i></small></h5>'+
+            '<img src="images/map/InfoWindow/harbin.jpg"></div>'
         }
     ];
     
-    var locationHairong = {name: 'Singapore', location: {lat:1.352740, lng:103.868335}};
+    var markerHairong = [
+        {
+            name: 'Singapore', location: {lat:1.352740, lng:103.868335}, 
+            content: '<div class="iw-container">'+
+            '<div class="iw-container">'+
+            '<h5 class="iw-title">Hairong <small><i> Aug. 2016</i></small></h5>'+
+            '<img src="images/map/InfoWindow/sg.jpg"></div>'
+        }
+    ];
     
-    var locationSufang = {name: 'Rohm', location: {lat:40.005407, lng:116.336155}};
+    var markerSufang = [{name: 'Rohm Building', location: {lat:40.005407, lng:116.336155}}];
     
-    
-    
-    var beenToMarkers = [];
-    var destinationMarkers = [];
-       
-    var marker_icon = 'images/map/pink_ball4.png';    
-    for(var i = beenTo.length;i--;){
-        //addMarker(beenTo[i].location, map, marker_icon);
-        beenToMarkers.push(new google.maps.Marker({
-            position: beenTo[i].location,
-            map: map,
-            icon: marker_icon
-        }));  
-    }
-    
-    marker_icon = {
-        url: 'images/map/destination3.png',
-        anchor: new google.maps.Point(18,18)
-    };                
-    for(var i = destination.length;i--;){
-        destinationMarkers.push(new google.maps.Marker({
-            position: destination[i].location,
-            map: map,
-            icon: marker_icon
-        })); 
-    }
-    
-    marker_icon = {
-        url: 'images/map/hairong.png',
-        anchor: new google.maps.Point(20,20)
+
+    var markerIcons = {
+        markerBeenToIcon: 'images/map/pink_ball4.png',
+        markerDestinationIcon: {
+            url: 'images/map/destination3.png',
+            anchor: new google.maps.Point(18,18)
+        },
+        markerHairongIcon: {
+            url: 'images/map/hairong.png',
+            anchor: new google.maps.Point(20,20)
+        },
+        markerSufangIcon: {
+            url: 'images/map/sufang.png',
+            anchor: new google.maps.Point(20,20)            
+        }       
     };
-    var hairongMarker = new google.maps.Marker({
-        position: locationHairong.location,
-        map: map,
-        icon: marker_icon
-    });
-    marker_icon = {
-        url: 'images/map/sufang.png',
-        anchor: new google.maps.Point(20,20)
-    };   
-    var sufangMarker = new google.maps.Marker({
-        position: locationSufang.location,
-        map: map,
-        icon: marker_icon,
-        zIndex: 999
-    });
+
+    setMarker(map, markerBeenTo, markerIcons.markerBeenToIcon);
+    setInfoWindow(map, markerBeenTo);
+        
+    setMarker(map, markerDestination, markerIcons.markerDestinationIcon);
+    setInfoWindow(map, markerDestination);
+
+    setMarker(map, markerHairong, markerIcons.markerHairongIcon);
+    setInfoWindow(map, markerHairong);
     
+    setMarker(map, markerSufang, markerIcons.markerSufangIcon, 999);
+
     
     
     
     var objBeenTo = document.getElementById("beento");
     objBeenTo.onmouseenter = function() {
-        for(var i = beenToMarkers.length;i--;) {
-            setBounce(beenToMarkers[i]);
-        }
+        setMouseEnterBounce(markerBeenTo);
     }
     
     var objDestination = document.getElementById("destination");
     objDestination.onmouseenter = function() {
-        for(var i = destinationMarkers.length;i--;) {
-            setBounce(destinationMarkers[i]);
-        }
+        setMouseEnterBounce(markerDestination);
     }
     
     var objHairong = document.getElementById("hairong_portrait");
     objHairong.onmouseenter = function() {
-        setBounce(hairongMarker);
+        setMouseEnterBounce(markerHairong);
     }
     
     var objSufang = document.getElementById("sufang_portrait");
     objSufang.onmouseenter = function() {
-        setBounce(sufangMarker);
-    }
+        setMouseEnterBounce(markerSufang);
+    } 
     
+    //return map;
 }
+
+function calcDays() {
+    var msInADay = 24*60*60*1000;
+    var dateToday = new Date();
+    var dateLastMet = new Date();
+    var dateFellInLove = new Date();
+    var dateFirstSignt = new Date();
+    var dateHRBirthday = new Date();
+    
+    dateLastMet.setFullYear(2016, 5, 12);
+    dateFellInLove.setFullYear(2015, 11, 24);
+    dateFirstSignt.setFullYear(2013, 8, 10);
+    dateHRBirthday.setFullYear(1993, 7, 17);
+    
+    daysLastMet = (dateToday - dateLastMet)/msInADay;
+    daysFellInLove = (dateToday - dateFellInLove)/msInADay;
+    daysFirstSight = (dateToday - dateFirstSignt)/msInADay;
+    daysHRBirthday = (dateToday - dateHRBirthday)/msInADay;
+    
+    document.getElementById("days-last-met").innerHTML = daysLastMet;
+    document.getElementById("days-fell-in-love").innerHTML = daysFellInLove;
+    document.getElementById("days-first-sight").innerHTML = daysFirstSight;
+    document.getElementById("days-hr-birthday").innerHTML = daysHRBirthday;
+}
+
+
 /*  ------------------
     Remove Preloader
     ------------------  */
 
 $(window).load(function () {
     $('#preloader').delay(350).fadeOut('slow', function () {
-        $('.aboutus-page, .gallery-page, .birthday-page').hide();
+        $('.aboutus-page, .gallery-page, .birthday-page, footprint-page').hide();
     });  
 });
 
@@ -394,26 +476,143 @@ $(document).ready(function () {
 
     $(window).on('load resize', homepageResponsive);
   
-    /*$('.intro-content .social-media [data-toggle="tooltip"]').tooltip({
-        placement: 'bottom'
+//    $('.intro-content .social-media [data-toggle="tooltip"]').tooltip({
+//        placement: 'bottom'
+//    });
+//
+//    $('.contact-details .social-media [data-toggle="tooltip"]').tooltip();
+
+    mapInit();
+    $('.menu > div').on('click', function () {
+
+        var introWidth = $('.introduction').width(),
+            menuWidth = $('.menu').width();
+
+        $('.introduction').animate({
+            left: '-' + introWidth
+        }, 1000, 'easeOutQuart');
+        $('.menu').animate({
+            left: menuWidth
+        }, 1000, 'easeOutQuart', function () {
+            $('.home-page').css({
+                visibility: 'hidden'
+            });
+        });
     });
 
-    $('.contact-details .social-media [data-toggle="tooltip"]').tooltip();*/
-    
-    mapInit();
+    $('.menu div.footprint-btn').on('click', function () {
+        $('.footprint-page').fadeIn(1200);
+        setTimeout(function(){
+            var center = map.getCenter();
+            google.maps.event.trigger(map,'resize');
+            map.setCenter(center);
 
-
+        },10);
+    });
     
-     
+    $('.menu div.birthday-btn').on('click', function () {
+        $('.birthday-page').fadeIn(1200);
+    });
+    
+    $('.menu div.aboutus-btn').on('click', function() {
+        $('.aboutus-page').fadeIn(1200);
+        
+        calcDays();
+    
+        $('.facts-icon p').hide(0);
+        $('.facts-overlay').hover(function(){
+            $('.facts-content', this).insertBefore($('.facts-icon', this));
+            $('.facts-icon p', this).stop(true,false);
+            $('.facts-icon i', this).stop(true,false).fadeOut(500, 'linear', function() {
+                $(this).siblings('p').fadeIn(500, 'linear');    
+            });
+            
+            //$('.facts-content::before', this).toggle();   
+        },function(){
+            $('.facts-content', this).insertAfter($('.facts-icon', this));
+            $('.facts-icon i', this).stop(true,false);
+            $('.facts-icon p', this).stop(true,false).fadeOut(0, 'linear', function() {
+                $(this).siblings('i').fadeIn(800, 'linear');
+            });
+            
+        });
+            
+        
+        setTimeout(function(){
+            $('.count').each(function () {
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 1500,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        }, 100);       
+        
+        
+    });
+    
+
+    // Close Button, Hide Menu
+    $('.close-btn').on('click', function () {
+        $('.home-page').css({
+            visibility: 'visible'
+        });
+        $('.introduction, .menu').animate({
+            left: 0
+        }, 1000, 'easeOutQuart');
+        $('.aboutus-page, .gallery-page, .birthday-page, .footprint-page').fadeOut(800);
+    });
+
     /*  ---------------------
          Temporary Fade-in
         ---------------------  */    
+//    
+//    $('.footprint-page').fadeIn(1200);
+//    setTimeout(function(){
+//        google.maps.event.trigger(map,'resize');
+//    },100);
+//      
     
-    $('.footprint-page').fadeIn(1200);
-    setTimeout(function(){
-        google.maps.event.trigger(map,'resize');
-    },100);
-    
+//        $('.aboutus-page').fadeIn(1200);
+//        
+//        calcDays();
+//    
+//        $('.facts-icon p').hide(0);
+//        $('.facts-overlay').hover(function(){
+//            $('.facts-content', this).insertBefore($('.facts-icon', this));
+//            $('.facts-icon p', this).stop(true,false);
+//            $('.facts-icon i', this).stop(true,false).fadeOut(500, 'linear', function() {
+//                $(this).siblings('p').fadeIn(500, 'linear');    
+//            });
+//            
+//            //$('.facts-content::before', this).toggle();   
+//        },function(){
+//            $('.facts-content', this).insertAfter($('.facts-icon', this));
+//            $('.facts-icon i', this).stop(true,false);
+//            $('.facts-icon p', this).stop(true,false).fadeOut(500, 'linear', function() {
+//                $(this).siblings('i').fadeIn(500, 'linear');
+//            });
+//            
+//        });
+//            
+//        
+//        setTimeout(function(){
+//            $('.count').each(function () {
+//                $(this).prop('Counter',0).animate({
+//                    Counter: $(this).text()
+//                }, {
+//                    duration: 1500,
+//                    easing: 'swing',
+//                    step: function (now) {
+//                        $(this).text(Math.ceil(now));
+//                    }
+//                });
+//            });
+//        }, 100);
 });
 
 
