@@ -45,7 +45,7 @@ function setMouseEnterBounce(markers) {
     }
 }
 
-function setMarker(map, markers, marker_icon, zIndex = 1) {
+function setMarker(map, markers, marker_icon, zIndex) {
     for(var i = markers.length;i--;){
         markers[i].marker = new google.maps.Marker({
             position: markers[i].location,
@@ -395,13 +395,13 @@ function mapInit() {
         }       
     };
 
-    setMarker(map, markerBeenTo, markerIcons.markerBeenToIcon);
+    setMarker(map, markerBeenTo, markerIcons.markerBeenToIcon, 1);
     setInfoWindow(map, markerBeenTo);
         
-    setMarker(map, markerDestination, markerIcons.markerDestinationIcon);
+    setMarker(map, markerDestination, markerIcons.markerDestinationIcon, 1);
     setInfoWindow(map, markerDestination);
 
-    setMarker(map, markerHairong, markerIcons.markerHairongIcon);
+    setMarker(map, markerHairong, markerIcons.markerHairongIcon, 1);
     setInfoWindow(map, markerHairong);
     
     setMarker(map, markerSufang, markerIcons.markerSufangIcon, 999);
