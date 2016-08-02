@@ -36,12 +36,14 @@
 	padding: 0 5px;
 	right: 10px;
 	top: 10px;
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {
     .popup_close {
         color: #fff;
         background: #343333;
+        display: none;
     }
 }
 
