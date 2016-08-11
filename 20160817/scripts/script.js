@@ -368,7 +368,7 @@ function mapInit() {
     
     var markerHairong = [
         {
-            name: 'Singapore', location: {lat:1.352740, lng:103.868335}, 
+            name: 'Singapore', location: {lat:1.302010, lng:103.849231}, 
             content: '<div class="iw-container">'+
             '<div class="iw-container">'+
             '<h5 class="iw-title">Hairong <small><i> Aug. 2016</i></small></h5>'+
