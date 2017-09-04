@@ -28,7 +28,7 @@ export function View_PlatformComponent_0(_l) {
             return ad;
         }, null, null)), i0.ɵdid(16384, null, 0, i1.AffixDirective, [i2.DOCUMENT, i0.ElementRef], { scrollOffset: [0, 'scrollOffset'], affixTop: [1,
                 'affixTop'] }, null), (_l()(), i0.ɵted(null, ['NVPEval Platform '])),
-        (_l()(), i0.ɵeld(0, null, null, 1, 'small', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['REV0'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, [[2, 0], ['intro', 1]], null, 88, 'div', [['class', 'row product-intro margin-b-50']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 40, 'div', [['class',
+        (_l()(), i0.ɵeld(0, null, null, 1, 'small', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['REV0'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, [[2, 0], ['intro', 1]], null, 88, 'div', [['class', 'row product-intro margin-b-30 margin-t-20']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 40, 'div', [['class',
                 'col-md-7 platform-carousel']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
         (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class', 'owl-carousel owl-theme margin-b-10'],
             ['id', 'carouselPlatform']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 3, 'div', [['class', 'item']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n							'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt',

@@ -18,15 +18,18 @@ var styles_HomeComponent = [];
 export var RenderType_HomeComponent = i0.ɵcrt({ encapsulation: 2,
     styles: styles_HomeComponent, data: {} });
 export function View_HomeComponent_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 23, 'div', [['class',
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 27, 'div', [['class',
                 'content-top']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 20, 'div', [['class', 'carousel-home full-screen']], [[4, 'height', 'px']], null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 16, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 13, 'div', [['class',
+        (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 24, 'div', [['class', 'carousel-home full-screen']], [[4, 'height', 'px']], null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 20, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 17, 'div', [['class',
                 'carousel-centered']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 6, 'div', [['class', 'margin-b-30']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n								'])), (_l()(), i0.ɵeld(0, null, null, 3, 'h1', [['class',
                 'carousel-title']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['A little energy, '])), (_l()(),
             i0.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, [' a lot of possibilities'])), (_l()(), i0.ɵted(null, ['\n						'])),
-        (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'btn-theme btn-theme-sm btn-white-brd carousel-btn text-uppercase'],
+        (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'hidden-xs btn-theme btn-theme-sm btn-white-brd carousel-btn text-uppercase'],
             ['href', '#']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 0, 'i', [['aria-hidden',
                 'true'], ['class', 'fa fa-play']], null, null, null, null, null)), (_l()(), i0.ɵted(null, [' Nonvolatile Processor in 1 minute'])),
+        (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'visible-xs-inline btn-theme btn-theme-sm btn-white-brd carousel-btn text-uppercase'],
+            ['href', '#']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 0, 'i', [['aria-hidden',
+                'true'], ['class', 'fa fa-play']], null, null, null, null, null)), (_l()(), i0.ɵted(null, [' NVP in 1 minute'])),
         (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n		'])),
         (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n'])),
         (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])),
@@ -46,7 +49,7 @@ export function View_HomeComponent_0(_l) {
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 60).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 64).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -61,7 +64,7 @@ export function View_HomeComponent_0(_l) {
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 78).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 82).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -70,19 +73,19 @@ export function View_HomeComponent_0(_l) {
                 'bg-color-sky-light']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 1, 'nvlabs-explore', [], null, null, null, i6.View_ExploreComponent_0, i6.RenderType_ExploreComponent)),
         i0.ɵdid(49152, null, 0, i7.ExploreComponent, [i1.Router, i5.Title], null, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 1, 'div', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n']))], function (_ck, _v) {
         var currVal_3 = '/platform';
-        _ck(_v, 60, 0, currVal_3);
+        _ck(_v, 64, 0, currVal_3);
         var currVal_6 = '/simulator';
-        _ck(_v, 78, 0, currVal_6);
+        _ck(_v, 82, 0, currVal_6);
     }, function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = _co.height;
         _ck(_v, 2, 0, currVal_0);
-        var currVal_1 = i0.ɵnov(_v, 60).target;
-        var currVal_2 = i0.ɵnov(_v, 60).href;
-        _ck(_v, 59, 0, currVal_1, currVal_2);
-        var currVal_4 = i0.ɵnov(_v, 78).target;
-        var currVal_5 = i0.ɵnov(_v, 78).href;
-        _ck(_v, 77, 0, currVal_4, currVal_5);
+        var currVal_1 = i0.ɵnov(_v, 64).target;
+        var currVal_2 = i0.ɵnov(_v, 64).href;
+        _ck(_v, 63, 0, currVal_1, currVal_2);
+        var currVal_4 = i0.ɵnov(_v, 82).target;
+        var currVal_5 = i0.ɵnov(_v, 82).href;
+        _ck(_v, 81, 0, currVal_4, currVal_5);
     });
 }
 export function View_HomeComponent_Host_0(_l) {

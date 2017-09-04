@@ -93,12 +93,12 @@ export function View_AppComponent_0(_l) {
             return ad;
         }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['About'])), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵted(null, [' \n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵeld(0, null, null, 4, 'div', [['class', 'content']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(16777216, null, null, 1, 'router-outlet', [], null, null, null, null, null)),
         i0.ɵdid(212992, null, 0, i1.RouterOutlet, [i1.ChildrenOutletContexts, i0.ViewContainerRef,
-            i0.ComponentFactoryResolver, [8, null], i0.ChangeDetectorRef], null, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 81, 'footer', [['class', 'footer']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 72, 'div', [['class',
-                'content-xs container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 68, 'div', [['class', 'row']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class',
-                'col-sm-2 col-xs-3 sm-margin-b-30']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 16, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class',
-                'footer-list-item']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['routerLink',
-                '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
+            i0.ComponentFactoryResolver, [8, null], i0.ChangeDetectorRef], null, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 83, 'footer', [['class', 'footer']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 74, 'div', [['class',
+                'content-xs container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 70, 'div', [['class', 'row']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class',
+                'col-sm-2 col-xs-3']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 16, 'ul', [['class',
+                'list-unstyled footer-list']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
+        (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'footer-list-item']], null, null, null, null, null)),
+        (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['routerLink', '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i0.ɵnov(_v, 100).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
@@ -123,9 +123,7 @@ export function View_AppComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['Simulator'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class', 'col-sm-2 col-xs-3 sm-margin-b-30']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵeld(0, null, null, 16, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)),
+        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['Simulator'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class', 'col-sm-2 col-xs-3']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 16, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'footer-list-item']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['routerLink', '/showcase']], [[1, 'target', 0], [8, 'href',
                 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
@@ -152,7 +150,7 @@ export function View_AppComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['About'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 11, 'div', [['class', 'col-sm-3 col-xs-3']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 6, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)),
+        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['About'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 16, 'div', [['class', 'col-sm-8 col-xs-6']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 6, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'footer-list-item']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['routerLink', 'terms-and-conditions']], [[1, 'target',
                 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
@@ -163,15 +161,17 @@ export function View_AppComponent_0(_l) {
             return ad;
         }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['Terms & Conditions'])), (_l()(),
             i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
-        (_l()(), i0.ɵeld(0, null, null, 6, 'div', [['class', 'col-sm-2 col-sm-offset-3 col-xs-3']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'div', [['class', 'margin-b-0 text-right']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt',
-                'Aitonepage Logo'], ['class', 'footer-logo'], ['src', 'img/logo-dark.png']], null, null, null, null, null)),
+        (_l()(), i0.ɵeld(0, null, null, 3, 'div', [['class', 'margin-b-0 text-right']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'Aitonepage Logo'], ['class', 'footer-logo'],
+            ['src', 'img/logo-dark.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])),
         (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])),
-        (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n		'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n				'])),
+        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵted(null, ['\n				'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n		'])),
+        (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n	'])),
         (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])),
-        (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(),
-            i0.ɵted(null, ['\n\n']))], function (_ck, _v) {
+        (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n']))], function (_ck, _v) {
         var currVal_2 = '/home';
         _ck(_v, 40, 0, currVal_2);
         var currVal_5 = '/platform';
