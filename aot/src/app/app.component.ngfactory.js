@@ -12,23 +12,26 @@ var styles_AppComponent = [];
 export var RenderType_AppComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_AppComponent,
     data: {} });
 export function View_AppComponent_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 74, 'header', [['class',
-                'header navbar-fixed-top']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 69, 'nav', [['class', 'navbar'],
-            ['role', 'navigation']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 66, 'div', [['class', 'container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(),
-            i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class', 'menu-container js_nav-item']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵeld(0, null, null, 6, 'button', [['class', 'navbar-toggle'],
-            ['data-target', '.nav-collapse'], ['data-toggle', 'collapse'], ['type', 'button']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'sr-only']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Toggle navigation'])), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(),
-            i0.ɵeld(0, null, null, 0, 'span', [['class', 'toggle-icon']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n\n				'])),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 8, 'div', [['class', 'logo']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 5, 'a', [['class', 'logo-wrap'], ['href', '#body']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'NVLabs Logo'], ['class', 'logo-img logo-img-main'],
-            ['src', 'img/logo.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'NVLabs Logo'], ['class', 'logo-img logo-img-active'],
-            ['src', 'img/logo-dark.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n\n			'])),
-        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 37, 'div', [['class', 'collapse navbar-collapse nav-collapse']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 34, 'div', [['class',
-                'menu-container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 31, 'ul', [['class', 'nav navbar-nav navbar-nav-right']], null, null, null, null, null)),
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, [['navbarFixedTop', 1]], null, 74, 'header', [['class', 'header navbar-fixed-top']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(),
+            i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 69, 'nav', [['class', 'navbar'], ['role', 'navigation']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])),
+        (_l()(), i0.ɵeld(0, null, null, 66, 'div', [['class', 'container']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class', 'menu-container']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 6, 'button', [['class', 'navbar-toggle'], ['data-target', '.nav-collapse'], ['data-toggle',
+                'collapse'], ['type', 'button']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'sr-only']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Toggle navigation'])), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 0, 'span', [['class',
+                'toggle-icon']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 8, 'div', [['class', 'logo']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 5, 'a', [['class',
+                'logo-wrap'], ['href', '#body']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])),
+        (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'NVLabs Logo'],
+            ['class', 'logo-img logo-img-main'], ['src', 'img/logo.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt',
+                'NVLabs Logo'], ['class', 'logo-img logo-img-active'], ['src', 'img/logo-dark.png']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵted(null, ['\n				'])),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])),
+        (_l()(), i0.ɵted(null, ['\n\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 37, 'div', [['class', 'collapse navbar-collapse nav-collapse']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 34, 'div', [['class', 'menu-container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
+        (_l()(), i0.ɵeld(0, null, null, 31, 'ul', [['class', 'nav navbar-nav navbar-nav-right']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'nav-item active']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'nav-item-child nav-item-hover'], ['routerLink',
                 '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
@@ -242,8 +245,14 @@ export function View_AppComponent_0(_l) {
     });
 }
 export function View_AppComponent_Host_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'nvlabs-app', [], null, null, null, View_AppComponent_0, RenderType_AppComponent)),
-        i0.ɵdid(114688, null, 0, i3.AppComponent, [i0.ElementRef, i1.Router], null, null)], function (_ck, _v) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'nvlabs-app', [], null, [['window', 'scroll']], function (_v, en, $event) {
+            var ad = true;
+            if (('window:scroll' === en)) {
+                var pd_0 = (i0.ɵnov(_v, 1).onScroll() !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, View_AppComponent_0, RenderType_AppComponent)), i0.ɵdid(114688, null, 0, i3.AppComponent, [i0.ElementRef, i1.Router], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }
