@@ -76,7 +76,7 @@ export function View_ExploreComponent_0(_l) {
             }
             return ad;
         }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['Recommended Reading'])), (_l()(),
-            i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Want to learn more? Here is a list of topics we recommend you to follow, including device, circuit, architecture, system design and software support related to nonvolatile processors '])),
+            i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Want to learn more? Here is a list of topics we recommend you to follow, including device, circuit, architecture, system integration, software support and application related to nonvolatile processors '])),
         (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'btn-theme btn-theme-xs btn-white-bg text-uppercase'],
             ['routerLink', '/explore/recommended-reading']], [[1, 'target', 0], [8, 'href',
                 4]], [[null, 'click']], function (_v, en, $event) {
@@ -124,4 +124,146 @@ export function View_ExploreComponent_Host_0(_l) {
     return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'nvlabs-explore', [], null, null, null, View_ExploreComponent_0, RenderType_ExploreComponent)), i0.ɵdid(49152, null, 0, i3.ExploreComponent, [i1.Router, i4.Title], null, null)], null, null);
 }
 export var ExploreComponentNgFactory = i0.ɵccf('nvlabs-explore', i3.ExploreComponent, View_ExploreComponent_Host_0, {}, {}, []);
+var styles_NVPFundamentalsComponent = [];
+export var RenderType_NVPFundamentalsComponent = i0.ɵcrt({ encapsulation: 2,
+    styles: styles_NVPFundamentalsComponent, data: {} });
+export function View_NVPFundamentalsComponent_0(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 89, 'div', [['class',
+                'content-sm container plain-content']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(),
+            i0.ɵeld(0, null, null, 86, 'div', [['class', 'row']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 83, 'div', [['class',
+                'col-lg-10 col-lg-offset-1']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h1', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['NVP Fundamentals'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 4, 'div', [['class', 'well']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 1, 'em', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					New to nonvolatile processors? Don\'t worry, we\'ll help you understand the fundamentals within just a few minutes. Get started now and make yourself an NVP-pro!\n				'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['What Is Nonvolatile Processor And Why Matters?'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 6, 'div', [['class',
+                'figure']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'Desired features of IoT processor'], ['class', 'img-responsive'],
+            ['src', 'img/explore/1.jpg']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'div', [['class', 'caption']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Figure 1: Four desired features of IoT processor'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 4, 'p', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Before we dive into nonvolatile processors in detail, let\'s start with a question on IoT processors: '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['what is the desired features of processors in IoT edge devices?'])), (_l()(),
+            i0.ɵted(null, [' This question is quite important because the processors acts as the "brain" of IoT devices and handles most of the computation and control tasks. As shown in Figure 1, we identify three features that an IoT processor should possess:'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'ul', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Ultra-low power:'])),
+        (_l()(), i0.ɵted(null, [' The power envelopes for IoT edge devices are relatively small, and what\'s even worse, we have to reserve a large portion of power for wireless data transmission. For this reason, the processor must has ultra-low power consumption in both active and idle states.  '])),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Rapid response:'])), (_l()(), i0.ɵted(null, [' In most of the time IoT processors stay in idle or off state, until an external event switch them to active mode. The switching cost must be minimized so that the precious energy can be reserved for userful task execution.'])),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['Micro-sized:'])), (_l()(), i0.ɵted(null, [' A micro-sized form factor is highly desired in use cases such as implantable devices and "smart dust".  '])),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['High reliability:'])), (_l()(), i0.ɵted(null, [' When IoT becomes more ingrained in our daily life, its reliability and security becomes a serious concern. Imagine what would happen if our health and lives is hacked via wearable or implantable devices! '])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['	\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 6, 'div', [['class', 'figure']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt',
+                'Limitations of conventional processor'], ['class', 'img-responsive'], ['src',
+                'img/explore/2.jpg']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 1, 'div', [['class', 'caption']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Figure 2: Limitations of conventional processor"'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 4, 'p', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Unfortunately, conventional processors can hardly satisfy those requirements, as shown in Figure 2. The volatile nature of CMOS circuitry — '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['"No power, no data"'])), (_l()(), i0.ɵted(null, [' — becomes a fundamental limitation for IoT devices to achieve desirable power, size, reliability and response speed. '])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 11, 'ul', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Power:'])),
+        (_l()(), i0.ɵted(null, [' As semiconductor feature size shrinks, static (leakage) power has exceeded dynamic power and dominates the total power consumption. Conventional processors have to consume pretty high leakage current to retain data, which results in a even tighter power budget for useful task execution. '])),
+        (_l()(), i0.ɵted(null, [' \n				'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Response speed:'])), (_l()(),
+            i0.ɵted(null, [' One way to mitigate the leakage power issue is to store the entire system states into nonvolatile memory (e.g., on-chip Flash) when switching from active to  idle or off state. However, reading or writing the nonvolatile memories will be both energy and time consuming. '])),
+        (_l()(), i0.ɵted(null, ['\n\n			'])), (_l()(), i0.ɵted(null, ['\n\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['How To Design An NVP?'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(),
+            i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Applications Of NVP'])), (_l()(), i0.ɵted(null, ['\n\n\n		'])), (_l()(),
+            i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(),
+            i0.ɵted(null, ['\n']))], null, null);
+}
+export function View_NVPFundamentalsComponent_Host_0(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'nvlabs-fundamentals', [], null, null, null, View_NVPFundamentalsComponent_0, RenderType_NVPFundamentalsComponent)), i0.ɵdid(49152, null, 0, i3.NVPFundamentalsComponent, [], null, null)], null, null);
+}
+export var NVPFundamentalsComponentNgFactory = i0.ɵccf('nvlabs-fundamentals', i3.NVPFundamentalsComponent, View_NVPFundamentalsComponent_Host_0, {}, {}, []);
+var styles_RecommendedReadingComponent = [];
+export var RenderType_RecommendedReadingComponent = i0.ɵcrt({ encapsulation: 2,
+    styles: styles_RecommendedReadingComponent, data: {} });
+function View_RecommendedReadingComponent_1(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 18, 'li', [['class',
+                'paper margin-b-10']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class',
+                'paper-abbr']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['[', ']'])), (_l()(), i0.ɵted(null, [' '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-author']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, [' '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-title']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, [', in '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-booktitle']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, [', '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-year']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, ['. '])),
+        (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'paper-link'],
+            ['target', '_blank']], [[8, 'href', 4]], null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 0, 'i', [['aria-hidden',
+                'true'], ['class', 'fa fa-search']], null, null, null, null, null)), (_l()(), i0.ɵted(null, [' Google Scholar']))], null, function (_ck, _v) {
+        var currVal_0 = _v.context.$implicit.abbr;
+        _ck(_v, 2, 0, currVal_0);
+        var currVal_1 = _v.context.$implicit.author;
+        _ck(_v, 5, 0, currVal_1);
+        var currVal_2 = _v.context.$implicit.title;
+        _ck(_v, 8, 0, currVal_2);
+        var currVal_3 = _v.context.$implicit.booktitle;
+        _ck(_v, 11, 0, currVal_3);
+        var currVal_4 = _v.context.$implicit.year;
+        _ck(_v, 14, 0, currVal_4);
+        var currVal_5 = i0.ɵinlineInterpolate(1, '', _v.context.$implicit.link, '');
+        _ck(_v, 16, 0, currVal_5);
+    });
+}
+function View_RecommendedReadingComponent_2(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 18, 'li', [['class',
+                'paper margin-b-10']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class',
+                'paper-abbr']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['[', ']'])), (_l()(), i0.ɵted(null, [' '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-author']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, [' '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-title']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, [', in '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-booktitle']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, [', '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'paper-year']], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['', ''])), (_l()(), i0.ɵted(null, ['. '])),
+        (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'paper-link'],
+            ['target', '_blank']], [[8, 'href', 4]], null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 0, 'i', [['aria-hidden',
+                'true'], ['class', 'fa fa-search']], null, null, null, null, null)), (_l()(), i0.ɵted(null, [' Google Scholar']))], null, function (_ck, _v) {
+        var currVal_0 = _v.context.$implicit.abbr;
+        _ck(_v, 2, 0, currVal_0);
+        var currVal_1 = _v.context.$implicit.author;
+        _ck(_v, 5, 0, currVal_1);
+        var currVal_2 = _v.context.$implicit.title;
+        _ck(_v, 8, 0, currVal_2);
+        var currVal_3 = _v.context.$implicit.booktitle;
+        _ck(_v, 11, 0, currVal_3);
+        var currVal_4 = _v.context.$implicit.year;
+        _ck(_v, 14, 0, currVal_4);
+        var currVal_5 = i0.ɵinlineInterpolate(1, '', _v.context.$implicit.link, '');
+        _ck(_v, 16, 0, currVal_5);
+    });
+}
+export function View_RecommendedReadingComponent_0(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 52, 'div', [['class',
+                'content-sm container plain-content']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(),
+            i0.ɵeld(0, null, null, 49, 'div', [['class', 'row']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 46, 'div', [['class',
+                'col-lg-10 col-lg-offset-1']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n\n			'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h1', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Recommended Reading'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 4, 'p', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Nonvolatile processor has gained increasing attention from both academia and industry since it was first invented in 2012. To grasp the concepts quickly and understand the opportunities and challenges in this area, we recommend you read the following '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['review articles'])), (_l()(), i0.ɵted(null, [' firstly:'])), (_l()(),
+            i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n				'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Review'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 4, 'ul', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_RecommendedReadingComponent_1)), i0.ɵdid(802816, null, 0, i2.NgForOf, [i0.ViewContainerRef, i0.TemplateRef, i0.IterableDiffers], { ngForOf: [0, 'ngForOf'] }, null), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['	\n			'])), (_l()(), i0.ɵeld(0, null, null, 4, 'p', [], null, null, null, null, null)),
+        (_l()(), i0.ɵted(null, ['On top of that, we also classify the research topics related to nonvolatile processor into four categories: '])),
+        (_l()(), i0.ɵeld(0, null, null, 1, 'strong', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['device & circuit design, architectural exploration, system integration and software & application'])),
+        (_l()(), i0.ɵted(null, ['. Below are selected articles in each individual topic: '])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Device & Circuit Design'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Architectural Exploration'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['System Integration'])), (_l()(),
+            i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 4, 'ul', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵand(16777216, null, null, 1, null, View_RecommendedReadingComponent_2)),
+        i0.ɵdid(802816, null, 0, i2.NgForOf, [i0.ViewContainerRef, i0.TemplateRef,
+            i0.IterableDiffers], { ngForOf: [0, 'ngForOf'] }, null), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['	\n			'])), (_l()(), i0.ɵeld(0, null, null, 1, 'h2', [], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['Software Support'])), (_l()(), i0.ɵted(null, ['\n\n\n\n\n\n\n\n		'])),
+        (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n'])),
+        (_l()(), i0.ɵted(null, ['\n']))], function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = _co.reviewPapers;
+        _ck(_v, 24, 0, currVal_0);
+        var currVal_1 = _co.systemPapers;
+        _ck(_v, 45, 0, currVal_1);
+    }, null);
+}
+export function View_RecommendedReadingComponent_Host_0(_l) {
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, null, null, 1, 'nvlabs-recommended-reading', [], null, null, null, View_RecommendedReadingComponent_0, RenderType_RecommendedReadingComponent)), i0.ɵdid(49152, null, 0, i3.RecommendedReadingComponent, [i4.Title], null, null)], null, null);
+}
+export var RecommendedReadingComponentNgFactory = i0.ɵccf('nvlabs-recommended-reading', i3.RecommendedReadingComponent, View_RecommendedReadingComponent_Host_0, {}, {}, []);
 //# sourceMappingURL=explore.component.ngfactory.js.map

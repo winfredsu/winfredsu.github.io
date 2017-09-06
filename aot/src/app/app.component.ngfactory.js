@@ -12,31 +12,36 @@ var styles_AppComponent = [];
 export var RenderType_AppComponent = i0.ɵcrt({ encapsulation: 2, styles: styles_AppComponent,
     data: {} });
 export function View_AppComponent_0(_l) {
-    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, [['navbarFixedTop', 1]], null, 74, 'header', [['class', 'header navbar-fixed-top']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(),
-            i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 69, 'nav', [['class', 'navbar'], ['role', 'navigation']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])),
-        (_l()(), i0.ɵeld(0, null, null, 66, 'div', [['class', 'container']], null, null, null, null, null)),
+    return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, [['navbarFixedTop', 1]], null, 75, 'header', [['class', 'header navbar-fixed-top']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(),
+            i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 70, 'nav', [['class', 'navbar'], ['role', 'navigation']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])),
+        (_l()(), i0.ɵeld(0, null, null, 67, 'div', [['class', 'container']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
-        (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class', 'menu-container']], null, null, null, null, null)),
+        (_l()(), i0.ɵeld(0, null, null, 22, 'div', [['class', 'menu-container']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 6, 'button', [['class', 'navbar-toggle'], ['data-target', '.nav-collapse'], ['data-toggle',
                 'collapse'], ['type', 'button']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
         (_l()(), i0.ɵeld(0, null, null, 1, 'span', [['class', 'sr-only']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['Toggle navigation'])), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 0, 'span', [['class',
-                'toggle-icon']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 8, 'div', [['class', 'logo']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 5, 'a', [['class',
-                'logo-wrap'], ['href', '#body']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])),
-        (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'NVLabs Logo'],
-            ['class', 'logo-img logo-img-main'], ['src', 'img/logo.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt',
-                'NVLabs Logo'], ['class', 'logo-img logo-img-active'], ['src', 'img/logo-dark.png']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])),
-        (_l()(), i0.ɵted(null, ['\n\n			'])), (_l()(), i0.ɵted(null, ['\n			'])),
-        (_l()(), i0.ɵeld(0, null, null, 37, 'div', [['class', 'collapse navbar-collapse nav-collapse']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 34, 'div', [['class', 'menu-container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
-        (_l()(), i0.ɵeld(0, null, null, 31, 'ul', [['class', 'nav navbar-nav navbar-nav-right']], null, null, null, null, null)),
+                'toggle-icon']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 9, 'div', [['class', 'logo']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 6, 'a', [['class',
+                'logo-wrap'], ['routerLink', '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null,
+                'click']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i0.ɵnov(_v, 22).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'NVLabs Logo'], ['class', 'logo-img logo-img-main'],
+            ['src', 'img/logo.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'NVLabs Logo'], ['class', 'logo-img logo-img-active'],
+            ['src', 'img/logo-dark.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
+        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n\n			'])),
+        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 37, 'div', [['class', 'collapse navbar-collapse nav-collapse']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 34, 'div', [['class',
+                'menu-container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 31, 'ul', [['class', 'nav navbar-nav navbar-nav-right']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n						'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'nav-item active']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['class', 'nav-item-child nav-item-hover'], ['routerLink',
                 '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 40).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 41).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -47,7 +52,7 @@ export function View_AppComponent_0(_l) {
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 45).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 46).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -58,7 +63,7 @@ export function View_AppComponent_0(_l) {
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 50).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 51).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -69,7 +74,7 @@ export function View_AppComponent_0(_l) {
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 55).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 56).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -80,7 +85,7 @@ export function View_AppComponent_0(_l) {
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 60).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 61).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -90,21 +95,21 @@ export function View_AppComponent_0(_l) {
             ['routerLink', '/about']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 65).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 66).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
         }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['About'])), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵted(null, [' \n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵeld(0, null, null, 4, 'div', [['class', 'content']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(16777216, null, null, 1, 'router-outlet', [], null, null, null, null, null)),
         i0.ɵdid(212992, null, 0, i1.RouterOutlet, [i1.ChildrenOutletContexts, i0.ViewContainerRef,
-            i0.ComponentFactoryResolver, [8, null], i0.ChangeDetectorRef], null, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 83, 'footer', [['class', 'footer']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 74, 'div', [['class',
-                'content-xs container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 70, 'div', [['class', 'row']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class',
+            i0.ComponentFactoryResolver, [8, null], i0.ChangeDetectorRef], null, null), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n'])), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵeld(0, null, null, 79, 'footer', [['class', 'footer']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 70, 'div', [['class',
+                'content-xs container']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵeld(0, null, null, 66, 'div', [['class', 'row']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 21, 'div', [['class',
                 'col-sm-2 col-xs-3']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 16, 'ul', [['class',
                 'list-unstyled footer-list']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n					'])),
         (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'footer-list-item']], null, null, null, null, null)),
         (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['routerLink', '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 100).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 101).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -113,7 +118,7 @@ export function View_AppComponent_0(_l) {
                 '/platform']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 105).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 106).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -122,7 +127,7 @@ export function View_AppComponent_0(_l) {
                 '/simulator']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 110).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 111).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -131,7 +136,7 @@ export function View_AppComponent_0(_l) {
                 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 123).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 124).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -140,7 +145,7 @@ export function View_AppComponent_0(_l) {
                 '/explore']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 128).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 129).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -149,99 +154,108 @@ export function View_AppComponent_0(_l) {
                 '/about']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 133).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 134).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['About'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 16, 'div', [['class', 'col-sm-8 col-xs-6']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 6, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)),
+        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['About'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵeld(0, null, null, 17, 'div', [['class', 'col-sm-8 col-xs-6']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵeld(0, null, null, 6, 'ul', [['class', 'list-unstyled footer-list']], null, null, null, null, null)),
         (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 3, 'li', [['class', 'footer-list-item']], null, null, null, null, null)), (_l()(), i0.ɵeld(0, null, null, 2, 'a', [['routerLink', 'terms-and-conditions']], [[1, 'target',
                 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i0.ɵnov(_v, 146).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                var pd_0 = (i0.ɵnov(_v, 147).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
         }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['Terms & Conditions'])), (_l()(),
             i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵeld(0, null, null, 3, 'div', [['class', 'margin-b-0 text-right']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'Aitonepage Logo'], ['class', 'footer-logo'],
-            ['src', 'img/logo-dark.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])),
-        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵted(null, ['\n				'])),
-        (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n		'])),
-        (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n	'])),
-        (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])),
-        (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)),
-        (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n']))], function (_ck, _v) {
+        (_l()(), i0.ɵeld(0, null, null, 4, 'a', [['class', 'margin-b-0 text-right'],
+            ['routerLink', '/home']], [[1, 'target', 0], [8, 'href', 4]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i0.ɵnov(_v, 152).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, null, null)), i0.ɵdid(671744, null, 0, i1.RouterLinkWithHref, [i1.Router, i1.ActivatedRoute, i2.LocationStrategy], { routerLink: [0, 'routerLink'] }, null), (_l()(), i0.ɵted(null, ['\n					'])), (_l()(), i0.ɵeld(0, null, null, 0, 'img', [['alt', 'Aitonepage Logo'], ['class',
+                'footer-logo'], ['src', 'img/logo-dark.png']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n				'])), (_l()(), i0.ɵted(null, ['\n			'])), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n		'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵted(null, ['\n	'])), (_l()(), i0.ɵeld(0, null, null, 0, 'div', [['class', 'section-seperator']], null, null, null, null, null)), (_l()(), i0.ɵted(null, ['\n'])), (_l()(), i0.ɵted(null, ['\n\n']))], function (_ck, _v) {
         var currVal_2 = '/home';
-        _ck(_v, 40, 0, currVal_2);
-        var currVal_5 = '/platform';
-        _ck(_v, 45, 0, currVal_5);
-        var currVal_8 = '/simulator';
-        _ck(_v, 50, 0, currVal_8);
-        var currVal_11 = '/showcase';
-        _ck(_v, 55, 0, currVal_11);
-        var currVal_14 = '/explore';
-        _ck(_v, 60, 0, currVal_14);
-        var currVal_17 = '/about';
-        _ck(_v, 65, 0, currVal_17);
-        _ck(_v, 80, 0);
-        var currVal_20 = '/home';
-        _ck(_v, 100, 0, currVal_20);
-        var currVal_23 = '/platform';
-        _ck(_v, 105, 0, currVal_23);
-        var currVal_26 = '/simulator';
-        _ck(_v, 110, 0, currVal_26);
-        var currVal_29 = '/showcase';
-        _ck(_v, 123, 0, currVal_29);
-        var currVal_32 = '/explore';
-        _ck(_v, 128, 0, currVal_32);
-        var currVal_35 = '/about';
-        _ck(_v, 133, 0, currVal_35);
-        var currVal_38 = 'terms-and-conditions';
-        _ck(_v, 146, 0, currVal_38);
+        _ck(_v, 22, 0, currVal_2);
+        var currVal_5 = '/home';
+        _ck(_v, 41, 0, currVal_5);
+        var currVal_8 = '/platform';
+        _ck(_v, 46, 0, currVal_8);
+        var currVal_11 = '/simulator';
+        _ck(_v, 51, 0, currVal_11);
+        var currVal_14 = '/showcase';
+        _ck(_v, 56, 0, currVal_14);
+        var currVal_17 = '/explore';
+        _ck(_v, 61, 0, currVal_17);
+        var currVal_20 = '/about';
+        _ck(_v, 66, 0, currVal_20);
+        _ck(_v, 81, 0);
+        var currVal_23 = '/home';
+        _ck(_v, 101, 0, currVal_23);
+        var currVal_26 = '/platform';
+        _ck(_v, 106, 0, currVal_26);
+        var currVal_29 = '/simulator';
+        _ck(_v, 111, 0, currVal_29);
+        var currVal_32 = '/showcase';
+        _ck(_v, 124, 0, currVal_32);
+        var currVal_35 = '/explore';
+        _ck(_v, 129, 0, currVal_35);
+        var currVal_38 = '/about';
+        _ck(_v, 134, 0, currVal_38);
+        var currVal_41 = 'terms-and-conditions';
+        _ck(_v, 147, 0, currVal_41);
+        var currVal_44 = '/home';
+        _ck(_v, 152, 0, currVal_44);
     }, function (_ck, _v) {
-        var currVal_0 = i0.ɵnov(_v, 40).target;
-        var currVal_1 = i0.ɵnov(_v, 40).href;
-        _ck(_v, 39, 0, currVal_0, currVal_1);
-        var currVal_3 = i0.ɵnov(_v, 45).target;
-        var currVal_4 = i0.ɵnov(_v, 45).href;
-        _ck(_v, 44, 0, currVal_3, currVal_4);
-        var currVal_6 = i0.ɵnov(_v, 50).target;
-        var currVal_7 = i0.ɵnov(_v, 50).href;
-        _ck(_v, 49, 0, currVal_6, currVal_7);
-        var currVal_9 = i0.ɵnov(_v, 55).target;
-        var currVal_10 = i0.ɵnov(_v, 55).href;
-        _ck(_v, 54, 0, currVal_9, currVal_10);
-        var currVal_12 = i0.ɵnov(_v, 60).target;
-        var currVal_13 = i0.ɵnov(_v, 60).href;
-        _ck(_v, 59, 0, currVal_12, currVal_13);
-        var currVal_15 = i0.ɵnov(_v, 65).target;
-        var currVal_16 = i0.ɵnov(_v, 65).href;
-        _ck(_v, 64, 0, currVal_15, currVal_16);
-        var currVal_18 = i0.ɵnov(_v, 100).target;
-        var currVal_19 = i0.ɵnov(_v, 100).href;
-        _ck(_v, 99, 0, currVal_18, currVal_19);
-        var currVal_21 = i0.ɵnov(_v, 105).target;
-        var currVal_22 = i0.ɵnov(_v, 105).href;
-        _ck(_v, 104, 0, currVal_21, currVal_22);
-        var currVal_24 = i0.ɵnov(_v, 110).target;
-        var currVal_25 = i0.ɵnov(_v, 110).href;
-        _ck(_v, 109, 0, currVal_24, currVal_25);
-        var currVal_27 = i0.ɵnov(_v, 123).target;
-        var currVal_28 = i0.ɵnov(_v, 123).href;
-        _ck(_v, 122, 0, currVal_27, currVal_28);
-        var currVal_30 = i0.ɵnov(_v, 128).target;
-        var currVal_31 = i0.ɵnov(_v, 128).href;
-        _ck(_v, 127, 0, currVal_30, currVal_31);
-        var currVal_33 = i0.ɵnov(_v, 133).target;
-        var currVal_34 = i0.ɵnov(_v, 133).href;
-        _ck(_v, 132, 0, currVal_33, currVal_34);
-        var currVal_36 = i0.ɵnov(_v, 146).target;
-        var currVal_37 = i0.ɵnov(_v, 146).href;
-        _ck(_v, 145, 0, currVal_36, currVal_37);
+        var currVal_0 = i0.ɵnov(_v, 22).target;
+        var currVal_1 = i0.ɵnov(_v, 22).href;
+        _ck(_v, 21, 0, currVal_0, currVal_1);
+        var currVal_3 = i0.ɵnov(_v, 41).target;
+        var currVal_4 = i0.ɵnov(_v, 41).href;
+        _ck(_v, 40, 0, currVal_3, currVal_4);
+        var currVal_6 = i0.ɵnov(_v, 46).target;
+        var currVal_7 = i0.ɵnov(_v, 46).href;
+        _ck(_v, 45, 0, currVal_6, currVal_7);
+        var currVal_9 = i0.ɵnov(_v, 51).target;
+        var currVal_10 = i0.ɵnov(_v, 51).href;
+        _ck(_v, 50, 0, currVal_9, currVal_10);
+        var currVal_12 = i0.ɵnov(_v, 56).target;
+        var currVal_13 = i0.ɵnov(_v, 56).href;
+        _ck(_v, 55, 0, currVal_12, currVal_13);
+        var currVal_15 = i0.ɵnov(_v, 61).target;
+        var currVal_16 = i0.ɵnov(_v, 61).href;
+        _ck(_v, 60, 0, currVal_15, currVal_16);
+        var currVal_18 = i0.ɵnov(_v, 66).target;
+        var currVal_19 = i0.ɵnov(_v, 66).href;
+        _ck(_v, 65, 0, currVal_18, currVal_19);
+        var currVal_21 = i0.ɵnov(_v, 101).target;
+        var currVal_22 = i0.ɵnov(_v, 101).href;
+        _ck(_v, 100, 0, currVal_21, currVal_22);
+        var currVal_24 = i0.ɵnov(_v, 106).target;
+        var currVal_25 = i0.ɵnov(_v, 106).href;
+        _ck(_v, 105, 0, currVal_24, currVal_25);
+        var currVal_27 = i0.ɵnov(_v, 111).target;
+        var currVal_28 = i0.ɵnov(_v, 111).href;
+        _ck(_v, 110, 0, currVal_27, currVal_28);
+        var currVal_30 = i0.ɵnov(_v, 124).target;
+        var currVal_31 = i0.ɵnov(_v, 124).href;
+        _ck(_v, 123, 0, currVal_30, currVal_31);
+        var currVal_33 = i0.ɵnov(_v, 129).target;
+        var currVal_34 = i0.ɵnov(_v, 129).href;
+        _ck(_v, 128, 0, currVal_33, currVal_34);
+        var currVal_36 = i0.ɵnov(_v, 134).target;
+        var currVal_37 = i0.ɵnov(_v, 134).href;
+        _ck(_v, 133, 0, currVal_36, currVal_37);
+        var currVal_39 = i0.ɵnov(_v, 147).target;
+        var currVal_40 = i0.ɵnov(_v, 147).href;
+        _ck(_v, 146, 0, currVal_39, currVal_40);
+        var currVal_42 = i0.ɵnov(_v, 152).target;
+        var currVal_43 = i0.ɵnov(_v, 152).href;
+        _ck(_v, 151, 0, currVal_42, currVal_43);
     });
 }
 export function View_AppComponent_Host_0(_l) {

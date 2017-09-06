@@ -11,83 +11,84 @@ import * as i3 from './home/home.component.ngfactory';
 import * as i4 from './platform/platform.component.ngfactory';
 import * as i5 from './simulator/simulator.component.ngfactory';
 import * as i6 from './showcase/showcase.component.ngfactory';
-import * as i7 from './showcase/breath-monitor/breath-monitor.component.ngfactory';
-import * as i8 from './explore/explore.component.ngfactory';
-import * as i9 from './explore/recommended-reading/recommended-reading.component.ngfactory';
-import * as i10 from './about/about.component.ngfactory';
-import * as i11 from './terms/terms.component.ngfactory';
-import * as i12 from './app.component.ngfactory';
-import * as i13 from '@angular/common';
-import * as i14 from '@angular/platform-browser';
-import * as i15 from '@angular/router';
-import * as i16 from '@agm/core/utils/browser-globals';
-import * as i17 from '@agm/core/services/maps-api-loader/maps-api-loader';
-import * as i18 from '@agm/core/services/maps-api-loader/lazy-maps-api-loader';
-import * as i19 from '../../../src/app/home/home.component';
-import * as i20 from '../../../src/app/platform/platform.component';
-import * as i21 from '../../../src/app/simulator/simulator.component';
-import * as i22 from '../../../src/app/showcase/showcase.component';
-import * as i23 from '../../../src/app/showcase/breath-monitor/breath-monitor.component';
-import * as i24 from '../../../src/app/explore/explore.component';
-import * as i25 from '../../../src/app/explore/recommended-reading/recommended-reading.component';
-import * as i26 from '../../../src/app/about/about.component';
-import * as i27 from '../../../src/app/terms/terms.component';
-import * as i28 from '../../../src/app/app-routing.module';
-import * as i29 from '@agm/core/core.module';
+import * as i7 from './explore/explore.component.ngfactory';
+import * as i8 from './about/about.component.ngfactory';
+import * as i9 from './terms/terms.component.ngfactory';
+import * as i10 from './app.component.ngfactory';
+import * as i11 from '@angular/common';
+import * as i12 from '@angular/platform-browser';
+import * as i13 from '@angular/router';
+import * as i14 from '@agm/core/utils/browser-globals';
+import * as i15 from '@agm/core/services/maps-api-loader/maps-api-loader';
+import * as i16 from '@agm/core/services/maps-api-loader/lazy-maps-api-loader';
+import * as i17 from '../../../src/app/home/home.component';
+import * as i18 from '../../../src/app/platform/platform.component';
+import * as i19 from '../../../src/app/simulator/simulator.component';
+import * as i20 from '../../../src/app/showcase/showcase.component';
+import * as i21 from '../../../src/app/explore/explore.component';
+import * as i22 from '../../../src/app/about/about.component';
+import * as i23 from '../../../src/app/terms/terms.component';
+import * as i24 from '../../../src/app/app-routing.module';
+import * as i25 from '@agm/core/core.module';
 export var AppModuleNgFactory = i0.ɵcmf(i1.AppModule, [i2.AppComponent], function (_l) {
     return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.HomeComponentNgFactory, i4.PlatformComponentNgFactory, i4.PlatformOverviewComponentNgFactory,
                     i4.PlatformGettingStartedComponentNgFactory, i4.PlatformTechspecsComponentNgFactory,
                     i4.PlatformDownloadsComponentNgFactory, i5.SimulatorComponentNgFactory,
                     i5.SimulatorOverviewComponentNgFactory, i5.SimulatorGettingStartedComponentNgFactory,
                     i5.SimulatorDocumentationComponentNgFactory, i5.SimulatorExamplesComponentNgFactory,
-                    i6.ShowcaseComponentNgFactory, i7.BreathMonitorComponentNgFactory, i8.ExploreComponentNgFactory,
-                    i9.RecommendedReadingComponentNgFactory, i10.AboutComponentNgFactory,
-                    i11.TermsComponentNgFactory, i12.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver],
-            i0.NgModuleRef]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵm, [[3, i0.LOCALE_ID]]),
-        i0.ɵmpd(4608, i13.NgLocalization, i13.NgLocaleLocalization, [i0.LOCALE_ID]),
-        i0.ɵmpd(5120, i0.APP_ID, i0.ɵf, []), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵk, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵl, []),
-        i0.ɵmpd(4608, i14.DomSanitizer, i14.ɵe, [i13.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i14.DomSanitizer]), i0.ɵmpd(4608, i14.HAMMER_GESTURE_CONFIG, i14.HammerGestureConfig, []), i0.ɵmpd(5120, i14.EVENT_MANAGER_PLUGINS, function (p0_0, p1_0, p2_0, p2_1) {
-            return [new i14.ɵDomEventsPlugin(p0_0), new i14.ɵKeyEventsPlugin(p1_0),
-                new i14.ɵHammerGesturesPlugin(p2_0, p2_1)];
-        }, [i13.DOCUMENT, i13.DOCUMENT, i13.DOCUMENT, i14.HAMMER_GESTURE_CONFIG]),
-        i0.ɵmpd(4608, i14.EventManager, i14.EventManager, [i14.EVENT_MANAGER_PLUGINS,
-            i0.NgZone]), i0.ɵmpd(135680, i14.ɵDomSharedStylesHost, i14.ɵDomSharedStylesHost, [i13.DOCUMENT]), i0.ɵmpd(4608, i14.ɵDomRendererFactory2, i14.ɵDomRendererFactory2, [i14.EventManager, i14.ɵDomSharedStylesHost]), i0.ɵmpd(6144, i0.RendererFactory2, null, [i14.ɵDomRendererFactory2]), i0.ɵmpd(6144, i14.ɵSharedStylesHost, null, [i14.ɵDomSharedStylesHost]), i0.ɵmpd(4608, i0.Testability, i0.Testability, [i0.NgZone]), i0.ɵmpd(4608, i14.Meta, i14.Meta, [i13.DOCUMENT]),
-        i0.ɵmpd(4608, i14.Title, i14.Title, [i13.DOCUMENT]), i0.ɵmpd(5120, i15.ActivatedRoute, i15.ɵf, [i15.Router]), i0.ɵmpd(4608, i15.NoPreloading, i15.NoPreloading, []), i0.ɵmpd(6144, i15.PreloadingStrategy, null, [i15.NoPreloading]),
-        i0.ɵmpd(135680, i15.RouterPreloader, i15.RouterPreloader, [i15.Router, i0.NgModuleFactoryLoader,
-            i0.Compiler, i0.Injector, i15.PreloadingStrategy]), i0.ɵmpd(4608, i15.PreloadAllModules, i15.PreloadAllModules, []), i0.ɵmpd(5120, i15.ROUTER_INITIALIZER, i15.ɵi, [i15.ɵg]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) {
+                    i6.ShowcaseComponentNgFactory, i6.SelfPoweredWearablesComponentNgFactory,
+                    i6.TransientComputingComponentNgFactory, i6.LowPowerIoTComponentNgFactory,
+                    i7.ExploreComponentNgFactory, i7.RecommendedReadingComponentNgFactory,
+                    i7.NVPFundamentalsComponentNgFactory, i8.AboutComponentNgFactory, i9.TermsComponentNgFactory,
+                    i10.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]),
+        i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵm, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i11.NgLocalization, i11.NgLocaleLocalization, [i0.LOCALE_ID]), i0.ɵmpd(5120, i0.APP_ID, i0.ɵf, []), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵk, []),
+        i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵl, []), i0.ɵmpd(4608, i12.DomSanitizer, i12.ɵe, [i11.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i12.DomSanitizer]),
+        i0.ɵmpd(4608, i12.HAMMER_GESTURE_CONFIG, i12.HammerGestureConfig, []),
+        i0.ɵmpd(5120, i12.EVENT_MANAGER_PLUGINS, function (p0_0, p1_0, p2_0, p2_1) {
+            return [new i12.ɵDomEventsPlugin(p0_0), new i12.ɵKeyEventsPlugin(p1_0),
+                new i12.ɵHammerGesturesPlugin(p2_0, p2_1)];
+        }, [i11.DOCUMENT, i11.DOCUMENT, i11.DOCUMENT, i12.HAMMER_GESTURE_CONFIG]), i0.ɵmpd(4608, i12.EventManager, i12.EventManager, [i12.EVENT_MANAGER_PLUGINS, i0.NgZone]),
+        i0.ɵmpd(135680, i12.ɵDomSharedStylesHost, i12.ɵDomSharedStylesHost, [i11.DOCUMENT]),
+        i0.ɵmpd(4608, i12.ɵDomRendererFactory2, i12.ɵDomRendererFactory2, [i12.EventManager,
+            i12.ɵDomSharedStylesHost]), i0.ɵmpd(6144, i0.RendererFactory2, null, [i12.ɵDomRendererFactory2]), i0.ɵmpd(6144, i12.ɵSharedStylesHost, null, [i12.ɵDomSharedStylesHost]), i0.ɵmpd(4608, i0.Testability, i0.Testability, [i0.NgZone]), i0.ɵmpd(4608, i12.Meta, i12.Meta, [i11.DOCUMENT]), i0.ɵmpd(4608, i12.Title, i12.Title, [i11.DOCUMENT]), i0.ɵmpd(5120, i13.ActivatedRoute, i13.ɵf, [i13.Router]), i0.ɵmpd(4608, i13.NoPreloading, i13.NoPreloading, []), i0.ɵmpd(6144, i13.PreloadingStrategy, null, [i13.NoPreloading]),
+        i0.ɵmpd(135680, i13.RouterPreloader, i13.RouterPreloader, [i13.Router, i0.NgModuleFactoryLoader,
+            i0.Compiler, i0.Injector, i13.PreloadingStrategy]), i0.ɵmpd(4608, i13.PreloadAllModules, i13.PreloadAllModules, []), i0.ɵmpd(5120, i13.ROUTER_INITIALIZER, i13.ɵi, [i13.ɵg]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) {
             return [p0_0];
-        }, [i15.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i16.WindowRef, i16.WindowRef, []),
-        i0.ɵmpd(4608, i16.DocumentRef, i16.DocumentRef, []), i0.ɵmpd(4608, i17.MapsAPILoader, i18.LazyMapsAPILoader, [i18.LAZY_MAPS_API_CONFIG, i16.WindowRef,
-            i16.DocumentRef]), i0.ɵmpd(512, i13.CommonModule, i13.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i14.ɵa, []), i0.ɵmpd(1024, i0.NgProbeToken, function () {
-            return [i15.ɵb()];
-        }, []), i0.ɵmpd(512, i15.ɵg, i15.ɵg, [i0.Injector]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p0_1, p1_0) {
-            return [i14.ɵc(p0_0, p0_1), i15.ɵh(p1_0)];
-        }, [[2, i14.NgProbeToken], [2, i0.NgProbeToken], i15.ɵg]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ɵe, i0.ɵe, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver,
+        }, [i13.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i14.WindowRef, i14.WindowRef, []),
+        i0.ɵmpd(4608, i14.DocumentRef, i14.DocumentRef, []), i0.ɵmpd(4608, i15.MapsAPILoader, i16.LazyMapsAPILoader, [i16.LAZY_MAPS_API_CONFIG, i14.WindowRef,
+            i14.DocumentRef]), i0.ɵmpd(512, i11.CommonModule, i11.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i12.ɵa, []), i0.ɵmpd(1024, i0.NgProbeToken, function () {
+            return [i13.ɵb()];
+        }, []), i0.ɵmpd(512, i13.ɵg, i13.ɵg, [i0.Injector]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p0_1, p1_0) {
+            return [i12.ɵc(p0_0, p0_1), i13.ɵh(p1_0)];
+        }, [[2, i12.NgProbeToken], [2, i0.NgProbeToken], i13.ɵg]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ɵe, i0.ɵe, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver,
             i0.ApplicationInitStatus]), i0.ɵmpd(2048, i0.ApplicationRef, null, [i0.ɵe]), i0.ɵmpd(512, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]),
-        i0.ɵmpd(512, i14.BrowserModule, i14.BrowserModule, [[3, i14.BrowserModule]]),
-        i0.ɵmpd(1024, i15.ɵa, i15.ɵd, [[3, i15.Router]]), i0.ɵmpd(512, i15.UrlSerializer, i15.DefaultUrlSerializer, []), i0.ɵmpd(512, i15.ChildrenOutletContexts, i15.ChildrenOutletContexts, []), i0.ɵmpd(256, i15.ROUTER_CONFIGURATION, {}, []), i0.ɵmpd(1024, i13.LocationStrategy, i15.ɵc, [i13.PlatformLocation,
-            [2, i13.APP_BASE_HREF], i15.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i13.Location, i13.Location, [i13.LocationStrategy]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i0.SystemJsNgModuleLoader, [i0.Compiler, [2, i0.SystemJsNgModuleLoaderConfig]]), i0.ɵmpd(1024, i15.ROUTES, function () {
+        i0.ɵmpd(512, i12.BrowserModule, i12.BrowserModule, [[3, i12.BrowserModule]]),
+        i0.ɵmpd(1024, i13.ɵa, i13.ɵd, [[3, i13.Router]]), i0.ɵmpd(512, i13.UrlSerializer, i13.DefaultUrlSerializer, []), i0.ɵmpd(512, i13.ChildrenOutletContexts, i13.ChildrenOutletContexts, []), i0.ɵmpd(256, i13.ROUTER_CONFIGURATION, {}, []), i0.ɵmpd(1024, i11.LocationStrategy, i13.ɵc, [i11.PlatformLocation,
+            [2, i11.APP_BASE_HREF], i13.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i11.Location, i11.Location, [i11.LocationStrategy]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i0.SystemJsNgModuleLoader, [i0.Compiler, [2, i0.SystemJsNgModuleLoaderConfig]]), i0.ɵmpd(1024, i13.ROUTES, function () {
             return [[{ path: '', redirectTo: '/home', pathMatch: 'full' }, { path: 'home',
-                        component: i19.HomeComponent }, { path: 'platform', component: i20.PlatformComponent,
+                        component: i17.HomeComponent }, { path: 'platform', component: i18.PlatformComponent,
                         children: [{ path: '', redirectTo: 'overview', pathMatch: 'full' }, { path: 'overview',
-                                component: i20.PlatformOverviewComponent }, { path: 'getting-started',
-                                component: i20.PlatformGettingStartedComponent }, { path: 'techspecs',
-                                component: i20.PlatformTechspecsComponent }, { path: 'downloads',
-                                component: i20.PlatformDownloadsComponent }] }, { path: 'simulator',
-                        component: i21.SimulatorComponent, children: [{ path: '', redirectTo: 'overview',
-                                pathMatch: 'full' }, { path: 'overview', component: i21.SimulatorOverviewComponent },
-                            { path: 'getting-started', component: i21.SimulatorGettingStartedComponent },
-                            { path: 'documentation', component: i21.SimulatorDocumentationComponent },
-                            { path: 'examples', component: i21.SimulatorExamplesComponent }] },
-                    { path: 'showcase', component: i22.ShowcaseComponent }, { path: 'showcase/breath-monitor',
-                        component: i23.BreathMonitorComponent }, { path: 'explore', component: i24.ExploreComponent },
-                    { path: 'explore/recommended-reading', component: i25.RecommendedReadingComponent },
-                    { path: 'about', component: i26.AboutComponent }, { path: 'terms-and-conditions',
-                        component: i27.TermsComponent }]];
-        }, []), i0.ɵmpd(1024, i15.Router, i15.ɵe, [i0.ApplicationRef, i15.UrlSerializer,
-            i15.ChildrenOutletContexts, i13.Location, i0.Injector, i0.NgModuleFactoryLoader,
-            i0.Compiler, i15.ROUTES, i15.ROUTER_CONFIGURATION, [2, i15.UrlHandlingStrategy],
-            [2, i15.RouteReuseStrategy]]), i0.ɵmpd(512, i15.RouterModule, i15.RouterModule, [[2, i15.ɵa], [2, i15.Router]]), i0.ɵmpd(512, i28.AppRoutingModule, i28.AppRoutingModule, []), i0.ɵmpd(512, i29.AgmCoreModule, i29.AgmCoreModule, []),
-        i0.ɵmpd(512, i1.AppModule, i1.AppModule, []), i0.ɵmpd(256, i18.LAZY_MAPS_API_CONFIG, { apiKey: 'AIzaSyDFquj9AnLZG3zPXBPdovChfCxujtu2V8E' }, [])]);
+                                component: i18.PlatformOverviewComponent }, { path: 'getting-started',
+                                component: i18.PlatformGettingStartedComponent }, { path: 'techspecs',
+                                component: i18.PlatformTechspecsComponent }, { path: 'downloads',
+                                component: i18.PlatformDownloadsComponent }] }, { path: 'simulator',
+                        component: i19.SimulatorComponent, children: [{ path: '', redirectTo: 'overview',
+                                pathMatch: 'full' }, { path: 'overview', component: i19.SimulatorOverviewComponent },
+                            { path: 'getting-started', component: i19.SimulatorGettingStartedComponent },
+                            { path: 'documentation', component: i19.SimulatorDocumentationComponent },
+                            { path: 'examples', component: i19.SimulatorExamplesComponent }] },
+                    { path: 'showcase', component: i20.ShowcaseComponent }, { path: 'showcase/self-powered-wearables',
+                        component: i20.SelfPoweredWearablesComponent }, { path: 'showcase/transient-computing',
+                        component: i20.TransientComputingComponent }, { path: 'showcase/low-power-iot',
+                        component: i20.LowPowerIoTComponent }, { path: 'explore', component: i21.ExploreComponent },
+                    { path: 'explore/recommended-reading', component: i21.RecommendedReadingComponent },
+                    { path: 'explore/nvp-fundamentals', component: i21.NVPFundamentalsComponent },
+                    { path: 'about', component: i22.AboutComponent }, { path: 'terms-and-conditions',
+                        component: i23.TermsComponent }]];
+        }, []), i0.ɵmpd(1024, i13.Router, i13.ɵe, [i0.ApplicationRef, i13.UrlSerializer,
+            i13.ChildrenOutletContexts, i11.Location, i0.Injector, i0.NgModuleFactoryLoader,
+            i0.Compiler, i13.ROUTES, i13.ROUTER_CONFIGURATION, [2, i13.UrlHandlingStrategy],
+            [2, i13.RouteReuseStrategy]]), i0.ɵmpd(512, i13.RouterModule, i13.RouterModule, [[2, i13.ɵa], [2, i13.Router]]), i0.ɵmpd(512, i24.AppRoutingModule, i24.AppRoutingModule, []), i0.ɵmpd(512, i25.AgmCoreModule, i25.AgmCoreModule, []),
+        i0.ɵmpd(512, i1.AppModule, i1.AppModule, []), i0.ɵmpd(256, i16.LAZY_MAPS_API_CONFIG, { apiKey: 'AIzaSyDFquj9AnLZG3zPXBPdovChfCxujtu2V8E' }, [])]);
 });
 //# sourceMappingURL=app.module.ngfactory.js.map

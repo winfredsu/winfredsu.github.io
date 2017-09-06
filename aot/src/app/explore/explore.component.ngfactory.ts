@@ -137,7 +137,7 @@ export function View_ExploreComponent_0(_l:any):i0.ɵViewDefinition {
           (null as any)),(_l()(),i0.ɵted((null as any),['Recommended Reading'])),(_l()(),
           i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
           1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i0.ɵted((null as any),['Want to learn more? Here is a list of topics we recommend you to follow, including device, circuit, architecture, system design and software support related to nonvolatile processors '])),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Want to learn more? Here is a list of topics we recommend you to follow, including device, circuit, architecture, system integration, software support and application related to nonvolatile processors '])),
       (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,(null as any),
           (null as any),2,'a',[['class','btn-theme btn-theme-xs btn-white-bg text-uppercase'],
               ['routerLink','/explore/recommended-reading']],[[1,'target',0],[8,'href',
@@ -195,4 +195,272 @@ export function View_ExploreComponent_Host_0(_l:any):i0.ɵViewDefinition {
 }
 export const ExploreComponentNgFactory:i0.ComponentFactory<i3.ExploreComponent> = i0.ɵccf('nvlabs-explore',
     i3.ExploreComponent,View_ExploreComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvZXhwbG9yZS9leHBsb3JlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQudHMuRXhwbG9yZUNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxkaXYgY2xhc3M9XCJjb250ZW50LWxnIGNvbnRhaW5lclwiPlxyXG5cdFx0PGRpdiBjbGFzcz1cInNob3djYXNlLXRpdGxlIG1hcmdpbi1iLTgwXCI+XHJcblx0XHRcdFx0PGgxIGNsYXNzPVwibWFyZ2luLWItMTBcIj5FeHBsb3JlPC9oMT5cclxuXHRcdFx0XHQ8cCBjbGFzcz1cInRleHQtdXBwZXJjYXNlXCI+SW5mb3JtYXRpb24gYW5kIHJlc291cmNlcyB0byBsZWFybiBhYm91dCBub252b2xhdGlsZSBwcm9jZXNzb3I8L3A+XHJcblx0XHQ8L2Rpdj5cclxuXHJcblx0XHQ8ZGl2IGNsYXNzPVwicm93XCI+XHJcblx0XHRcdFx0PGRpdiBjbGFzcz1cImV4cGxvcmUtaXRlbSBjb2wtc20tNiBjb2wtbWQtNCBtZC1tYXJnaW4tYi01MCB0ZXh0LWNlbnRlclwiPlxyXG5cdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzPVwibWFyZ2luLWItMjBcIj5cclxuXHRcdFx0XHRcdFx0XHRcdDxpbWcgY2xhc3M9XCJpbWctcmVzcG9uc2l2ZVwiIHNyYz1cImltZy9leHBsb3JlL2JsYWNrYm9hcmQucG5nXCIgYWx0PVwiTlZQIEZ1bmRhbWVudGFsc1wiPlxyXG5cdFx0XHRcdFx0XHQ8L2Rpdj5cclxuXHRcdFx0XHRcdFx0PGgzPjxhIHJvdXRlckxpbms9XCIvZXhwbG9yZS9udnAtZnVuZGFtZW50YWxzXCI+TlZQIEZ1bmRhbWVudGFscyA8L2E+PC9oMz5cclxuXHRcdFx0XHRcdFx0PHA+V2hhdCBpcyBhIG5vbnZvbGF0aWxlIHByb2Nlc3Nvcj8gV2h5IGlzIGl0IGEgYmV0dGVyIGNob2ljZSB0aGFuIGEgdm9sYXRpbGUgb25lPyBIb3cgd2lsbCBpdCBjaGFuZ2UgdGhlIGZ1dHVyZSBvZiBjb21wdXRpbmc/IFRha2UgYSBxdWljayBnbGFuY2UgYXQgXCJOVlAgZnVuZGFtZW50YWxzXCIgd2UgcHJlcGFyZWQgZm9yIHlvdSE8L3A+XHJcblx0XHRcdFx0XHRcdDxhIHJvdXRlckxpbms9XCIvZXhwbG9yZS9udnAtZnVuZGFtZW50YWxzXCIgY2xhc3M9XCJidG4tdGhlbWUgYnRuLXRoZW1lLXhzIGJ0bi13aGl0ZS1iZyB0ZXh0LXVwcGVyY2FzZVwiPkV4cGxvcmU8L2E+XHJcblx0XHRcdFx0PC9kaXY+XHJcblxyXG5cdFx0XHRcdDxkaXYgY2xhc3M9XCJleHBsb3JlLWl0ZW0gY29sLXNtLTYgY29sLW1kLTQgbWQtbWFyZ2luLWItNTAgdGV4dC1jZW50ZXJcIj5cclxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzcz1cIm1hcmdpbi1iLTIwXCI+XHJcblx0XHRcdFx0XHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvZXhwbG9yZS9yb2NrZXQucG5nXCIgYWx0PVwiR2V0dGluZyBTdGFydGVkXCI+XHJcblx0XHRcdFx0XHRcdDwvZGl2PlxyXG5cdFx0XHRcdFx0XHQ8aDM+PGEgcm91dGVyTGluaz1cIi9wbGF0Zm9ybS9nZXR0aW5nLXN0YXJ0ZWRcIj5HZXR0aW5nIFN0YXJ0ZWQgPC9hPjwvaDM+XHJcblx0XHRcdFx0XHRcdDxwPk91ciBOVlBFdmFsIHBsYXRmb3JtIGhlbHBzIHlvdSBxdWlja2x5IGFuZCBlYXNpbHkgcHJvdG90eXBlIGFuIElvVCBzeXN0ZW0gdGFraW5nIGZ1bGwgYWR2YW50YWdlIG9mIG5vdm9sYXRpbGUgcHJvY2Vzc29yLiBTdGFydCBub3cgdG8gdHJhbnNmb3JtIHlvdXIgYnJpbGxpYW50IGNyZWF0aXZlIGlkZWEgaW50byByZWFsaXR5ITwvcD4gXHJcblx0XHRcdFx0XHRcdDxhIHJvdXRlckxpbms9XCIvcGxhdGZvcm0vZ2V0dGluZy1zdGFydGVkXCIgY2xhc3M9XCJidG4tdGhlbWUgYnRuLXRoZW1lLXhzIGJ0bi13aGl0ZS1iZyB0ZXh0LXVwcGVyY2FzZVwiPkV4cGxvcmU8L2E+XHJcblx0XHRcdFx0PC9kaXY+XHJcblxyXG5cdFx0XHRcdDxkaXYgY2xhc3M9XCJleHBsb3JlLWl0ZW0gY29sLXNtLTYgY29sLW1kLTQgbWQtbWFyZ2luLWItNTAgdGV4dC1jZW50ZXJcIj5cclxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzcz1cIm1hcmdpbi1iLTIwXCI+XHJcblx0XHRcdFx0XHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvZXhwbG9yZS9ib29rc2hlbGYucG5nXCIgYWx0PVwiUmVjb21tZW5kZWQgUmVhZGluZ1wiPlxyXG5cdFx0XHRcdFx0XHQ8L2Rpdj5cclxuXHRcdFx0XHRcdFx0PGgzPjxhIHJvdXRlckxpbms9XCIvZXhwbG9yZS9yZWNvbW1lbmRlZC1yZWFkaW5nXCI+UmVjb21tZW5kZWQgUmVhZGluZzwvYT48L2gzPlxyXG5cdFx0XHRcdFx0XHQ8cD5XYW50IHRvIGxlYXJuIG1vcmU/IEhlcmUgaXMgYSBsaXN0IG9mIHRvcGljcyB3ZSByZWNvbW1lbmQgeW91IHRvIGZvbGxvdywgaW5jbHVkaW5nIGRldmljZSwgY2lyY3VpdCwgYXJjaGl0ZWN0dXJlLCBzeXN0ZW0gZGVzaWduIGFuZCBzb2Z0d2FyZSBzdXBwb3J0IHJlbGF0ZWQgdG8gbm9udm9sYXRpbGUgcHJvY2Vzc29ycyA8L3A+XHJcblx0XHRcdFx0XHRcdDxhIHJvdXRlckxpbms9XCIvZXhwbG9yZS9yZWNvbW1lbmRlZC1yZWFkaW5nXCIgY2xhc3M9XCJidG4tdGhlbWUgYnRuLXRoZW1lLXhzIGJ0bi13aGl0ZS1iZyB0ZXh0LXVwcGVyY2FzZVwiPkV4cGxvcmU8L2E+XHJcblx0XHRcdFx0PC9kaXY+XHJcblxyXG5cdFx0PC9kaXY+XHJcbjwvZGl2PlxyXG4iLCI8bnZsYWJzLWV4cGxvcmU+PC9udmxhYnMtZXhwbG9yZT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBO01BQUEsZ0JBQWtDLHlDQUNoQztNQUFBO01BQUEsMERBQXdDO01BQUEsYUFDdEM7TUFBQTtNQUF3Qiw0Q0FBWTtNQUNwQztVQUFBO01BQTBCO01BQWtFLHlDQUN4RjtNQUVOO1VBQUEsMERBQWlCO1VBQUEsYUFDZjtVQUFBO1VBQUEsMERBQXVFO1VBQUEsZUFDckU7VUFBQTtVQUFBLGdCQUF5QiwrQ0FDdkI7VUFBQTtjQUFBO1VBQUEsMERBQW9GO1VBQUEsZUFDaEYsNkNBQ047VUFBQTtVQUFBLDRDQUFJO1VBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxlQUEwQyxzREFBMEI7aUJBQUEsOEJBQ3hFO1VBQUE7VUFBQSxnQkFBRztNQUE4TCw2Q0FDak07VUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7a0JBQUE7Y0FBQTtZQUFBO1lBQUE7VUFBQSx1Q0FBQTtVQUFBO1VBQUEsZUFBcUcsNENBQVc7VUFBQSxhQUM1Ryw2Q0FFTjtVQUFBO1VBQUE7TUFBdUUsNkNBQ3JFO1VBQUE7VUFBQSw0Q0FBeUI7VUFBQSxpQkFDdkI7VUFBQTtVQUFBO01BQStFLDZDQUMzRTtNQUNOO1VBQUEsMERBQUk7VUFBQTtVQUFBO1lBQUE7WUFBQTtjQUFBO2tCQUFBO2NBQUE7WUFBQTtZQUFBO1VBQUEsdUNBQUE7VUFBQTtVQUFBLGVBQTBDLHFEQUF5QjtpQkFBQSw4QkFDdkU7VUFBQTtVQUFBLGdCQUFHO01BQThMLDhDQUNqTTtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxlQUFxRyw0Q0FBVztVQUFBLGFBQzVHLDZDQUVOO1VBQUE7VUFBQTtNQUF1RSw2Q0FDckU7VUFBQTtVQUFBLDRDQUF5QjtVQUFBLGlCQUN2QjtVQUFBO1VBQUE7TUFBc0YsNkNBQ2xGO01BQ047VUFBQSwwREFBSTtVQUFBO1VBQUE7WUFBQTtZQUFBO2NBQUE7a0JBQUE7Y0FBQTtZQUFBO1lBQUE7VUFBQSx1Q0FBQTtVQUFBO1VBQUEsZUFBNkMsd0RBQTRCO2lCQUFBLDhCQUM3RTtVQUFBO1VBQUEsZ0JBQUc7TUFBMkwsNkNBQzlMO1VBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2tCQUFBO2NBQUE7WUFBQTtZQUFBO1VBQUEsdUNBQUE7VUFBQTtVQUFBLGVBQXdHLDRDQUFXO1VBQUEsYUFDL0csMkNBRUY7VUFBQSxTQUNGO0lBeEJPO0lBQUgsWUFBRyxTQUFIO0lBRUQ7SUFBSCxZQUFHLFNBQUg7SUFPTztJQUFILFlBQUcsU0FBSDtJQUVEO0lBQUgsWUFBRyxVQUFIO0lBT087SUFBSCxZQUFHLFVBQUg7SUFFRDtJQUFILFlBQUcsVUFBSDs7SUFwQkk7SUFBQTtJQUFBLFlBQUEsbUJBQUE7SUFFSjtJQUFBO0lBQUEsWUFBQSxtQkFBQTtJQU9JO0lBQUE7SUFBQSxZQUFBLG1CQUFBO0lBRUo7SUFBQTtJQUFBLFlBQUEsb0JBQUE7SUFPSTtJQUFBO0lBQUEsWUFBQSxxQkFBQTtJQUVKO0lBQUE7SUFBQSxZQUFBLHFCQUFBOzs7O29CQy9CTjtNQUFBO2lDQUFBLFVBQUE7TUFBQTs7OyJ9
+const styles_NVPFundamentalsComponent:any[] = ([] as any[]);
+export const RenderType_NVPFundamentalsComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
+    styles:styles_NVPFundamentalsComponent,data:{}});
+export function View_NVPFundamentalsComponent_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),89,'div',[['class',
+      'content-sm container plain-content']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),
+      i0.ɵeld(0,(null as any),(null as any),86,'div',[['class','row']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+      ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),83,'div',[['class',
+      'col-lg-10 col-lg-offset-1']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+      (null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
+      (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['NVP Fundamentals'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'div',[['class','well']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'em',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n					New to nonvolatile processors? Don\'t worry, we\'ll help you understand the fundamentals within just a few minutes. Get started now and make yourself an NVP-pro!\n				'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h2',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['What Is Nonvolatile Processor And Why Matters?'])),(_l()(),i0.ɵted((null as any),
+          ['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),6,'div',[['class',
+          'figure']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          0,'img',[['alt','Desired features of IoT processor'],['class','img-responsive'],
+              ['src','img/explore/1.jpg']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'div',[['class','caption']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['Figure 1: Four desired features of IoT processor'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),4,'p',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Before we dive into nonvolatile processors in detail, let\'s start with a question on IoT processors: '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['what is the desired features of processors in IoT edge devices?'])),(_l()(),
+          i0.ɵted((null as any),[' This question is quite important because the processors acts as the "brain" of IoT devices and handles most of the computation and control tasks. As shown in Figure 1, we identify three features that an IoT processor should possess:'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          21,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),3,'li',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),1,'strong',([] as any[]),(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Ultra-low power:'])),
+      (_l()(),i0.ɵted((null as any),[' The power envelopes for IoT edge devices are relatively small, and what\'s even worse, we have to reserve a large portion of power for wireless data transmission. For this reason, the processor must has ultra-low power consumption in both active and idle states.  '])),
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'li',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',
+          ([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['Rapid response:'])),(_l()(),i0.ɵted((null as any),
+          [' In most of the time IoT processors stay in idle or off state, until an external event switch them to active mode. The switching cost must be minimized so that the precious energy can be reserved for userful task execution.'])),
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'li',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',
+          ([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['Micro-sized:'])),(_l()(),i0.ɵted((null as any),
+          [' A micro-sized form factor is highly desired in use cases such as implantable devices and "smart dust".  '])),
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'li',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',
+          ([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['High reliability:'])),(_l()(),i0.ɵted((null as any),
+          [' When IoT becomes more ingrained in our daily life, its reliability and security becomes a serious concern. Imagine what would happen if our health and lives is hacked via wearable or implantable devices! '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['	\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),6,'div',[['class','figure']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'img',[['alt',
+          'Limitations of conventional processor'],['class','img-responsive'],['src',
+          'img/explore/2.jpg']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'div',[['class','caption']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Figure 2: Limitations of conventional processor"'])),(_l()(),i0.ɵted((null as any),
+          ['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),4,'p',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Unfortunately, conventional processors can hardly satisfy those requirements, as shown in Figure 2. The volatile nature of CMOS circuitry — '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['"No power, no data"'])),(_l()(),i0.ɵted((null as any),[' — becomes a fundamental limitation for IoT devices to achieve desirable power, size, reliability and response speed. '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          11,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),3,'li',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),1,'strong',([] as any[]),(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Power:'])),
+      (_l()(),i0.ɵted((null as any),[' As semiconductor feature size shrinks, static (leakage) power has exceeded dynamic power and dominates the total power consumption. Conventional processors have to consume pretty high leakage current to retain data, which results in a even tighter power budget for useful task execution. '])),
+      (_l()(),i0.ɵted((null as any),[' \n				'])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),3,'li',([] as any[]),(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'strong',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Response speed:'])),(_l()(),
+          i0.ɵted((null as any),[' One way to mitigate the leakage power issue is to store the entire system states into nonvolatile memory (e.g., on-chip Flash) when switching from active to  idle or off state. However, reading or writing the nonvolatile memories will be both energy and time consuming. '])),
+      (_l()(),i0.ɵted((null as any),['\n\n			'])),(_l()(),i0.ɵted((null as any),['\n\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h2',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['How To Design An NVP?'])),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),
+          i0.ɵeld(0,(null as any),(null as any),1,'h2',([] as any[]),(null as any),
+              (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Applications Of NVP'])),(_l()(),i0.ɵted((null as any),['\n\n\n		'])),(_l()(),
+          i0.ɵted((null as any),['\n	'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),
+          i0.ɵted((null as any),['\n']))],(null as any),(null as any));
+}
+export function View_NVPFundamentalsComponent_Host_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'nvlabs-fundamentals',
+      ([] as any[]),(null as any),(null as any),(null as any),View_NVPFundamentalsComponent_0,
+      RenderType_NVPFundamentalsComponent)),i0.ɵdid(49152,(null as any),0,i3.NVPFundamentalsComponent,
+      ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
+}
+export const NVPFundamentalsComponentNgFactory:i0.ComponentFactory<i3.NVPFundamentalsComponent> = i0.ɵccf('nvlabs-fundamentals',
+    i3.NVPFundamentalsComponent,View_NVPFundamentalsComponent_Host_0,{},{},([] as any[]));
+const styles_RecommendedReadingComponent:any[] = ([] as any[]);
+export const RenderType_RecommendedReadingComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
+    styles:styles_RecommendedReadingComponent,data:{}});
+function View_RecommendedReadingComponent_1(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),18,'li',[['class',
+      'paper margin-b-10']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class',
+      'paper-abbr']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['[',']'])),(_l()(),i0.ɵted((null as any),[' '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-author']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),[' '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-title']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),[', in '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-booktitle']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),[', '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-year']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),['. '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),2,'a',[['class','paper-link'],
+          ['target','_blank']],[[8,'href',4]],(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'i',[['aria-hidden',
+          'true'],['class','fa fa-search']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),[' Google Scholar']))],
+      (null as any),(_ck,_v) => {
+        const currVal_0:any = _v.context.$implicit.abbr;
+        _ck(_v,2,0,currVal_0);
+        const currVal_1:any = _v.context.$implicit.author;
+        _ck(_v,5,0,currVal_1);
+        const currVal_2:any = _v.context.$implicit.title;
+        _ck(_v,8,0,currVal_2);
+        const currVal_3:any = _v.context.$implicit.booktitle;
+        _ck(_v,11,0,currVal_3);
+        const currVal_4:any = _v.context.$implicit.year;
+        _ck(_v,14,0,currVal_4);
+        const currVal_5:any = i0.ɵinlineInterpolate(1,'',_v.context.$implicit.link,
+            '');
+        _ck(_v,16,0,currVal_5);
+      });
+}
+function View_RecommendedReadingComponent_2(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),18,'li',[['class',
+      'paper margin-b-10']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class',
+      'paper-abbr']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['[',']'])),(_l()(),i0.ɵted((null as any),[' '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-author']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),[' '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-title']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),[', in '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-booktitle']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),[', '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','paper-year']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['',''])),(_l()(),i0.ɵted((null as any),['. '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),2,'a',[['class','paper-link'],
+          ['target','_blank']],[[8,'href',4]],(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'i',[['aria-hidden',
+          'true'],['class','fa fa-search']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),[' Google Scholar']))],
+      (null as any),(_ck,_v) => {
+        const currVal_0:any = _v.context.$implicit.abbr;
+        _ck(_v,2,0,currVal_0);
+        const currVal_1:any = _v.context.$implicit.author;
+        _ck(_v,5,0,currVal_1);
+        const currVal_2:any = _v.context.$implicit.title;
+        _ck(_v,8,0,currVal_2);
+        const currVal_3:any = _v.context.$implicit.booktitle;
+        _ck(_v,11,0,currVal_3);
+        const currVal_4:any = _v.context.$implicit.year;
+        _ck(_v,14,0,currVal_4);
+        const currVal_5:any = i0.ɵinlineInterpolate(1,'',_v.context.$implicit.link,
+            '');
+        _ck(_v,16,0,currVal_5);
+      });
+}
+export function View_RecommendedReadingComponent_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),52,'div',[['class',
+      'content-sm container plain-content']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),
+      i0.ɵeld(0,(null as any),(null as any),49,'div',[['class','row']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+      ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),46,'div',[['class',
+      'col-lg-10 col-lg-offset-1']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵted((null as any),['\n\n			'])),(_l()(),i0.ɵeld(0,
+      (null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
+      (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Recommended Reading'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Nonvolatile processor has gained increasing attention from both academia and industry since it was first invented in 2012. To grasp the concepts quickly and understand the opportunities and challenges in this area, we recommend you read the following '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['review articles'])),(_l()(),i0.ɵted((null as any),[' firstly:'])),(_l()(),
+          i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n				'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h2',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Review'])),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),4,'ul',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n				'])),(_l()(),i0.ɵand(16777216,(null as any),(null as any),1,(null as any),
+          View_RecommendedReadingComponent_1)),i0.ɵdid(802816,(null as any),0,i2.NgForOf,
+          [i0.ViewContainerRef,i0.TemplateRef,i0.IterableDiffers],{ngForOf:[0,'ngForOf']},
+          (null as any)),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),
+          ['	\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),4,'p',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['On top of that, we also classify the research topics related to nonvolatile processor into four categories: '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['device & circuit design, architectural exploration, system integration and software & application'])),
+      (_l()(),i0.ɵted((null as any),['. Below are selected articles in each individual topic: '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'h2',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Device & Circuit Design'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'h2',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Architectural Exploration'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'h2',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['System Integration'])),(_l()(),
+          i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'ul',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵand(16777216,
+          (null as any),(null as any),1,(null as any),View_RecommendedReadingComponent_2)),
+      i0.ɵdid(802816,(null as any),0,i2.NgForOf,[i0.ViewContainerRef,i0.TemplateRef,
+          i0.IterableDiffers],{ngForOf:[0,'ngForOf']},(null as any)),(_l()(),i0.ɵted((null as any),
+          ['\n			'])),(_l()(),i0.ɵted((null as any),['	\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'h2',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Software Support'])),(_l()(),i0.ɵted((null as any),['\n\n\n\n\n\n\n\n		'])),
+      (_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),i0.ɵted((null as any),['\n'])),
+      (_l()(),i0.ɵted((null as any),['\n']))],(_ck,_v) => {
+    var _co:i3.RecommendedReadingComponent = _v.component;
+    const currVal_0:any = _co.reviewPapers;
+    _ck(_v,24,0,currVal_0);
+    const currVal_1:any = _co.systemPapers;
+    _ck(_v,45,0,currVal_1);
+  },(null as any));
+}
+export function View_RecommendedReadingComponent_Host_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'nvlabs-recommended-reading',
+      ([] as any[]),(null as any),(null as any),(null as any),View_RecommendedReadingComponent_0,
+      RenderType_RecommendedReadingComponent)),i0.ɵdid(49152,(null as any),0,i3.RecommendedReadingComponent,
+      [i4.Title],(null as any),(null as any))],(null as any),(null as any));
+}
+export const RecommendedReadingComponentNgFactory:i0.ComponentFactory<i3.RecommendedReadingComponent> = i0.ɵccf('nvlabs-recommended-reading',
+    i3.RecommendedReadingComponent,View_RecommendedReadingComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvZXhwbG9yZS9leHBsb3JlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQudHMuRXhwbG9yZUNvbXBvbmVudF9Ib3N0Lmh0bWwiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvZXhwbG9yZS9udnAtZnVuZGFtZW50YWxzLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL2V4cGxvcmUvZXhwbG9yZS5jb21wb25lbnQudHMuTlZQRnVuZGFtZW50YWxzQ29tcG9uZW50X0hvc3QuaHRtbCIsIm5nOi8vL0M6L1VzZXJzL3N1ZmFuZy9PbmVEcml2ZS9OVkxhYnMvc3JjL2FwcC9leHBsb3JlL3JlY29tbWVuZGVkLXJlYWRpbmcuY29tcG9uZW50Lmh0bWwiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvZXhwbG9yZS9leHBsb3JlLmNvbXBvbmVudC50cy5SZWNvbW1lbmRlZFJlYWRpbmdDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8ZGl2IGNsYXNzPVwiY29udGVudC1sZyBjb250YWluZXJcIj5cclxuXHRcdDxkaXYgY2xhc3M9XCJzaG93Y2FzZS10aXRsZSBtYXJnaW4tYi04MFwiPlxyXG5cdFx0XHRcdDxoMSBjbGFzcz1cIm1hcmdpbi1iLTEwXCI+RXhwbG9yZTwvaDE+XHJcblx0XHRcdFx0PHAgY2xhc3M9XCJ0ZXh0LXVwcGVyY2FzZVwiPkluZm9ybWF0aW9uIGFuZCByZXNvdXJjZXMgdG8gbGVhcm4gYWJvdXQgbm9udm9sYXRpbGUgcHJvY2Vzc29yPC9wPlxyXG5cdFx0PC9kaXY+XHJcblxyXG5cdFx0PGRpdiBjbGFzcz1cInJvd1wiPlxyXG5cdFx0XHRcdDxkaXYgY2xhc3M9XCJleHBsb3JlLWl0ZW0gY29sLXNtLTYgY29sLW1kLTQgbWQtbWFyZ2luLWItNTAgdGV4dC1jZW50ZXJcIj5cclxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzcz1cIm1hcmdpbi1iLTIwXCI+XHJcblx0XHRcdFx0XHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvZXhwbG9yZS9ibGFja2JvYXJkLnBuZ1wiIGFsdD1cIk5WUCBGdW5kYW1lbnRhbHNcIj5cclxuXHRcdFx0XHRcdFx0PC9kaXY+XHJcblx0XHRcdFx0XHRcdDxoMz48YSByb3V0ZXJMaW5rPVwiL2V4cGxvcmUvbnZwLWZ1bmRhbWVudGFsc1wiPk5WUCBGdW5kYW1lbnRhbHMgPC9hPjwvaDM+XHJcblx0XHRcdFx0XHRcdDxwPldoYXQgaXMgYSBub252b2xhdGlsZSBwcm9jZXNzb3I/IFdoeSBpcyBpdCBhIGJldHRlciBjaG9pY2UgdGhhbiBhIHZvbGF0aWxlIG9uZT8gSG93IHdpbGwgaXQgY2hhbmdlIHRoZSBmdXR1cmUgb2YgY29tcHV0aW5nPyBUYWtlIGEgcXVpY2sgZ2xhbmNlIGF0IFwiTlZQIGZ1bmRhbWVudGFsc1wiIHdlIHByZXBhcmVkIGZvciB5b3UhPC9wPlxyXG5cdFx0XHRcdFx0XHQ8YSByb3V0ZXJMaW5rPVwiL2V4cGxvcmUvbnZwLWZ1bmRhbWVudGFsc1wiIGNsYXNzPVwiYnRuLXRoZW1lIGJ0bi10aGVtZS14cyBidG4td2hpdGUtYmcgdGV4dC11cHBlcmNhc2VcIj5FeHBsb3JlPC9hPlxyXG5cdFx0XHRcdDwvZGl2PlxyXG5cclxuXHRcdFx0XHQ8ZGl2IGNsYXNzPVwiZXhwbG9yZS1pdGVtIGNvbC1zbS02IGNvbC1tZC00IG1kLW1hcmdpbi1iLTUwIHRleHQtY2VudGVyXCI+XHJcblx0XHRcdFx0XHRcdDxkaXYgY2xhc3M9XCJtYXJnaW4tYi0yMFwiPlxyXG5cdFx0XHRcdFx0XHRcdFx0PGltZyBjbGFzcz1cImltZy1yZXNwb25zaXZlXCIgc3JjPVwiaW1nL2V4cGxvcmUvcm9ja2V0LnBuZ1wiIGFsdD1cIkdldHRpbmcgU3RhcnRlZFwiPlxyXG5cdFx0XHRcdFx0XHQ8L2Rpdj5cclxuXHRcdFx0XHRcdFx0PGgzPjxhIHJvdXRlckxpbms9XCIvcGxhdGZvcm0vZ2V0dGluZy1zdGFydGVkXCI+R2V0dGluZyBTdGFydGVkIDwvYT48L2gzPlxyXG5cdFx0XHRcdFx0XHQ8cD5PdXIgTlZQRXZhbCBwbGF0Zm9ybSBoZWxwcyB5b3UgcXVpY2tseSBhbmQgZWFzaWx5IHByb3RvdHlwZSBhbiBJb1Qgc3lzdGVtIHRha2luZyBmdWxsIGFkdmFudGFnZSBvZiBub3ZvbGF0aWxlIHByb2Nlc3Nvci4gU3RhcnQgbm93IHRvIHRyYW5zZm9ybSB5b3VyIGJyaWxsaWFudCBjcmVhdGl2ZSBpZGVhIGludG8gcmVhbGl0eSE8L3A+IFxyXG5cdFx0XHRcdFx0XHQ8YSByb3V0ZXJMaW5rPVwiL3BsYXRmb3JtL2dldHRpbmctc3RhcnRlZFwiIGNsYXNzPVwiYnRuLXRoZW1lIGJ0bi10aGVtZS14cyBidG4td2hpdGUtYmcgdGV4dC11cHBlcmNhc2VcIj5FeHBsb3JlPC9hPlxyXG5cdFx0XHRcdDwvZGl2PlxyXG5cclxuXHRcdFx0XHQ8ZGl2IGNsYXNzPVwiZXhwbG9yZS1pdGVtIGNvbC1zbS02IGNvbC1tZC00IG1kLW1hcmdpbi1iLTUwIHRleHQtY2VudGVyXCI+XHJcblx0XHRcdFx0XHRcdDxkaXYgY2xhc3M9XCJtYXJnaW4tYi0yMFwiPlxyXG5cdFx0XHRcdFx0XHRcdFx0PGltZyBjbGFzcz1cImltZy1yZXNwb25zaXZlXCIgc3JjPVwiaW1nL2V4cGxvcmUvYm9va3NoZWxmLnBuZ1wiIGFsdD1cIlJlY29tbWVuZGVkIFJlYWRpbmdcIj5cclxuXHRcdFx0XHRcdFx0PC9kaXY+XHJcblx0XHRcdFx0XHRcdDxoMz48YSByb3V0ZXJMaW5rPVwiL2V4cGxvcmUvcmVjb21tZW5kZWQtcmVhZGluZ1wiPlJlY29tbWVuZGVkIFJlYWRpbmc8L2E+PC9oMz5cclxuXHRcdFx0XHRcdFx0PHA+V2FudCB0byBsZWFybiBtb3JlPyBIZXJlIGlzIGEgbGlzdCBvZiB0b3BpY3Mgd2UgcmVjb21tZW5kIHlvdSB0byBmb2xsb3csIGluY2x1ZGluZyBkZXZpY2UsIGNpcmN1aXQsIGFyY2hpdGVjdHVyZSwgc3lzdGVtIGludGVncmF0aW9uLCBzb2Z0d2FyZSBzdXBwb3J0IGFuZCBhcHBsaWNhdGlvbiByZWxhdGVkIHRvIG5vbnZvbGF0aWxlIHByb2Nlc3NvcnMgPC9wPlxyXG5cdFx0XHRcdFx0XHQ8YSByb3V0ZXJMaW5rPVwiL2V4cGxvcmUvcmVjb21tZW5kZWQtcmVhZGluZ1wiIGNsYXNzPVwiYnRuLXRoZW1lIGJ0bi10aGVtZS14cyBidG4td2hpdGUtYmcgdGV4dC11cHBlcmNhc2VcIj5FeHBsb3JlPC9hPlxyXG5cdFx0XHRcdDwvZGl2PlxyXG5cclxuXHRcdDwvZGl2PlxyXG48L2Rpdj5cclxuIiwiPG52bGFicy1leHBsb3JlPjwvbnZsYWJzLWV4cGxvcmU+IiwiPGRpdiBjbGFzcz1cImNvbnRlbnQtc20gY29udGFpbmVyIHBsYWluLWNvbnRlbnRcIj5cclxuXHQ8ZGl2IGNsYXNzPVwicm93XCI+XHJcblx0XHQ8ZGl2IGNsYXNzPVwiY29sLWxnLTEwIGNvbC1sZy1vZmZzZXQtMVwiPlxyXG5cdFx0XHQ8aDE+TlZQIEZ1bmRhbWVudGFsczwvaDE+XHJcblx0XHRcdDxkaXYgY2xhc3M9XCJ3ZWxsXCI+XHJcblx0XHRcdFx0PGVtPlxyXG5cdFx0XHRcdFx0TmV3IHRvIG5vbnZvbGF0aWxlIHByb2Nlc3NvcnM/IERvbid0IHdvcnJ5LCB3ZSdsbCBoZWxwIHlvdSB1bmRlcnN0YW5kIHRoZSBmdW5kYW1lbnRhbHMgd2l0aGluIGp1c3QgYSBmZXcgbWludXRlcy4gR2V0IHN0YXJ0ZWQgbm93IGFuZCBtYWtlIHlvdXJzZWxmIGFuIE5WUC1wcm8hXHJcblx0XHRcdFx0PC9lbT5cclxuXHRcdFx0PC9kaXY+XHJcblx0XHRcdDxoMj5XaGF0IElzIE5vbnZvbGF0aWxlIFByb2Nlc3NvciBBbmQgV2h5IE1hdHRlcnM/PC9oMj5cclxuXHRcdFx0PGRpdiBjbGFzcz1cImZpZ3VyZVwiPlxyXG5cdFx0XHRcdDxpbWcgY2xhc3M9XCJpbWctcmVzcG9uc2l2ZVwiIHNyYz1cImltZy9leHBsb3JlLzEuanBnXCIgYWx0PVwiRGVzaXJlZCBmZWF0dXJlcyBvZiBJb1QgcHJvY2Vzc29yXCI+XHJcblx0XHRcdFx0PGRpdiBjbGFzcz1cImNhcHRpb25cIj5GaWd1cmUgMTogRm91ciBkZXNpcmVkIGZlYXR1cmVzIG9mIElvVCBwcm9jZXNzb3I8L2Rpdj5cclxuXHRcdFx0PC9kaXY+XHJcblx0XHRcdDxwPkJlZm9yZSB3ZSBkaXZlIGludG8gbm9udm9sYXRpbGUgcHJvY2Vzc29ycyBpbiBkZXRhaWwsIGxldCdzIHN0YXJ0IHdpdGggYSBxdWVzdGlvbiBvbiBJb1QgcHJvY2Vzc29yczogPHN0cm9uZz53aGF0IGlzIHRoZSBkZXNpcmVkIGZlYXR1cmVzIG9mIHByb2Nlc3NvcnMgaW4gSW9UIGVkZ2UgZGV2aWNlcz88L3N0cm9uZz4gVGhpcyBxdWVzdGlvbiBpcyBxdWl0ZSBpbXBvcnRhbnQgYmVjYXVzZSB0aGUgcHJvY2Vzc29ycyBhY3RzIGFzIHRoZSBcImJyYWluXCIgb2YgSW9UIGRldmljZXMgYW5kIGhhbmRsZXMgbW9zdCBvZiB0aGUgY29tcHV0YXRpb24gYW5kIGNvbnRyb2wgdGFza3MuIEFzIHNob3duIGluIEZpZ3VyZSAxLCB3ZSBpZGVudGlmeSB0aHJlZSBmZWF0dXJlcyB0aGF0IGFuIElvVCBwcm9jZXNzb3Igc2hvdWxkIHBvc3Nlc3M6PC9wPlxyXG5cdFx0XHQ8dWw+XHJcblx0XHRcdFx0PGxpPjxzdHJvbmc+VWx0cmEtbG93IHBvd2VyOjwvc3Ryb25nPiBUaGUgcG93ZXIgZW52ZWxvcGVzIGZvciBJb1QgZWRnZSBkZXZpY2VzIGFyZSByZWxhdGl2ZWx5IHNtYWxsLCBhbmQgd2hhdCdzIGV2ZW4gd29yc2UsIHdlIGhhdmUgdG8gcmVzZXJ2ZSBhIGxhcmdlIHBvcnRpb24gb2YgcG93ZXIgZm9yIHdpcmVsZXNzIGRhdGEgdHJhbnNtaXNzaW9uLiBGb3IgdGhpcyByZWFzb24sIHRoZSBwcm9jZXNzb3IgbXVzdCBoYXMgdWx0cmEtbG93IHBvd2VyIGNvbnN1bXB0aW9uIGluIGJvdGggYWN0aXZlIGFuZCBpZGxlIHN0YXRlcy4gIDwvbGk+XHJcblx0XHRcdFx0PGxpPjxzdHJvbmc+UmFwaWQgcmVzcG9uc2U6PC9zdHJvbmc+IEluIG1vc3Qgb2YgdGhlIHRpbWUgSW9UIHByb2Nlc3NvcnMgc3RheSBpbiBpZGxlIG9yIG9mZiBzdGF0ZSwgdW50aWwgYW4gZXh0ZXJuYWwgZXZlbnQgc3dpdGNoIHRoZW0gdG8gYWN0aXZlIG1vZGUuIFRoZSBzd2l0Y2hpbmcgY29zdCBtdXN0IGJlIG1pbmltaXplZCBzbyB0aGF0IHRoZSBwcmVjaW91cyBlbmVyZ3kgY2FuIGJlIHJlc2VydmVkIGZvciB1c2VyZnVsIHRhc2sgZXhlY3V0aW9uLjwvbGk+XHJcblx0XHRcdFx0PGxpPjxzdHJvbmc+TWljcm8tc2l6ZWQ6PC9zdHJvbmc+IEEgbWljcm8tc2l6ZWQgZm9ybSBmYWN0b3IgaXMgaGlnaGx5IGRlc2lyZWQgaW4gdXNlIGNhc2VzIHN1Y2ggYXMgaW1wbGFudGFibGUgZGV2aWNlcyBhbmQgXCJzbWFydCBkdXN0XCIuICA8L2xpPlxyXG5cdFx0XHRcdDxsaT48c3Ryb25nPkhpZ2ggcmVsaWFiaWxpdHk6PC9zdHJvbmc+IFdoZW4gSW9UIGJlY29tZXMgbW9yZSBpbmdyYWluZWQgaW4gb3VyIGRhaWx5IGxpZmUsIGl0cyByZWxpYWJpbGl0eSBhbmQgc2VjdXJpdHkgYmVjb21lcyBhIHNlcmlvdXMgY29uY2Vybi4gSW1hZ2luZSB3aGF0IHdvdWxkIGhhcHBlbiBpZiBvdXIgaGVhbHRoIGFuZCBsaXZlcyBpcyBoYWNrZWQgdmlhIHdlYXJhYmxlIG9yIGltcGxhbnRhYmxlIGRldmljZXMhIDwvbGk+XHJcblx0XHRcdDwvdWw+XHRcclxuXHRcdFx0PGRpdiBjbGFzcz1cImZpZ3VyZVwiPlxyXG5cdFx0XHRcdDxpbWcgY2xhc3M9XCJpbWctcmVzcG9uc2l2ZVwiIHNyYz1cImltZy9leHBsb3JlLzIuanBnXCIgYWx0PVwiTGltaXRhdGlvbnMgb2YgY29udmVudGlvbmFsIHByb2Nlc3NvclwiPlxyXG5cdFx0XHRcdDxkaXYgY2xhc3M9XCJjYXB0aW9uXCI+RmlndXJlIDI6IExpbWl0YXRpb25zIG9mIGNvbnZlbnRpb25hbCBwcm9jZXNzb3JcIjwvZGl2PlxyXG5cdFx0XHQ8L2Rpdj5cclxuXHRcdFx0PHA+VW5mb3J0dW5hdGVseSwgY29udmVudGlvbmFsIHByb2Nlc3NvcnMgY2FuIGhhcmRseSBzYXRpc2Z5IHRob3NlIHJlcXVpcmVtZW50cywgYXMgc2hvd24gaW4gRmlndXJlIDIuIFRoZSB2b2xhdGlsZSBuYXR1cmUgb2YgQ01PUyBjaXJjdWl0cnkgJm1kYXNoOyA8c3Ryb25nPlwiTm8gcG93ZXIsIG5vIGRhdGFcIjwvc3Ryb25nPiAmbWRhc2g7IGJlY29tZXMgYSBmdW5kYW1lbnRhbCBsaW1pdGF0aW9uIGZvciBJb1QgZGV2aWNlcyB0byBhY2hpZXZlIGRlc2lyYWJsZSBwb3dlciwgc2l6ZSwgcmVsaWFiaWxpdHkgYW5kIHJlc3BvbnNlIHNwZWVkLiA8L3A+XHJcblx0XHRcdDx1bD5cclxuXHRcdFx0XHQ8bGk+PHN0cm9uZz5Qb3dlcjo8L3N0cm9uZz4gQXMgc2VtaWNvbmR1Y3RvciBmZWF0dXJlIHNpemUgc2hyaW5rcywgc3RhdGljIChsZWFrYWdlKSBwb3dlciBoYXMgZXhjZWVkZWQgZHluYW1pYyBwb3dlciBhbmQgZG9taW5hdGVzIHRoZSB0b3RhbCBwb3dlciBjb25zdW1wdGlvbi4gQ29udmVudGlvbmFsIHByb2Nlc3NvcnMgaGF2ZSB0byBjb25zdW1lIHByZXR0eSBoaWdoIGxlYWthZ2UgY3VycmVudCB0byByZXRhaW4gZGF0YSwgd2hpY2ggcmVzdWx0cyBpbiBhIGV2ZW4gdGlnaHRlciBwb3dlciBidWRnZXQgZm9yIHVzZWZ1bCB0YXNrIGV4ZWN1dGlvbi4gPC9saT4gXHJcblx0XHRcdFx0PGxpPjxzdHJvbmc+UmVzcG9uc2Ugc3BlZWQ6PC9zdHJvbmc+IE9uZSB3YXkgdG8gbWl0aWdhdGUgdGhlIGxlYWthZ2UgcG93ZXIgaXNzdWUgaXMgdG8gc3RvcmUgdGhlIGVudGlyZSBzeXN0ZW0gc3RhdGVzIGludG8gbm9udm9sYXRpbGUgbWVtb3J5IChlLmcuLCBvbi1jaGlwIEZsYXNoKSB3aGVuIHN3aXRjaGluZyBmcm9tIGFjdGl2ZSB0byAgaWRsZSBvciBvZmYgc3RhdGUuIEhvd2V2ZXIsIHJlYWRpbmcgb3Igd3JpdGluZyB0aGUgbm9udm9sYXRpbGUgbWVtb3JpZXMgd2lsbCBiZSBib3RoIGVuZXJneSBhbmQgdGltZSBjb25zdW1pbmcuIDwvbGk+XHJcblxyXG5cdFx0XHQ8L3VsPlxyXG5cclxuXHRcdFx0PGgyPkhvdyBUbyBEZXNpZ24gQW4gTlZQPzwvaDI+XHJcblx0XHRcdDxoMj5BcHBsaWNhdGlvbnMgT2YgTlZQPC9oMj5cclxuXHJcblxyXG5cdFx0PC9kaXY+XHJcblx0PC9kaXY+XHJcbjwvZGl2PlxyXG4iLCI8bnZsYWJzLWZ1bmRhbWVudGFscz48L252bGFicy1mdW5kYW1lbnRhbHM+IiwiPGRpdiBjbGFzcz1cImNvbnRlbnQtc20gY29udGFpbmVyIHBsYWluLWNvbnRlbnRcIj5cclxuXHQ8ZGl2IGNsYXNzPVwicm93XCI+XHJcblx0XHQ8ZGl2IGNsYXNzPVwiY29sLWxnLTEwIGNvbC1sZy1vZmZzZXQtMVwiPlxyXG5cclxuXHRcdFx0PGgxPlJlY29tbWVuZGVkIFJlYWRpbmc8L2gxPlxyXG5cdFx0XHQ8cD5Ob252b2xhdGlsZSBwcm9jZXNzb3IgaGFzIGdhaW5lZCBpbmNyZWFzaW5nIGF0dGVudGlvbiBmcm9tIGJvdGggYWNhZGVtaWEgYW5kIGluZHVzdHJ5IHNpbmNlIGl0IHdhcyBmaXJzdCBpbnZlbnRlZCBpbiAyMDEyLiBUbyBncmFzcCB0aGUgY29uY2VwdHMgcXVpY2tseSBhbmQgdW5kZXJzdGFuZCB0aGUgb3Bwb3J0dW5pdGllcyBhbmQgY2hhbGxlbmdlcyBpbiB0aGlzIGFyZWEsIHdlIHJlY29tbWVuZCB5b3UgcmVhZCB0aGUgZm9sbG93aW5nIDxzdHJvbmc+cmV2aWV3IGFydGljbGVzPC9zdHJvbmc+IGZpcnN0bHk6PC9wPlxyXG5cdFx0XHQ8IS0tPHVsPi0tPlxyXG5cdFx0XHRcdDwhLS08bGk+PHNwYW4gY2xhc3M9XCJwYXBlci1hYmJyXCI+W0lDQ0FEMTZdPC9zcGFuPiA8c3BhbiBjbGFzcz1cInBhcGVyLWF1dGhvclwiPnpoYW5nIHNhbiBhbmQgbGkgc2k8L3NwYW4+IDxzcGFuIGNsYXNzPVwicGFwZXItdGl0bGVcIj5ub252b2xhdGlsZSBwcm9jZXNzb3I8L3NwYW4+IDxzcGFuIGNsYXNzPVwicGFwZXItYm9va3RpdGxlXCI+SUNDUzwvc3Bhbj4gPHNwYW4gY2xhc3M9XCJwYXBlci15ZWFyXCI+MTk5OTwvc3Bhbj4gPGEgY2xhc3M9XCJwYXBlci1nb29nbGUtc2Nob2xhclwiPkdvb2dsZSBTY2hvbGFyPC9hPiAgPGxpPi0tPlxyXG5cdFx0XHQ8IS0tPC91bD5cdC0tPlxyXG5cdFx0XHQ8aDI+UmV2aWV3PC9oMj5cclxuXHRcdFx0PHVsPlxyXG5cdFx0XHRcdDxsaSBjbGFzcz1cInBhcGVyIG1hcmdpbi1iLTEwXCIgKm5nRm9yPVwibGV0IHBhcGVyIG9mIHJldmlld1BhcGVyc1wiPjxzcGFuIGNsYXNzPVwicGFwZXItYWJiclwiPlt7e3BhcGVyLmFiYnJ9fV08L3NwYW4+IDxzcGFuIGNsYXNzPVwicGFwZXItYXV0aG9yXCI+e3twYXBlci5hdXRob3J9fTwvc3Bhbj4gPHNwYW4gY2xhc3M9XCJwYXBlci10aXRsZVwiPnt7cGFwZXIudGl0bGV9fTwvc3Bhbj4sIGluIDxzcGFuIGNsYXNzPVwicGFwZXItYm9va3RpdGxlXCI+e3twYXBlci5ib29rdGl0bGV9fTwvc3Bhbj4sIDxzcGFuIGNsYXNzPVwicGFwZXIteWVhclwiPnt7cGFwZXIueWVhcn19PC9zcGFuPi4gPGEgaHJlZj1cInt7cGFwZXIubGlua319XCIgdGFyZ2V0PVwiX2JsYW5rXCIgY2xhc3M9XCJwYXBlci1saW5rXCI+PGkgY2xhc3M9XCJmYSBmYS1zZWFyY2hcIiBhcmlhLWhpZGRlbj1cInRydWVcIj48L2k+IEdvb2dsZSBTY2hvbGFyPC9hPjwvbGk+XHJcblx0XHRcdDwvdWw+XHRcclxuXHRcdFx0PHA+T24gdG9wIG9mIHRoYXQsIHdlIGFsc28gY2xhc3NpZnkgdGhlIHJlc2VhcmNoIHRvcGljcyByZWxhdGVkIHRvIG5vbnZvbGF0aWxlIHByb2Nlc3NvciBpbnRvIGZvdXIgY2F0ZWdvcmllczogPHN0cm9uZz5kZXZpY2UgJmFtcDsgY2lyY3VpdCBkZXNpZ24sIGFyY2hpdGVjdHVyYWwgZXhwbG9yYXRpb24sIHN5c3RlbSBpbnRlZ3JhdGlvbiBhbmQgc29mdHdhcmUgJmFtcDsgYXBwbGljYXRpb248L3N0cm9uZz4uIEJlbG93IGFyZSBzZWxlY3RlZCBhcnRpY2xlcyBpbiBlYWNoIGluZGl2aWR1YWwgdG9waWM6IDwvcD5cclxuXHRcdFx0PGgyPkRldmljZSAmYW1wOyBDaXJjdWl0IERlc2lnbjwvaDI+XHJcblx0XHRcdDxoMj5BcmNoaXRlY3R1cmFsIEV4cGxvcmF0aW9uPC9oMj5cclxuXHRcdFx0PGgyPlN5c3RlbSBJbnRlZ3JhdGlvbjwvaDI+XHJcblx0XHRcdDx1bD5cclxuXHRcdFx0XHQ8bGkgY2xhc3M9XCJwYXBlciBtYXJnaW4tYi0xMFwiICpuZ0Zvcj1cImxldCBwYXBlciBvZiBzeXN0ZW1QYXBlcnNcIj48c3BhbiBjbGFzcz1cInBhcGVyLWFiYnJcIj5be3twYXBlci5hYmJyfX1dPC9zcGFuPiA8c3BhbiBjbGFzcz1cInBhcGVyLWF1dGhvclwiPnt7cGFwZXIuYXV0aG9yfX08L3NwYW4+IDxzcGFuIGNsYXNzPVwicGFwZXItdGl0bGVcIj57e3BhcGVyLnRpdGxlfX08L3NwYW4+LCBpbiA8c3BhbiBjbGFzcz1cInBhcGVyLWJvb2t0aXRsZVwiPnt7cGFwZXIuYm9va3RpdGxlfX08L3NwYW4+LCA8c3BhbiBjbGFzcz1cInBhcGVyLXllYXJcIj57e3BhcGVyLnllYXJ9fTwvc3Bhbj4uIDxhIGhyZWY9XCJ7e3BhcGVyLmxpbmt9fVwiIHRhcmdldD1cIl9ibGFua1wiIGNsYXNzPVwicGFwZXItbGlua1wiPjxpIGNsYXNzPVwiZmEgZmEtc2VhcmNoXCIgYXJpYS1oaWRkZW49XCJ0cnVlXCI+PC9pPiBHb29nbGUgU2Nob2xhcjwvYT48L2xpPlxyXG5cdFx0XHQ8L3VsPlx0XHJcblx0XHRcdDxoMj5Tb2Z0d2FyZSBTdXBwb3J0PC9oMj5cclxuXHJcblxyXG5cclxuXHJcblxyXG5cclxuXHJcblx0XHQ8L2Rpdj5cclxuXHQ8L2Rpdj5cclxuPC9kaXY+XHJcbiIsIjxudmxhYnMtcmVjb21tZW5kZWQtcmVhZGluZz48L252bGFicy1yZWNvbW1lbmRlZC1yZWFkaW5nPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7TUFBQSxnQkFBa0MseUNBQ2hDO01BQUE7TUFBQSwwREFBd0M7TUFBQSxhQUN0QztNQUFBO01BQXdCLDRDQUFZO01BQ3BDO1VBQUE7TUFBMEI7TUFBa0UseUNBQ3hGO01BRU47VUFBQSwwREFBaUI7VUFBQSxhQUNmO1VBQUE7VUFBQSwwREFBdUU7VUFBQSxlQUNyRTtVQUFBO1VBQUEsZ0JBQXlCLCtDQUN2QjtVQUFBO2NBQUE7VUFBQSwwREFBb0Y7VUFBQSxlQUNoRiw2Q0FDTjtVQUFBO1VBQUEsNENBQUk7VUFBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2tCQUFBO2NBQUE7WUFBQTtZQUFBO1VBQUEsdUNBQUE7VUFBQTtVQUFBLGVBQTBDLHNEQUEwQjtpQkFBQSw4QkFDeEU7VUFBQTtVQUFBLGdCQUFHO01BQThMLDZDQUNqTTtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lB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

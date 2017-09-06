@@ -15,63 +15,54 @@ const styles_ShowcaseComponent:any[] = ([] as any[]);
 export const RenderType_ShowcaseComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
     styles:styles_ShowcaseComponent,data:{}});
 export function View_ShowcaseComponent_0(_l:any):i0.ɵViewDefinition {
-  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),89,'div',[['class',
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),83,'div',[['class',
       'content-lg container']],(null as any),(null as any),(null as any),(null as any),
-      (null as any))),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵeld(0,(null as any),
+      (null as any))),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),i0.ɵeld(0,(null as any),
       (null as any),7,'div',[['class','showcase-title margin-b-80']],(null as any),
       (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-      ['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h1',[['class',
-      'margin-b-10']],(null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['Showcase'])),(_l()(),i0.ɵted((null as any),['\n				'])),
+      ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'h1',[['class','margin-b-10']],
+      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
+      i0.ɵted((null as any),['Showcase'])),(_l()(),i0.ɵted((null as any),['\n		'])),
       (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',[['class','text-uppercase']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
       (_l()(),i0.ɵted((null as any),['Real-world applications built with nonvolatile processor'])),
-      (_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),['\n		'])),
-      (_l()(),i0.ɵted((null as any),['\n\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
-          75,'div',[['class','row']],(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵted((null as any),
-          ['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),24,'div',[['class',
+      (_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),i0.ɵted((null as any),['\n	'])),
+      (_l()(),i0.ɵted((null as any),['\n\n	'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          69,'div',[['class','row']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),
+          ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),19,'div',[['class',
           'col-sm-4 sm-margin-b-50']],(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),7,'div',[['class','showcase-item margin-b-20']],
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),4,'div',[['class','margin-b-20']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'img',[['alt',
+          'Latest Products Image'],['class','img-responsive'],['src','img/showcase/01.jpg']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['\n								'])),(_l()(),i0.ɵeld(0,(null as any),
-          (null as any),0,'img',[['alt','Latest Products Image'],['class','img-responsive'],
-              ['src','img/970x647/01.jpg']],(null as any),(null as any),(null as any),
-          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n								'])),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),2,'div',[['class','play-wrapper']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'div',[['class','test']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),0,'i',[['aria-hidden','true'],['class','fa fa-play-circle-o']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵted((null as any),['\n						'])),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),5,'h4',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),2,'a',[['routerLink','./breath-monitor']],[[1,
-              'target',0],[8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
-            var ad:boolean = true;
-            if (('click' === en)) {
-              const pd_0:any = ((<any>i0.ɵnov(_v,28).onClick($event.button,$event.ctrlKey,
-                  $event.metaKey,$event.shiftKey)) !== false);
-              ad = (pd_0 && ad);
-            }
-            return ad;
-          },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'h4',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵeld(0,(null as any),(null as any),2,'a',[['routerLink',
+          './self-powered-wearables']],[[1,'target',0],[8,'href',4]],[[(null as any),
+          'click']],(_v,en,$event) => {
+        var ad:boolean = true;
+        if (('click' === en)) {
+          const pd_0:any = ((<any>i0.ɵnov(_v,25).onClick($event.button,$event.ctrlKey,
+              $event.metaKey,$event.shiftKey)) !== false);
+          ad = (pd_0 && ad);
+        }
+        return ad;
+      },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
           [i1.Router,i1.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
-          (null as any)),(_l()(),i0.ɵted((null as any),['Breath Monitor '])),(_l()(),
-          i0.ɵeld(0,(null as any),(null as any),1,'span',[['class','text-uppercase margin-l-20 visible-lg-inline']],
-              (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['Smart Healthcare'])),(_l()(),i0.ɵted((null as any),
-          ['\n						'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['A wearable device monitoring breathing condition from breathing power. Nonvolatile processor helps to run through power failures without progress loss!'])),
-      (_l()(),i0.ɵted((null as any),[' \n						'])),(_l()(),i0.ɵeld(0,(null as any),
-          (null as any),2,'a',[['class','link'],['routerLink','./breath-monitor']],
-          [[1,'target',0],[8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
+          (null as any)),(_l()(),i0.ɵted((null as any),['Self-Powered Wearables '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['A wearable device monitoring breathing condition from breathing power. Nonvolatile processor helps to run through power failures without progress loss!'])),
+      (_l()(),i0.ɵted((null as any),[' \n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          2,'a',[['class','link'],['routerLink','./self-powered-wearables']],[[1,'target',
+              0],[8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
             var ad:boolean = true;
             if (('click' === en)) {
-              const pd_0:any = ((<any>i0.ɵnov(_v,37).onClick($event.button,$event.ctrlKey,
+              const pd_0:any = ((<any>i0.ɵnov(_v,32).onClick($event.button,$event.ctrlKey,
                   $event.metaKey,$event.shiftKey)) !== false);
               ad = (pd_0 && ad);
             }
@@ -79,71 +70,123 @@ export function View_ShowcaseComponent_0(_l:any):i0.ɵViewDefinition {
           },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
           [i1.Router,i1.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
           (null as any)),(_l()(),i0.ɵted((null as any),['Read More'])),(_l()(),i0.ɵted((null as any),
-          ['\n				'])),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵted((null as any),
-          ['\n\n				'])),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          ['\n		'])),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),
+          ['\n\n		'])),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),18,'div',[['class','col-sm-4 sm-margin-b-50']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'div',[['class','margin-b-20']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),0,'img',[['alt','Latest Products Image'],
+          ['class','img-responsive'],['src','img/showcase/02.jpg']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),3,'h4',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),2,'a',[['routerLink','./transient-computing']],[[1,'target',
+              0],[8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i0.ɵnov(_v,47).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
+          [i1.Router,i1.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),(_l()(),i0.ɵted((null as any),['Trasient Computing'])),(_l()(),
+          i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Turn the intermittent Wi-Fi signal into continuous computation progress. See how nonvolatile processor makes trasient computing efficient and reliable!'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          2,'a',[['class','link'],['routerLink','./transient-computing']],[[1,'target',
+              0],[8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i0.ɵnov(_v,54).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
+          [i1.Router,i1.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),(_l()(),i0.ɵted((null as any),['Read More'])),(_l()(),i0.ɵted((null as any),
+          ['\n		'])),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),
+          ['\n\n		'])),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵeld(0,
           (null as any),(null as any),19,'div',[['class','col-sm-4 sm-margin-b-50']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,(null as any),
-          (null as any),3,'div',[['class','margin-b-20']],(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['\n								'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'img',[['alt',
-          'Latest Products Image'],['class','img-responsive'],['src','img/970x647/02.jpg']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵted((null as any),['\n						'])),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),5,'h4',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),1,'a',[['href','#']],(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['UV Patch'])),(_l()(),i0.ɵted((null as any),[' '])),(_l()(),i0.ɵeld(0,(null as any),
-          (null as any),1,'span',[['class','text-uppercase margin-l-20 visible-lg-inline']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['Wearable Device'])),(_l()(),i0.ɵted((null as any),
-          ['\n						'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor'])),
-      (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,(null as any),
-          (null as any),1,'a',[['class','link'],['href','#']],(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['Read More'])),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵted((null as any),
-          ['\n				'])),(_l()(),i0.ɵted((null as any),['\n\n				'])),(_l()(),i0.ɵted((null as any),
-          ['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),19,'div',[['class',
-          'col-sm-4 sm-margin-b-50']],(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),3,'div',[['class','margin-b-20']],(null as any),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'div',[['class','margin-b-20']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),0,'img',[['alt','Latest Products Image'],
+          ['class','img-responsive'],['src','img/showcase/03.jpg']],(null as any),
           (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['\n								'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),0,'img',[['alt',
-          'Latest Products Image'],['class','img-responsive'],['src','img/970x647/03.jpg']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵted((null as any),['\n						'])),
-      (_l()(),i0.ɵeld(0,(null as any),(null as any),5,'h4',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),1,'a',[['href','#']],(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['Remote Sensor'])),(_l()(),i0.ɵted((null as any),[' '])),(_l()(),i0.ɵeld(0,
-          (null as any),(null as any),1,'span',[['class','margin-l-20 visible-lg-inline']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i0.ɵted((null as any),['IoT'])),(_l()(),i0.ɵted((null as any),['\n						'])),
+          ['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),4,'h4',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),2,'a',[['routerLink','./low-power-iot']],[[1,'target',0],[8,
+              'href',4]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i0.ɵnov(_v,69).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
+          [i1.Router,i1.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),(_l()(),i0.ɵted((null as any),['Low-Power IoT'])),(_l()(),
+          i0.ɵted((null as any),[' '])),(_l()(),i0.ɵted((null as any),['\n			'])),
       (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
           (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor'])),
-      (_l()(),i0.ɵted((null as any),['\n						'])),(_l()(),i0.ɵeld(0,(null as any),
-          (null as any),1,'a',[['class','link'],['href','#']],(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
-          ['Read More'])),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵted((null as any),
-          ['\n				'])),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),
-          ['\n		'])),(_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵted((null as any),
-          ['\n']))],(_ck,_v) => {
-    const currVal_2:any = './breath-monitor';
-    _ck(_v,28,0,currVal_2);
-    const currVal_5:any = './breath-monitor';
-    _ck(_v,37,0,currVal_5);
+          ['A lot of IoT devices such as remote sensors serve in a "normally-off" operation pattern. See how nonvolatile processor brings energy saving benefits!'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          2,'a',[['class','link'],['routerLink','./low-power-iot']],[[1,'target',0],
+              [8,'href',4]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i0.ɵnov(_v,77).onClick($event.button,$event.ctrlKey,
+                  $event.metaKey,$event.shiftKey)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },(null as any),(null as any))),i0.ɵdid(671744,(null as any),0,i1.RouterLinkWithHref,
+          [i1.Router,i1.ActivatedRoute,i2.LocationStrategy],{routerLink:[0,'routerLink']},
+          (null as any)),(_l()(),i0.ɵted((null as any),['Read More'])),(_l()(),i0.ɵted((null as any),
+          ['\n		'])),(_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),
+          ['\n	'])),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),i0.ɵted((null as any),
+          ['\n'])),(_l()(),i0.ɵted((null as any),['\n']))],(_ck,_v) => {
+    const currVal_2:any = './self-powered-wearables';
+    _ck(_v,25,0,currVal_2);
+    const currVal_5:any = './self-powered-wearables';
+    _ck(_v,32,0,currVal_5);
+    const currVal_8:any = './transient-computing';
+    _ck(_v,47,0,currVal_8);
+    const currVal_11:any = './transient-computing';
+    _ck(_v,54,0,currVal_11);
+    const currVal_14:any = './low-power-iot';
+    _ck(_v,69,0,currVal_14);
+    const currVal_17:any = './low-power-iot';
+    _ck(_v,77,0,currVal_17);
   },(_ck,_v) => {
-    const currVal_0:any = i0.ɵnov(_v,28).target;
-    const currVal_1:any = i0.ɵnov(_v,28).href;
-    _ck(_v,27,0,currVal_0,currVal_1);
-    const currVal_3:any = i0.ɵnov(_v,37).target;
-    const currVal_4:any = i0.ɵnov(_v,37).href;
-    _ck(_v,36,0,currVal_3,currVal_4);
+    const currVal_0:any = i0.ɵnov(_v,25).target;
+    const currVal_1:any = i0.ɵnov(_v,25).href;
+    _ck(_v,24,0,currVal_0,currVal_1);
+    const currVal_3:any = i0.ɵnov(_v,32).target;
+    const currVal_4:any = i0.ɵnov(_v,32).href;
+    _ck(_v,31,0,currVal_3,currVal_4);
+    const currVal_6:any = i0.ɵnov(_v,47).target;
+    const currVal_7:any = i0.ɵnov(_v,47).href;
+    _ck(_v,46,0,currVal_6,currVal_7);
+    const currVal_9:any = i0.ɵnov(_v,54).target;
+    const currVal_10:any = i0.ɵnov(_v,54).href;
+    _ck(_v,53,0,currVal_9,currVal_10);
+    const currVal_12:any = i0.ɵnov(_v,69).target;
+    const currVal_13:any = i0.ɵnov(_v,69).href;
+    _ck(_v,68,0,currVal_12,currVal_13);
+    const currVal_15:any = i0.ɵnov(_v,77).target;
+    const currVal_16:any = i0.ɵnov(_v,77).href;
+    _ck(_v,76,0,currVal_15,currVal_16);
   });
 }
 export function View_ShowcaseComponent_Host_0(_l:any):i0.ɵViewDefinition {
@@ -154,4 +197,181 @@ export function View_ShowcaseComponent_Host_0(_l:any):i0.ɵViewDefinition {
 }
 export const ShowcaseComponentNgFactory:i0.ComponentFactory<i3.ShowcaseComponent> = i0.ɵccf('nvlabs-showcase',
     i3.ShowcaseComponent,View_ShowcaseComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3Nob3djYXNlLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvc2hvd2Nhc2Uvc2hvd2Nhc2UuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3Nob3djYXNlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3Nob3djYXNlLmNvbXBvbmVudC50cy5TaG93Y2FzZUNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxkaXYgY2xhc3M9XCJjb250ZW50LWxnIGNvbnRhaW5lclwiPlxyXG5cdFx0PGRpdiBjbGFzcz1cInNob3djYXNlLXRpdGxlIG1hcmdpbi1iLTgwXCI+XHJcblx0XHRcdFx0PGgxIGNsYXNzPVwibWFyZ2luLWItMTBcIj5TaG93Y2FzZTwvaDE+XHJcblx0XHRcdFx0PHAgY2xhc3M9XCJ0ZXh0LXVwcGVyY2FzZVwiPlJlYWwtd29ybGQgYXBwbGljYXRpb25zIGJ1aWx0IHdpdGggbm9udm9sYXRpbGUgcHJvY2Vzc29yPC9wPlxyXG5cdFx0PC9kaXY+XHJcblx0XHQ8IS0tLy8gZW5kIHJvdyAtLT5cclxuXHJcblx0XHQ8ZGl2IGNsYXNzPVwicm93XCI+XHJcblx0XHRcdFx0PCEtLSBMYXRlc3QgUHJvZHVjdHMgLS0+XHJcblx0XHRcdFx0PGRpdiBjbGFzcz1cImNvbC1zbS00IHNtLW1hcmdpbi1iLTUwXCI+XHJcblx0XHRcdFx0XHRcdDxkaXYgY2xhc3M9XCJzaG93Y2FzZS1pdGVtIG1hcmdpbi1iLTIwXCI+XHJcblx0XHRcdFx0XHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvOTcweDY0Ny8wMS5qcGdcIiBhbHQ9XCJMYXRlc3QgUHJvZHVjdHMgSW1hZ2VcIj5cclxuXHRcdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3M9XCJwbGF5LXdyYXBwZXJcIj48ZGl2IGNsYXNzPVwidGVzdFwiPjxpIGNsYXNzPVwiZmEgZmEtcGxheS1jaXJjbGUtb1wiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPjwvaT48L2Rpdj48L2Rpdj5cclxuXHRcdFx0XHRcdFx0PC9kaXY+XHJcblx0XHRcdFx0XHRcdDxoND48YSByb3V0ZXJMaW5rPVwiLi9icmVhdGgtbW9uaXRvclwiPkJyZWF0aCBNb25pdG9yIDwvYT48c3BhbiBjbGFzcz1cInRleHQtdXBwZXJjYXNlIG1hcmdpbi1sLTIwIHZpc2libGUtbGctaW5saW5lXCI+U21hcnQgSGVhbHRoY2FyZTwvc3Bhbj48L2g0PlxyXG5cdFx0XHRcdFx0XHQ8cD5BIHdlYXJhYmxlIGRldmljZSBtb25pdG9yaW5nIGJyZWF0aGluZyBjb25kaXRpb24gZnJvbSBicmVhdGhpbmcgcG93ZXIuIE5vbnZvbGF0aWxlIHByb2Nlc3NvciBoZWxwcyB0byBydW4gdGhyb3VnaCBwb3dlciBmYWlsdXJlcyB3aXRob3V0IHByb2dyZXNzIGxvc3MhPC9wPiBcclxuXHRcdFx0XHRcdFx0PGEgY2xhc3M9XCJsaW5rXCIgcm91dGVyTGluaz1cIi4vYnJlYXRoLW1vbml0b3JcIj5SZWFkIE1vcmU8L2E+XHJcblx0XHRcdFx0PC9kaXY+XHJcblx0XHRcdFx0PCEtLSBFbmQgTGF0ZXN0IFByb2R1Y3RzIC0tPlxyXG5cclxuXHRcdFx0XHQ8IS0tIExhdGVzdCBQcm9kdWN0cyAtLT5cclxuXHRcdFx0XHQ8ZGl2IGNsYXNzPVwiY29sLXNtLTQgc20tbWFyZ2luLWItNTBcIj5cclxuXHRcdFx0XHRcdFx0PGRpdiBjbGFzcz1cIm1hcmdpbi1iLTIwXCI+XHJcblx0XHRcdFx0XHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvOTcweDY0Ny8wMi5qcGdcIiBhbHQ9XCJMYXRlc3QgUHJvZHVjdHMgSW1hZ2VcIj5cclxuXHRcdFx0XHRcdFx0PC9kaXY+XHJcblx0XHRcdFx0XHRcdDxoND48YSBocmVmPVwiI1wiPlVWIFBhdGNoPC9hPiA8c3BhbiBjbGFzcz1cInRleHQtdXBwZXJjYXNlIG1hcmdpbi1sLTIwIHZpc2libGUtbGctaW5saW5lXCI+V2VhcmFibGUgRGV2aWNlPC9zcGFuPjwvaDQ+XHJcblx0XHRcdFx0XHRcdDxwPkxvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0IGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdCBzZWQgdGVtcG9yIGluY2RpZHVudCB1dCBsYWJvcmV0IGRvbG9yIG1hZ25hIHV0IGNvbnNlcXVhdCBzaWFkIGVzcXVkaWF0IGRvbG9yPC9wPlxyXG5cdFx0XHRcdFx0XHQ8YSBjbGFzcz1cImxpbmtcIiBocmVmPVwiI1wiPlJlYWQgTW9yZTwvYT5cclxuXHRcdFx0XHQ8L2Rpdj5cclxuXHRcdFx0XHQ8IS0tIEVuZCBMYXRlc3QgUHJvZHVjdHMgLS0+XHJcblxyXG5cdFx0XHRcdDwhLS0gTGF0ZXN0IFByb2R1Y3RzIC0tPlxyXG5cdFx0XHRcdDxkaXYgY2xhc3M9XCJjb2wtc20tNCBzbS1tYXJnaW4tYi01MFwiPlxyXG5cdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzPVwibWFyZ2luLWItMjBcIj5cclxuXHRcdFx0XHRcdFx0XHRcdDxpbWcgY2xhc3M9XCJpbWctcmVzcG9uc2l2ZVwiIHNyYz1cImltZy85NzB4NjQ3LzAzLmpwZ1wiIGFsdD1cIkxhdGVzdCBQcm9kdWN0cyBJbWFnZVwiPlxyXG5cdFx0XHRcdFx0XHQ8L2Rpdj5cclxuXHRcdFx0XHRcdFx0PGg0PjxhIGhyZWY9XCIjXCI+UmVtb3RlIFNlbnNvcjwvYT4gPHNwYW4gY2xhc3M9XCJtYXJnaW4tbC0yMCB2aXNpYmxlLWxnLWlubGluZVwiPklvVDwvc3Bhbj48L2g0PlxyXG5cdFx0XHRcdFx0XHQ8cD5Mb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQgc2VkIHRlbXBvciBpbmNkaWR1bnQgdXQgbGFib3JldCBkb2xvciBtYWduYSB1dCBjb25zZXF1YXQgc2lhZCBlc3F1ZGlhdCBkb2xvcjwvcD5cclxuXHRcdFx0XHRcdFx0PGEgY2xhc3M9XCJsaW5rXCIgaHJlZj1cIiNcIj5SZWFkIE1vcmU8L2E+XHJcblx0XHRcdFx0PC9kaXY+XHJcblx0XHRcdFx0PCEtLSBFbmQgTGF0ZXN0IFByb2R1Y3RzIC0tPlxyXG5cdFx0PC9kaXY+XHJcblx0XHQ8IS0tLy8gZW5kIHJvdyAtLT5cclxuPC9kaXY+XHJcbiIsIjxudmxhYnMtc2hvd2Nhc2U+PC9udmxhYnMtc2hvd2Nhc2U+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQTtNQUFBLGdCQUFrQyx5Q0FDaEM7TUFBQTtNQUFBLDBEQUF3QztNQUFBLGFBQ3RDO01BQUE7TUFBd0IsNkNBQWE7TUFDckM7VUFBQTtNQUEwQjtNQUE0RCx5Q0FDbEY7TUFDWSwyQ0FFbEI7VUFBQTtVQUFBLGdCQUFpQiwyQ0FDUztVQUFBLGFBQ3hCO1VBQUE7VUFBQSxnQkFBcUMsNkNBQ25DO1VBQUE7VUFBQTtNQUF1QywrQ0FDckM7VUFBQTtjQUFBO1VBQUEsOEJBQWlGO01BQ2pGO1VBQUE7TUFBMEI7VUFBQSwwREFBa0I7VUFBQTtVQUFBO01BQWtFLDZDQUMxRztNQUNOO1VBQUEsMERBQUk7VUFBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2tCQUFBO2NBQUE7WUFBQTtZQUFBO1VBQUEsdUNBQUE7VUFBQTtVQUFBLGVBQWlDLG9EQUFtQjtpQkFBQTtjQUFBO01BQTJELHFEQUE0QjtVQUFBLGVBQy9JO1VBQUE7TUFBRztNQUEySiw4Q0FDOUo7VUFBQTtVQUFBO1lBQUE7WUFBQTtjQUFBO2tCQUFBO2NBQUE7WUFBQTtZQUFBO1VBQUEsdUNBQUE7VUFBQTtVQUFBLGVBQThDLDhDQUFhO1VBQUEsYUFDdkQsMkNBQ3NCO1VBQUEsZUFFSiwyQ0FDeEI7VUFBQTtVQUFBO01BQXFDLDZDQUNuQztVQUFBO1VBQUEsNENBQXlCO1VBQUEsaUJBQ3ZCO1VBQUE7VUFBQTtNQUFpRiw2Q0FDN0U7TUFDTjtVQUFBLDBEQUFJO1VBQUE7VUFBQSw0Q0FBWTtVQUFBLGVBQVksc0NBQUM7VUFBQTtVQUFBO01BQTJELG9EQUEyQjtVQUFBLGVBQ25IO1VBQUE7TUFBRztNQUF1SSw2Q0FDMUk7VUFBQTtVQUFBLDRDQUF5QjtVQUFBLGdCQUFhLDJDQUNsQztVQUFBLGFBQ3NCLDZDQUVKO1VBQUEsYUFDeEI7VUFBQTtVQUFBLGdCQUFxQyw2Q0FDbkM7VUFBQTtVQUFBLDBEQUF5QjtVQUFBLGlCQUN2QjtVQUFBO1VBQUE7TUFBaUYsNkNBQzdFO01BQ047VUFBQSwwREFBSTtVQUFBO1VBQUEsNENBQVk7VUFBQSxvQkFBaUIsc0NBQUM7VUFBQTtVQUFBO01BQTRDLHdDQUFlO01BQzdGO1VBQUEsMERBQUc7VUFBQTtNQUF1SSw2Q0FDMUk7VUFBQTtVQUFBLDRDQUF5QjtVQUFBLGdCQUFhLDJDQUNsQztVQUFBLGFBQ3NCLHlDQUN4QjtVQUFBLFdBQ1ksdUNBQ2Q7VUFBQTtJQTdCTztJQUFILFlBQUcsU0FBSDtJQUVZO0lBQWhCLFlBQWdCLFNBQWhCOztJQUZJO0lBQUE7SUFBQSxZQUFBLG1CQUFBO0lBRUo7SUFBQTtJQUFBLFlBQUEsbUJBQUE7Ozs7b0JDaEJOO01BQUE7a0NBQUEsVUFBQTtNQUFBOzs7In0=
+const styles_SelfPoweredWearablesComponent:any[] = ([] as any[]);
+export const RenderType_SelfPoweredWearablesComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
+    styles:styles_SelfPoweredWearablesComponent,data:{}});
+export function View_SelfPoweredWearablesComponent_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),33,'div',[['class',
+      'content-sm container plain-content']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),
+      i0.ɵeld(0,(null as any),(null as any),30,'div',[['class','row']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+      ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),27,'div',[['class',
+      'col-lg-10 col-lg-offset-1']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+      (null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
+      (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Self-Powered Wearables'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'div',[['class','well']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'em',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n				Respiration rate (rate of breathing) is a primary vital sign that indicates human body\'s functions. Meanwhile, breathing generates distance movement, which can be collected as energy. Can we monitor breathing condition using breathing energy?\n				'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),3,'div',[['class','embed-responsive embed-responsive-16by9 margin-b-30']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n    			'])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),0,'iframe',[['class','embed-responsive-item'],['src','https://www.youtube.com/embed/jK77uDYnLV4']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Breathing generates distance movement, which can be collected as energy. These energy can be utilized to measure the frequency of breathing, and even heart-rate and pulse oximeter. There\'s a wide range of applications such as wearable devices for babies, pregnants and fitness people. '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['However, one of the most challenging thing about monitoring breathing with breathing power is that '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['the power is neither stable nor continuous'])),(_l()(),i0.ɵted((null as any),
+          ['. Using conventional microprocessors in such systems will lead to an unfortunate dilemma: the frequent power outage will destroy all intermediate data in the processor, while storing all those data into Flash memory is both energy and time consuming. '])),
+      (_l()(),i0.ɵted((null as any),[' \n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Fortunately, nonvolatile processor makes it possible to survive a power failure at negligible time and energy cost. This demo video shows a self-powered breath monitoring system consisting of a breath energy harvester (from Tahzib Safwat @ Penn State University), a nonvolatile processor and a LCD screen. The screen shows pulsed data including averaged breathing frequency and last time breath frequency. The higher 2 bits of LCD screen stand for average breathing frequency calculated through past 3 times breathing intervals. The lower 2 bits stand for the last time breathing frequency. An "L" indicates your breathing is too slow (<12 times/min), and an "H" indicates too high breathing frequency (>48 times/min).'])),
+      (_l()(),i0.ɵted((null as any),['\n		'])),(_l()(),i0.ɵted((null as any),['\n	'])),
+      (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵted((null as any),['\n']))],
+      (null as any),(null as any));
+}
+export function View_SelfPoweredWearablesComponent_Host_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'nvlabs-self-powered-wearables',
+      ([] as any[]),(null as any),(null as any),(null as any),View_SelfPoweredWearablesComponent_0,
+      RenderType_SelfPoweredWearablesComponent)),i0.ɵdid(49152,(null as any),0,i3.SelfPoweredWearablesComponent,
+      ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
+}
+export const SelfPoweredWearablesComponentNgFactory:i0.ComponentFactory<i3.SelfPoweredWearablesComponent> = i0.ɵccf('nvlabs-self-powered-wearables',
+    i3.SelfPoweredWearablesComponent,View_SelfPoweredWearablesComponent_Host_0,{},
+    {},([] as any[]));
+const styles_TransientComputingComponent:any[] = ([] as any[]);
+export const RenderType_TransientComputingComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
+    styles:styles_TransientComputingComponent,data:{}});
+export function View_TransientComputingComponent_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),35,'div',[['class',
+      'content-sm container plain-content']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),
+      i0.ɵeld(0,(null as any),(null as any),32,'div',[['class','row']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+      ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),29,'div',[['class',
+      'col-lg-10 col-lg-offset-1']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+      (null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
+      (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Transient Computing'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          3,'div',[['class','embed-responsive embed-responsive-16by9 margin-b-30']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n    			'])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),0,'iframe',[['class','embed-responsive-item'],['src','https://www.youtube.com/embed/UaXRcAYKol8']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Embedded systems powered by energy harvesting has traditionally been coupled with large energy storage elements (rechargeable battery, supercapacitor, etc.), due to the erratic nature of energy source. Such system has disadvantages of large size, high leakage current and high maintenance cost. '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          6,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Directly powering with energy harvester can help us get rid of energy storage and conversion circuits. This has pushed forward a new task execution paradigm -- '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['transient computing'])),(_l()(),i0.ɵted((null as any),[' -- where computation is performed only when power is available. While transient computing allows energy harvesting systems to have smaller size, lower cost and higher efficiency than traditional ones, it imposes tough requirements on the computing devices: '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['they must make continuous computational progress using transient power supply.'])),
+      (_l()(),i0.ɵted((null as any),['  \n			'])),(_l()(),i0.ɵeld(0,(null as any),
+          (null as any),1,'p',([] as any[]),(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['This demo video shows how nonvolatile processor enables reliable and efficient transient computing. An antenna collects power at 30cm distance from an RF source (3W, which is similar to a Wi-Fi router), and powers up a processor running pattern matching program via an AC-DC converter. The percentage of the program progress is shown on the LCD screen.'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['First, a volatile processor is tested. At the beginning, it operates properly using the harvested RF power. However, if an obstacle is placed between the energy source and the harvester, or the antenna is pointed to a different direction, the volatile processor will reset and all progress will be lost because of power failure. '])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['In contrast, nonvolatile processor can guarantee continuous processing in this scenario. When a power interruption is about to come, it saves system states into nonvolatile flip-flops. And when RF power is resumed, it continues to execute right from the interrupted point. In this way, nonvolatile processor makes the behavior of transiently powered systems continuous and reliable. '])),
+      (_l()(),i0.ɵted((null as any),[' \n		'])),(_l()(),i0.ɵted((null as any),['\n	'])),
+      (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵted((null as any),['\n']))],
+      (null as any),(null as any));
+}
+export function View_TransientComputingComponent_Host_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'nvlabs-transient-computing',
+      ([] as any[]),(null as any),(null as any),(null as any),View_TransientComputingComponent_0,
+      RenderType_TransientComputingComponent)),i0.ɵdid(49152,(null as any),0,i3.TransientComputingComponent,
+      ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
+}
+export const TransientComputingComponentNgFactory:i0.ComponentFactory<i3.TransientComputingComponent> = i0.ɵccf('nvlabs-transient-computing',
+    i3.TransientComputingComponent,View_TransientComputingComponent_Host_0,{},{},([] as any[]));
+const styles_LowPowerIoTComponent:any[] = ([] as any[]);
+export const RenderType_LowPowerIoTComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
+    styles:styles_LowPowerIoTComponent,data:{}});
+export function View_LowPowerIoTComponent_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),50,'div',[['class',
+      'content-sm container plain-content']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['\n	'])),(_l()(),
+      i0.ɵeld(0,(null as any),(null as any),47,'div',[['class','row']],(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+      ['\n		'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),44,'div',[['class',
+      'col-lg-10 col-lg-offset-1']],(null as any),(null as any),(null as any),(null as any),
+      (null as any))),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+      (null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
+      (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Low-Power IoT'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'div',[['class','well']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'em',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['\n					The power consumption of trillions of devices has become a major challenge in the IoT era. Can nonvolatile processors save power for the IoT?\n				'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵted((null as any),['\n          '])),(_l()(),i0.ɵted((null as any),
+          ['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),1,'p',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Quite a lot of IoT devices serve as remote sensors which collect physical data from their surrounding environment. Usually these remote sensors are located in far away or dangerous places, and work in a "normally-off" pattern. They have no need for high performance or data throughput, but requires extremely long battery life because changing or recharging batteries will be costly! '])),
+      (_l()(),i0.ɵted((null as any),[' \n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          6,'div',[['class','figure']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),0,'img',[['alt','Normally-off requres low standby power'],
+              ['class','img-responsive img-center'],['src','img/showcase/normally-off.png']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'div',[['class','caption']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Figure 1: Energy analysis of normally-off IoT devices'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['For such applications, the processor\'s leakage power becomes the main limiting factor to battery life. This is because they stay in standby mode in more than 99% of the time (Figure 1). Here we assume the standby power is 1uW and the active power is 1mW, while the sensor node senses data (which takes ~1ms) once every 10 seconds. We can calculate that for every cycle (10s), the sensing activity costs 1mW * 1ms = 1uJ energy, but the standby mode costs 1uW * 10s = 10uJ! That is to say, more than 90% of total energy is wasted on the standby mode.'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          4,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['Fortunately, nonvolatile processor is an ideal choice for normally-off applications thanks to its '])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'strong',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['literally-zero standby power'])),(_l()(),i0.ɵted((null as any),['. It executes sensing tasks when needed, and standby at zero cost in the rest of the time. In this way, nonvolatile processor helps normally-off IoT devices save precious energy and extend their service life'])),
+      (_l()(),i0.ɵted((null as any),[' \n			'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          6,'div',[['class','figure']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,
+          (null as any),(null as any),0,'img',[['alt','A bridge health monitoring system using nonvolatile processor based sensor node'],
+              ['class','img-responsive img-center'],['src','img/showcase/bridge.png']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i0.ɵted((null as any),['\n				'])),(_l()(),i0.ɵeld(0,(null as any),(null as any),
+          1,'div',[['class','caption']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i0.ɵted((null as any),['Figure 2: A bridge health monitoring system using nonvolatile processor based sensor node'])),
+      (_l()(),i0.ɵted((null as any),['\n			'])),(_l()(),i0.ɵted((null as any),['\n			'])),
+      (_l()(),i0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted((null as any),
+          ['Figure 2 shows a normally-off bridge health monitoring system using nonvolatile processor based sensor nodes. The total energy is expected to be reduced by 40% thanks to the zero standby power of nonvolatile processor. '])),
+      (_l()(),i0.ɵted((null as any),['\n\n		'])),(_l()(),i0.ɵted((null as any),['\n	'])),
+      (_l()(),i0.ɵted((null as any),['\n'])),(_l()(),i0.ɵted((null as any),['\n']))],
+      (null as any),(null as any));
+}
+export function View_LowPowerIoTComponent_Host_0(_l:any):i0.ɵViewDefinition {
+  return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,(null as any),(null as any),1,'nvlabs-low-power-iot',
+      ([] as any[]),(null as any),(null as any),(null as any),View_LowPowerIoTComponent_0,
+      RenderType_LowPowerIoTComponent)),i0.ɵdid(49152,(null as any),0,i3.LowPowerIoTComponent,
+      ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
+}
+export const LowPowerIoTComponentNgFactory:i0.ComponentFactory<i3.LowPowerIoTComponent> = i0.ɵccf('nvlabs-low-power-iot',
+    i3.LowPowerIoTComponent,View_LowPowerIoTComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3Nob3djYXNlLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvc2hvd2Nhc2Uvc2hvd2Nhc2UuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3Nob3djYXNlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3Nob3djYXNlLmNvbXBvbmVudC50cy5TaG93Y2FzZUNvbXBvbmVudF9Ib3N0Lmh0bWwiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvc2hvd2Nhc2Uvc2VsZi1wb3dlcmVkLXdlYXJhYmxlcy5jb21wb25lbnQuaHRtbCIsIm5nOi8vL0M6L1VzZXJzL3N1ZmFuZy9PbmVEcml2ZS9OVkxhYnMvc3JjL2FwcC9zaG93Y2FzZS9zaG93Y2FzZS5jb21wb25lbnQudHMuU2VsZlBvd2VyZWRXZWFyYWJsZXNDb21wb25lbnRfSG9zdC5odG1sIiwibmc6Ly8vQzovVXNlcnMvc3VmYW5nL09uZURyaXZlL05WTGFicy9zcmMvYXBwL3Nob3djYXNlL3RyYW5zaWVudC1jb21wdXRpbmcuY29tcG9uZW50Lmh0bWwiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvc2hvd2Nhc2Uvc2hvd2Nhc2UuY29tcG9uZW50LnRzLlRyYW5zaWVudENvbXB1dGluZ0NvbXBvbmVudF9Ib3N0Lmh0bWwiLCJuZzovLy9DOi9Vc2Vycy9zdWZhbmcvT25lRHJpdmUvTlZMYWJzL3NyYy9hcHAvc2hvd2Nhc2UvbG93LXBvd2VyLWlvdC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL0M6L1VzZXJzL3N1ZmFuZy9PbmVEcml2ZS9OVkxhYnMvc3JjL2FwcC9zaG93Y2FzZS9zaG93Y2FzZS5jb21wb25lbnQudHMuTG93UG93ZXJJb1RDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8ZGl2IGNsYXNzPVwiY29udGVudC1sZyBjb250YWluZXJcIj5cclxuXHQ8ZGl2IGNsYXNzPVwic2hvd2Nhc2UtdGl0bGUgbWFyZ2luLWItODBcIj5cclxuXHRcdDxoMSBjbGFzcz1cIm1hcmdpbi1iLTEwXCI+U2hvd2Nhc2U8L2gxPlxyXG5cdFx0PHAgY2xhc3M9XCJ0ZXh0LXVwcGVyY2FzZVwiPlJlYWwtd29ybGQgYXBwbGljYXRpb25zIGJ1aWx0IHdpdGggbm9udm9sYXRpbGUgcHJvY2Vzc29yPC9wPlxyXG5cdDwvZGl2PlxyXG5cdDwhLS0vLyBlbmQgcm93IC0tPlxyXG5cclxuXHQ8ZGl2IGNsYXNzPVwicm93XCI+XHJcblx0XHQ8IS0tIExhdGVzdCBQcm9kdWN0cyAtLT5cclxuXHRcdDxkaXYgY2xhc3M9XCJjb2wtc20tNCBzbS1tYXJnaW4tYi01MFwiPlxyXG5cdFx0XHQ8ZGl2IGNsYXNzPVwibWFyZ2luLWItMjBcIj5cclxuXHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvc2hvd2Nhc2UvMDEuanBnXCIgYWx0PVwiTGF0ZXN0IFByb2R1Y3RzIEltYWdlXCI+XHJcblx0XHRcdFx0PCEtLTxkaXYgY2xhc3M9XCJwbGF5LXdyYXBwZXJcIj48ZGl2IGNsYXNzPVwidGVzdFwiPjxpIGNsYXNzPVwiZmEgZmEtcGxheS1jaXJjbGUtb1wiIGFyaWEtaGlkZGVuPVwidHJ1ZVwiPjwvaT48L2Rpdj48L2Rpdj4tLT5cclxuXHRcdFx0PC9kaXY+XHJcblx0XHRcdDxoND48YSByb3V0ZXJMaW5rPVwiLi9zZWxmLXBvd2VyZWQtd2VhcmFibGVzXCI+U2VsZi1Qb3dlcmVkIFdlYXJhYmxlcyA8L2E+PC9oND5cclxuXHRcdFx0PHA+QSB3ZWFyYWJsZSBkZXZpY2UgbW9uaXRvcmluZyBicmVhdGhpbmcgY29uZGl0aW9uIGZyb20gYnJlYXRoaW5nIHBvd2VyLiBOb252b2xhdGlsZSBwcm9jZXNzb3IgaGVscHMgdG8gcnVuIHRocm91Z2ggcG93ZXIgZmFpbHVyZXMgd2l0aG91dCBwcm9ncmVzcyBsb3NzITwvcD4gXHJcblx0XHRcdDxhIGNsYXNzPVwibGlua1wiIHJvdXRlckxpbms9XCIuL3NlbGYtcG93ZXJlZC13ZWFyYWJsZXNcIj5SZWFkIE1vcmU8L2E+XHJcblx0XHQ8L2Rpdj5cclxuXHRcdDwhLS0gRW5kIExhdGVzdCBQcm9kdWN0cyAtLT5cclxuXHJcblx0XHQ8IS0tIExhdGVzdCBQcm9kdWN0cyAtLT5cclxuXHRcdDxkaXYgY2xhc3M9XCJjb2wtc20tNCBzbS1tYXJnaW4tYi01MFwiPlxyXG5cdFx0XHQ8ZGl2IGNsYXNzPVwibWFyZ2luLWItMjBcIj5cclxuXHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmVcIiBzcmM9XCJpbWcvc2hvd2Nhc2UvMDIuanBnXCIgYWx0PVwiTGF0ZXN0IFByb2R1Y3RzIEltYWdlXCI+XHJcblx0XHRcdDwvZGl2PlxyXG5cdFx0XHQ8aDQ+PGEgcm91dGVyTGluaz1cIi4vdHJhbnNpZW50LWNvbXB1dGluZ1wiPlRyYXNpZW50IENvbXB1dGluZzwvYT48L2g0PlxyXG5cdFx0XHQ8cD5UdXJuIHRoZSBpbnRlcm1pdHRlbnQgV2ktRmkgc2lnbmFsIGludG8gY29udGludW91cyBjb21wdXRhdGlvbiBwcm9ncmVzcy4gU2VlIGhvdyBub252b2xhdGlsZSBwcm9jZXNzb3IgbWFrZXMgdHJhc2llbnQgY29tcHV0aW5nIGVmZmljaWVudCBhbmQgcmVsaWFibGUhPC9wPlxyXG5cdFx0XHQ8YSBjbGFzcz1cImxpbmtcIiByb3V0ZXJMaW5rPVwiLi90cmFuc2llbnQtY29tcHV0aW5nXCI+UmVhZCBNb3JlPC9hPlxyXG5cdFx0PC9kaXY+XHJcblx0XHQ8IS0tIEVuZCBMYXRlc3QgUHJvZHVjdHMgLS0+XHJcblxyXG5cdFx0PCEtLSBMYXRlc3QgUHJvZHVjdHMgLS0+XHJcblx0XHQ8ZGl2IGNsYXNzPVwiY29sLXNtLTQgc20tbWFyZ2luLWItNTBcIj5cclxuXHRcdFx0PGRpdiBjbGFzcz1cIm1hcmdpbi1iLTIwXCI+XHJcblx0XHRcdFx0PGltZyBjbGFzcz1cImltZy1yZXNwb25zaXZlXCIgc3JjPVwiaW1nL3Nob3djYXNlLzAzLmpwZ1wiIGFsdD1cIkxhdGVzdCBQcm9kdWN0cyBJbWFnZVwiPlxyXG5cdFx0XHQ8L2Rpdj5cclxuXHRcdFx0PGg0PjxhIHJvdXRlckxpbms9XCIuL2xvdy1wb3dlci1pb3RcIj5Mb3ctUG93ZXIgSW9UPC9hPiA8L2g0PlxyXG5cdFx0XHQ8cD5BIGxvdCBvZiBJb1QgZGV2aWNlcyBzdWNoIGFzIHJlbW90ZSBzZW5zb3JzIHNlcnZlIGluIGEgXCJub3JtYWxseS1vZmZcIiBvcGVyYXRpb24gcGF0dGVybi4gU2VlIGhvdyBub252b2xhdGlsZSBwcm9jZXNzb3IgYnJpbmdzIGVuZXJneSBzYXZpbmcgYmVuZWZpdHMhPC9wPlxyXG5cdFx0XHQ8YSBjbGFzcz1cImxpbmtcIiByb3V0ZXJMaW5rPVwiLi9sb3ctcG93ZXItaW90XCI+UmVhZCBNb3JlPC9hPlxyXG5cdFx0PC9kaXY+XHJcblx0XHQ8IS0tIEVuZCBMYXRlc3QgUHJvZHVjdHMgLS0+XHJcblx0PC9kaXY+XHJcblx0PCEtLS8vIGVuZCByb3cgLS0+XHJcbjwvZGl2PlxyXG4iLCI8bnZsYWJzLXNob3djYXNlPjwvbnZsYWJzLXNob3djYXNlPiIsIjxkaXYgY2xhc3M9XCJjb250ZW50LXNtIGNvbnRhaW5lciBwbGFpbi1jb250ZW50XCI+XHJcblx0PGRpdiBjbGFzcz1cInJvd1wiPlxyXG5cdFx0PGRpdiBjbGFzcz1cImNvbC1sZy0xMCBjb2wtbGctb2Zmc2V0LTFcIj5cclxuXHRcdFx0PGgxPlNlbGYtUG93ZXJlZCBXZWFyYWJsZXM8L2gxPlxyXG5cdFx0XHQ8ZGl2IGNsYXNzPVwid2VsbFwiPlxyXG5cdFx0XHRcdDxlbT5cclxuXHRcdFx0XHRSZXNwaXJhdGlvbiByYXRlIChyYXRlIG9mIGJyZWF0aGluZykgaXMgYSBwcmltYXJ5IHZpdGFsIHNpZ24gdGhhdCBpbmRpY2F0ZXMgaHVtYW4gYm9keSdzIGZ1bmN0aW9ucy4gTWVhbndoaWxlLCBicmVhdGhpbmcgZ2VuZXJhdGVzIGRpc3RhbmNlIG1vdmVtZW50LCB3aGljaCBjYW4gYmUgY29sbGVjdGVkIGFzIGVuZXJneS4gQ2FuIHdlIG1vbml0b3IgYnJlYXRoaW5nIGNvbmRpdGlvbiB1c2luZyBicmVhdGhpbmcgZW5lcmd5P1xyXG5cdFx0XHRcdDwvZW0+XHJcblx0XHRcdDwvZGl2PlxyXG5cdFx0XHQ8ZGl2IGNsYXNzPVwiZW1iZWQtcmVzcG9uc2l2ZSBlbWJlZC1yZXNwb25zaXZlLTE2Ynk5IG1hcmdpbi1iLTMwXCI+XHJcbiAgICBcdFx0XHQ8aWZyYW1lIGNsYXNzPVwiZW1iZWQtcmVzcG9uc2l2ZS1pdGVtXCIgc3JjPVwiaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvaks3N3VEWW5MVjRcIj48L2lmcmFtZT5cclxuXHRcdFx0PC9kaXY+XHJcblx0XHRcdDxwPkJyZWF0aGluZyBnZW5lcmF0ZXMgZGlzdGFuY2UgbW92ZW1lbnQsIHdoaWNoIGNhbiBiZSBjb2xsZWN0ZWQgYXMgZW5lcmd5LiBUaGVzZSBlbmVyZ3kgY2FuIGJlIHV0aWxpemVkIHRvIG1lYXN1cmUgdGhlIGZyZXF1ZW5jeSBvZiBicmVhdGhpbmcsIGFuZCBldmVuIGhlYXJ0LXJhdGUgYW5kIHB1bHNlIG94aW1ldGVyLiBUaGVyZSdzIGEgd2lkZSByYW5nZSBvZiBhcHBsaWNhdGlvbnMgc3VjaCBhcyB3ZWFyYWJsZSBkZXZpY2VzIGZvciBiYWJpZXMsIHByZWduYW50cyBhbmQgZml0bmVzcyBwZW9wbGUuIDwvcD5cclxuXHRcdFx0PHA+SG93ZXZlciwgb25lIG9mIHRoZSBtb3N0IGNoYWxsZW5naW5nIHRoaW5nIGFib3V0IG1vbml0b3JpbmcgYnJlYXRoaW5nIHdpdGggYnJlYXRoaW5nIHBvd2VyIGlzIHRoYXQgPHN0cm9uZz50aGUgcG93ZXIgaXMgbmVpdGhlciBzdGFibGUgbm9yIGNvbnRpbnVvdXM8L3N0cm9uZz4uIFVzaW5nIGNvbnZlbnRpb25hbCBtaWNyb3Byb2Nlc3NvcnMgaW4gc3VjaCBzeXN0ZW1zIHdpbGwgbGVhZCB0byBhbiB1bmZvcnR1bmF0ZSBkaWxlbW1hOiB0aGUgZnJlcXVlbnQgcG93ZXIgb3V0YWdlIHdpbGwgZGVzdHJveSBhbGwgaW50ZXJtZWRpYXRlIGRhdGEgaW4gdGhlIHByb2Nlc3Nvciwgd2hpbGUgc3RvcmluZyBhbGwgdGhvc2UgZGF0YSBpbnRvIEZsYXNoIG1lbW9yeSBpcyBib3RoIGVuZXJneSBhbmQgdGltZSBjb25zdW1pbmcuIDwvcD4gXHJcblx0XHRcdDxwPkZvcnR1bmF0ZWx5LCBub252b2xhdGlsZSBwcm9jZXNzb3IgbWFrZXMgaXQgcG9zc2libGUgdG8gc3Vydml2ZSBhIHBvd2VyIGZhaWx1cmUgYXQgbmVnbGlnaWJsZSB0aW1lIGFuZCBlbmVyZ3kgY29zdC4gVGhpcyBkZW1vIHZpZGVvIHNob3dzIGEgc2VsZi1wb3dlcmVkIGJyZWF0aCBtb25pdG9yaW5nIHN5c3RlbSBjb25zaXN0aW5nIG9mIGEgYnJlYXRoIGVuZXJneSBoYXJ2ZXN0ZXIgKGZyb20gVGFoemliIFNhZndhdCBAIFBlbm4gU3RhdGUgVW5pdmVyc2l0eSksIGEgbm9udm9sYXRpbGUgcHJvY2Vzc29yIGFuZCBhIExDRCBzY3JlZW4uIFRoZSBzY3JlZW4gc2hvd3MgcHVsc2VkIGRhdGEgaW5jbHVkaW5nIGF2ZXJhZ2VkIGJyZWF0aGluZyBmcmVxdWVuY3kgYW5kIGxhc3QgdGltZSBicmVhdGggZnJlcXVlbmN5LiBUaGUgaGlnaGVyIDIgYml0cyBvZiBMQ0Qgc2NyZWVuIHN0YW5kIGZvciBhdmVyYWdlIGJyZWF0aGluZyBmcmVxdWVuY3kgY2FsY3VsYXRlZCB0aHJvdWdoIHBhc3QgMyB0aW1lcyBicmVhdGhpbmcgaW50ZXJ2YWxzLiBUaGUgbG93ZXIgMiBiaXRzIHN0YW5kIGZvciB0aGUgbGFzdCB0aW1lIGJyZWF0aGluZyBmcmVxdWVuY3kuIEFuIFwiTFwiIGluZGljYXRlcyB5b3VyIGJyZWF0aGluZyBpcyB0b28gc2xvdyAoJiM2MDsxMiB0aW1lcy9taW4pLCBhbmQgYW4gXCJIXCIgaW5kaWNhdGVzIHRvbyBoaWdoIGJyZWF0aGluZyBmcmVxdWVuY3kgKCYjNjI7NDggdGltZXMvbWluKS48L3A+XHJcblx0XHQ8L2Rpdj5cclxuXHQ8L2Rpdj5cclxuPC9kaXY+XHJcbiIsIjxudmxhYnMtc2VsZi1wb3dlcmVkLXdlYXJhYmxlcz48L252bGFicy1zZWxmLXBvd2VyZWQtd2VhcmFibGVzPiIsIjxkaXYgY2xhc3M9XCJjb250ZW50LXNtIGNvbnRhaW5lciBwbGFpbi1jb250ZW50XCI+XHJcblx0PGRpdiBjbGFzcz1cInJvd1wiPlxyXG5cdFx0PGRpdiBjbGFzcz1cImNvbC1sZy0xMCBjb2wtbGctb2Zmc2V0LTFcIj5cclxuXHRcdFx0PGgxPlRyYW5zaWVudCBDb21wdXRpbmc8L2gxPlxyXG5cdFx0XHQ8ZGl2IGNsYXNzPVwiZW1iZWQtcmVzcG9uc2l2ZSBlbWJlZC1yZXNwb25zaXZlLTE2Ynk5IG1hcmdpbi1iLTMwXCI+XHJcbiAgICBcdFx0XHQ8aWZyYW1lIGNsYXNzPVwiZW1iZWQtcmVzcG9uc2l2ZS1pdGVtXCIgc3JjPVwiaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvVWFYUmNBWUtvbDhcIj48L2lmcmFtZT5cclxuXHRcdFx0PC9kaXY+XHJcblx0XHRcdDxwPkVtYmVkZGVkIHN5c3RlbXMgcG93ZXJlZCBieSBlbmVyZ3kgaGFydmVzdGluZyBoYXMgdHJhZGl0aW9uYWxseSBiZWVuIGNvdXBsZWQgd2l0aCBsYXJnZSBlbmVyZ3kgc3RvcmFnZSBlbGVtZW50cyAocmVjaGFyZ2VhYmxlIGJhdHRlcnksIHN1cGVyY2FwYWNpdG9yLCBldGMuKSwgZHVlIHRvIHRoZSBlcnJhdGljIG5hdHVyZSBvZiBlbmVyZ3kgc291cmNlLiBTdWNoIHN5c3RlbSBoYXMgZGlzYWR2YW50YWdlcyBvZiBsYXJnZSBzaXplLCBoaWdoIGxlYWthZ2UgY3VycmVudCBhbmQgaGlnaCBtYWludGVuYW5jZSBjb3N0LiA8L3A+XHJcblx0XHRcdDxwPkRpcmVjdGx5IHBvd2VyaW5nIHdpdGggZW5lcmd5IGhhcnZlc3RlciBjYW4gaGVscCB1cyBnZXQgcmlkIG9mIGVuZXJneSBzdG9yYWdlIGFuZCBjb252ZXJzaW9uIGNpcmN1aXRzLiBUaGlzIGhhcyBwdXNoZWQgZm9yd2FyZCBhIG5ldyB0YXNrIGV4ZWN1dGlvbiBwYXJhZGlnbSAtLSA8c3Ryb25nPnRyYW5zaWVudCBjb21wdXRpbmc8L3N0cm9uZz4gLS0gd2hlcmUgY29tcHV0YXRpb24gaXMgcGVyZm9ybWVkIG9ubHkgd2hlbiBwb3dlciBpcyBhdmFpbGFibGUuIFdoaWxlIHRyYW5zaWVudCBjb21wdXRpbmcgYWxsb3dzIGVuZXJneSBoYXJ2ZXN0aW5nIHN5c3RlbXMgdG8gaGF2ZSBzbWFsbGVyIHNpemUsIGxvd2VyIGNvc3QgYW5kIGhpZ2hlciBlZmZpY2llbmN5IHRoYW4gdHJhZGl0aW9uYWwgb25lcywgaXQgaW1wb3NlcyB0b3VnaCByZXF1aXJlbWVudHMgb24gdGhlIGNvbXB1dGluZyBkZXZpY2VzOiA8c3Ryb25nPnRoZXkgbXVzdCBtYWtlIGNvbnRpbnVvdXMgY29tcHV0YXRpb25hbCBwcm9ncmVzcyB1c2luZyB0cmFuc2llbnQgcG93ZXIgc3VwcGx5Ljwvc3Ryb25nPjwvcD4gIFxyXG5cdFx0XHQ8cD5UaGlzIGRlbW8gdmlkZW8gc2hvd3MgaG93IG5vbnZvbGF0aWxlIHByb2Nlc3NvciBlbmFibGVzIHJlbGlhYmxlIGFuZCBlZmZpY2llbnQgdHJhbnNpZW50IGNvbXB1dGluZy4gQW4gYW50ZW5uYSBjb2xsZWN0cyBwb3dlciBhdCAzMGNtIGRpc3RhbmNlIGZyb20gYW4gUkYgc291cmNlICgzVywgd2hpY2ggaXMgc2ltaWxhciB0byBhIFdpLUZpIHJvdXRlciksIGFuZCBwb3dlcnMgdXAgYSBwcm9jZXNzb3IgcnVubmluZyBwYXR0ZXJuIG1hdGNoaW5nIHByb2dyYW0gdmlhIGFuIEFDLURDIGNvbnZlcnRlci4gVGhlIHBlcmNlbnRhZ2Ugb2YgdGhlIHByb2dyYW0gcHJvZ3Jlc3MgaXMgc2hvd24gb24gdGhlIExDRCBzY3JlZW4uPC9wPlxyXG5cdFx0XHQ8cD5GaXJzdCwgYSB2b2xhdGlsZSBwcm9jZXNzb3IgaXMgdGVzdGVkLiBBdCB0aGUgYmVnaW5uaW5nLCBpdCBvcGVyYXRlcyBwcm9wZXJseSB1c2luZyB0aGUgaGFydmVzdGVkIFJGIHBvd2VyLiBIb3dldmVyLCBpZiBhbiBvYnN0YWNsZSBpcyBwbGFjZWQgYmV0d2VlbiB0aGUgZW5lcmd5IHNvdXJjZSBhbmQgdGhlIGhhcnZlc3Rlciwgb3IgdGhlIGFudGVubmEgaXMgcG9pbnRlZCB0byBhIGRpZmZlcmVudCBkaXJlY3Rpb24sIHRoZSB2b2xhdGlsZSBwcm9jZXNzb3Igd2lsbCByZXNldCBhbmQgYWxsIHByb2dyZXNzIHdpbGwgYmUgbG9zdCBiZWNhdXNlIG9mIHBvd2VyIGZhaWx1cmUuIDwvcD5cclxuXHRcdFx0PHA+SW4gY29udHJhc3QsIG5vbnZvbGF0aWxlIHByb2Nlc3NvciBjYW4gZ3VhcmFudGVlIGNvbnRpbnVvdXMgcHJvY2Vzc2luZyBpbiB0aGlzIHNjZW5hcmlvLiBXaGVuIGEgcG93ZXIgaW50ZXJydXB0aW9uIGlzIGFib3V0IHRvIGNvbWUsIGl0IHNhdmVzIHN5c3RlbSBzdGF0ZXMgaW50byBub252b2xhdGlsZSBmbGlwLWZsb3BzLiBBbmQgd2hlbiBSRiBwb3dlciBpcyByZXN1bWVkLCBpdCBjb250aW51ZXMgdG8gZXhlY3V0ZSByaWdodCBmcm9tIHRoZSBpbnRlcnJ1cHRlZCBwb2ludC4gSW4gdGhpcyB3YXksIG5vbnZvbGF0aWxlIHByb2Nlc3NvciBtYWtlcyB0aGUgYmVoYXZpb3Igb2YgdHJhbnNpZW50bHkgcG93ZXJlZCBzeXN0ZW1zIGNvbnRpbnVvdXMgYW5kIHJlbGlhYmxlLiA8L3A+IFxyXG5cdFx0PC9kaXY+XHJcblx0PC9kaXY+XHJcbjwvZGl2PlxyXG4iLCI8bnZsYWJzLXRyYW5zaWVudC1jb21wdXRpbmc+PC9udmxhYnMtdHJhbnNpZW50LWNvbXB1dGluZz4iLCI8ZGl2IGNsYXNzPVwiY29udGVudC1zbSBjb250YWluZXIgcGxhaW4tY29udGVudFwiPlxyXG5cdDxkaXYgY2xhc3M9XCJyb3dcIj5cclxuXHRcdDxkaXYgY2xhc3M9XCJjb2wtbGctMTAgY29sLWxnLW9mZnNldC0xXCI+XHJcblx0XHRcdDxoMT5Mb3ctUG93ZXIgSW9UPC9oMT5cclxuXHRcdFx0PGRpdiBjbGFzcz1cIndlbGxcIj5cclxuXHRcdFx0XHQ8ZW0+XHJcblx0XHRcdFx0XHRUaGUgcG93ZXIgY29uc3VtcHRpb24gb2YgdHJpbGxpb25zIG9mIGRldmljZXMgaGFzIGJlY29tZSBhIG1ham9yIGNoYWxsZW5nZSBpbiB0aGUgSW9UIGVyYS4gQ2FuIG5vbnZvbGF0aWxlIHByb2Nlc3NvcnMgc2F2ZSBwb3dlciBmb3IgdGhlIElvVD9cclxuXHRcdFx0XHQ8L2VtPlxyXG5cdFx0XHQ8L2Rpdj5cclxuXHRcdFx0PCEtLTxkaXYgY2xhc3M9XCJlbWJlZC1yZXNwb25zaXZlIGVtYmVkLXJlc3BvbnNpdmUtMTZieTkgbWFyZ2luLWItMzBcIj4tLT5cclxuICAgICAgICAgIDwhLS08aWZyYW1lIGNsYXNzPVwiZW1iZWQtcmVzcG9uc2l2ZS1pdGVtXCIgc3JjPVwiaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvVWFYUmNBWUtvbDhcIj48L2lmcmFtZT4tLT5cclxuXHRcdFx0PCEtLTwvZGl2Pi0tPlxyXG5cdFx0XHQ8cD5RdWl0ZSBhIGxvdCBvZiBJb1QgZGV2aWNlcyBzZXJ2ZSBhcyByZW1vdGUgc2Vuc29ycyB3aGljaCBjb2xsZWN0IHBoeXNpY2FsIGRhdGEgZnJvbSB0aGVpciBzdXJyb3VuZGluZyBlbnZpcm9ubWVudC4gVXN1YWxseSB0aGVzZSByZW1vdGUgc2Vuc29ycyBhcmUgbG9jYXRlZCBpbiBmYXIgYXdheSBvciBkYW5nZXJvdXMgcGxhY2VzLCBhbmQgd29yayBpbiBhIFwibm9ybWFsbHktb2ZmXCIgcGF0dGVybi4gVGhleSBoYXZlIG5vIG5lZWQgZm9yIGhpZ2ggcGVyZm9ybWFuY2Ugb3IgZGF0YSB0aHJvdWdocHV0LCBidXQgcmVxdWlyZXMgZXh0cmVtZWx5IGxvbmcgYmF0dGVyeSBsaWZlIGJlY2F1c2UgY2hhbmdpbmcgb3IgcmVjaGFyZ2luZyBiYXR0ZXJpZXMgd2lsbCBiZSBjb3N0bHkhIDwvcD4gXHJcblx0XHRcdDxkaXYgY2xhc3M9XCJmaWd1cmVcIj5cclxuXHRcdFx0XHQ8aW1nIGNsYXNzPVwiaW1nLXJlc3BvbnNpdmUgaW1nLWNlbnRlclwiIHNyYz1cImltZy9zaG93Y2FzZS9ub3JtYWxseS1vZmYucG5nXCIgYWx0PVwiTm9ybWFsbHktb2ZmIHJlcXVyZXMgbG93IHN0YW5kYnkgcG93ZXJcIj5cclxuXHRcdFx0XHQ8ZGl2IGNsYXNzPVwiY2FwdGlvblwiPkZpZ3VyZSAxOiBFbmVyZ3kgYW5hbHlzaXMgb2Ygbm9ybWFsbHktb2ZmIElvVCBkZXZpY2VzPC9kaXY+XHJcblx0XHRcdDwvZGl2PlxyXG5cdFx0XHQ8cD5Gb3Igc3VjaCBhcHBsaWNhdGlvbnMsIHRoZSBwcm9jZXNzb3IncyBsZWFrYWdlIHBvd2VyIGJlY29tZXMgdGhlIG1haW4gbGltaXRpbmcgZmFjdG9yIHRvIGJhdHRlcnkgbGlmZS4gVGhpcyBpcyBiZWNhdXNlIHRoZXkgc3RheSBpbiBzdGFuZGJ5IG1vZGUgaW4gbW9yZSB0aGFuIDk5JSBvZiB0aGUgdGltZSAoRmlndXJlIDEpLiBIZXJlIHdlIGFzc3VtZSB0aGUgc3RhbmRieSBwb3dlciBpcyAxdVcgYW5kIHRoZSBhY3RpdmUgcG93ZXIgaXMgMW1XLCB3aGlsZSB0aGUgc2Vuc29yIG5vZGUgc2Vuc2VzIGRhdGEgKHdoaWNoIHRha2VzIH4xbXMpIG9uY2UgZXZlcnkgMTAgc2Vjb25kcy4gV2UgY2FuIGNhbGN1bGF0ZSB0aGF0IGZvciBldmVyeSBjeWNsZSAoMTBzKSwgdGhlIHNlbnNpbmcgYWN0aXZpdHkgY29zdHMgMW1XICogMW1zID0gMXVKIGVuZXJneSwgYnV0IHRoZSBzdGFuZGJ5IG1vZGUgY29zdHMgMXVXICogMTBzID0gMTB1SiEgVGhhdCBpcyB0byBzYXksIG1vcmUgdGhhbiA5MCUgb2YgdG90YWwgZW5lcmd5IGlzIHdhc3RlZCBvbiB0aGUgc3RhbmRieSBtb2RlLjwvcD5cclxuXHRcdFx0PHA+Rm9ydHVuYXRlbHksIG5vbnZvbGF0aWxlIHByb2Nlc3NvciBpcyBhbiBpZGVhbCBjaG9pY2UgZm9yIG5vcm1hbGx5LW9mZiBhcHBsaWNhdGlvbnMgdGhhbmtzIHRvIGl0cyA8c3Ryb25nPmxpdGVyYWxseS16ZXJvIHN0YW5kYnkgcG93ZXI8L3N0cm9uZz4uIEl0IGV4ZWN1dGVzIHNlbnNpbmcgdGFza3Mgd2hlbiBuZWVkZWQsIGFuZCBzdGFuZGJ5IGF0IHplcm8gY29zdCBpbiB0aGUgcmVzdCBvZiB0aGUgdGltZS4gSW4gdGhpcyB3YXksIG5vbnZvbGF0aWxlIHByb2Nlc3NvciBoZWxwcyBub3JtYWxseS1vZmYgSW9UIGRldmljZXMgc2F2ZSBwcmVjaW91cyBlbmVyZ3kgYW5kIGV4dGVuZCB0aGVpciBzZXJ2aWNlIGxpZmU8L3A+IFxyXG5cdFx0XHQ8ZGl2IGNsYXNzPVwiZmlndXJlXCI+XHJcblx0XHRcdFx0PGltZyBjbGFzcz1cImltZy1yZXNwb25zaXZlIGltZy1jZW50ZXJcIiBzcmM9XCJpbWcvc2hvd2Nhc2UvYnJpZGdlLnBuZ1wiIGFsdD1cIkEgYnJpZGdlIGhlYWx0aCBtb25pdG9yaW5nIHN5c3RlbSB1c2luZyBub252b2xhdGlsZSBwcm9jZXNzb3IgYmFzZWQgc2Vuc29yIG5vZGVcIj5cclxuXHRcdFx0XHQ8ZGl2IGNsYXNzPVwiY2FwdGlvblwiPkZpZ3VyZSAyOiBBIGJyaWRnZSBoZWFsdGggbW9uaXRvcmluZyBzeXN0ZW0gdXNpbmcgbm9udm9sYXRpbGUgcHJvY2Vzc29yIGJhc2VkIHNlbnNvciBub2RlPC9kaXY+XHJcblx0XHRcdDwvZGl2PlxyXG5cdFx0XHQ8cD5GaWd1cmUgMiBzaG93cyBhIG5vcm1hbGx5LW9mZiBicmlkZ2UgaGVhbHRoIG1vbml0b3Jpbmcgc3lzdGVtIHVzaW5nIG5vbnZvbGF0aWxlIHByb2Nlc3NvciBiYXNlZCBzZW5zb3Igbm9kZXMuIFRoZSB0b3RhbCBlbmVyZ3kgaXMgZXhwZWN0ZWQgdG8gYmUgcmVkdWNlZCBieSA0MCUgdGhhbmtzIHRvIHRoZSB6ZXJvIHN0YW5kYnkgcG93ZXIgb2Ygbm9udm9sYXRpbGUgcHJvY2Vzc29yLiA8L3A+XHJcblxyXG5cdFx0PC9kaXY+XHJcblx0PC9kaXY+XHJcbjwvZGl2PlxyXG4iLCI8bnZsYWJzLWxvdy1wb3dlci1pb3Q+PC9udmxhYnMtbG93LXBvd2VyLWlvdD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBO01BQUEsZ0JBQWtDLHdDQUNqQztNQUFBO01BQUEsMERBQXdDO01BQUEsV0FDdkM7TUFBQSx3RUFBd0I7YUFBQSw4QkFBYTtNQUNyQztVQUFBO01BQTBCO01BQTRELHdDQUNqRjtNQUNZLDBDQUVsQjtVQUFBO1VBQUEsZ0JBQWlCLHlDQUNRO1VBQUEsV0FDeEI7VUFBQTtVQUFBLGdCQUFxQywwQ0FDcEM7VUFBQTtVQUFBLDBEQUF5QjtVQUFBLGFBQ3hCO1VBQUE7VUFBQTtNQUFrRiwyQ0FDbUM7TUFDaEgsMENBQ047VUFBQTtVQUFBLGdCQUFJO1VBQUE7VUFBQTtRQUFBO1FBQUE7VUFBQTtjQUFBO1VBQUE7UUFBQTtRQUFBO01BQUEsdUNBQUE7VUFBQTtVQUFBLGVBQXlDO01BQWdDLDBDQUM3RTtVQUFBO1VBQUEsZ0JBQUc7TUFBMkosMkNBQzlKO1VBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtrQkFBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxlQUFzRCw4Q0FBYTtVQUFBLFdBQzlELHlDQUNzQjtVQUFBLGFBRUoseUNBQ3hCO1VBQUE7VUFBQTtNQUFxQywwQ0FDcEM7VUFBQTtVQUFBLDhCQUF5QjtNQUN4QjtVQUFBO1VBQUEsMERBQWtGO1VBQUEsWUFDN0UsMENBQ047VUFBQTtVQUFBLDRDQUFJO1VBQUE7Y0FBQTtZQUFBO1lBQUE7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
